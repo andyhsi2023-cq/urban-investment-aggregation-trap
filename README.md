@@ -1,37 +1,56 @@
-# Urban Q: A Phase Transition in Urban Economies
+# Urban Investment Efficiency Declines Worldwide
 
-**项目名称**: 城市Tobin's Q与城市经济的相变——从扩张到更新的普适临界值
+**Evidence from 1,567 cities and regions**
 
-**目标期刊**: Nature (正刊) / 备选 Nature Cities, Science
+Hongyang Xi | Chongqing Survey Institute Co., Ltd., Chongqing, China
 
-**启动日期**: 2026-03-19
+[![SSRN](https://img.shields.io/badge/SSRN-6453159-blue)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6453159)
 
 ---
 
-## 研究概述
+## Summary
 
-本研究提出 **Urban Q**（城市Tobin's Q）作为衡量城市经济从扩张模式向更新模式转型的核心指标，并论证城市发展存在一个类似物理学"相变"的不可逆临界点。当 Urban Q 跌破 1.0 时，城市经济的底层逻辑发生结构性翻转——从"建设创造价值"转为"建设消耗价值"，扩张模式在经济学意义上崩塌。
+Aggregate statistics suggest returns on urban investment remain stable as economies urbanise. This stability is a Simpson's paradox. We construct a marginal Urban Q (MUQ) across 157 countries and 1,567 subnational regions spanning eight countries across five continents (30,098 observations). Within every developing-economy income group, returns decline with urbanisation, but compositional shifts conceal the decline. We prove this aggregation trap is a mathematical necessity under three empirically verified conditions.
 
-## 核心创新
+## Data
 
-1. **比率曲线体系**：用无量纲比率（N/R ratio, I/V ratio, Flow/Stock ratio, 产业结构）替代绝对值曲线，实现跨国可比性
-2. **Urban Q 理论模型**：将金融学 Tobin's Q 移植到城市经济学，构建城市更新决策的经济学框架
-3. **相变临界值**：识别城市发展从扩张到更新的不可逆转换阈值，提供可操作的政策判据
-4. **决策准则**：为城市更新的立项、投资、评审、建设、运营全流程提供经济学基准
+| Source | Coverage | Directory |
+|--------|----------|-----------|
+| World Bank WDI | 157 countries, 1960-2023 | `02-data/raw/` |
+| Penn World Table 10.01 | 183 countries, 1950-2019 | `02-data/raw/` |
+| Japan Cabinet Office SNA | 47 prefectures, 1955-2022 | `02-data/raw/` |
+| Bank of Korea ECOS | 17 metro/provinces, 1985-2022 | `02-data/raw/` |
+| Eurostat | 265 NUTS-2 regions, 2000-2024 | `02-data/raw/` |
+| ABS (Australia) | 8 states, 1990-2023 | `02-data/raw/` |
+| Stats SA (South Africa) | 9 provinces, 1993-2023 | `02-data/raw/` |
+| US Census + BEA | 921 MSAs, 2010-2022 | `02-data/raw/` |
+| China NBS | 275 cities + 31 provinces | `02-data/raw/` |
 
-## 与 six-curves 项目的关系
+## Repository Structure
 
-本项目是 `six-curves-urban-transition` 的**理论深化与范式升级**：
-- six-curves：诊断性描述框架（"发生了什么"）
-- 本项目：理论性解释模型（"为什么必然发生"+"何时发生"+"如何决策"）
+```
+02-data/
+  raw/              # Original data files
+  processed/        # Cleaned panels (unified_regional_panel.csv)
+03-analysis/
+  scripts/          # All Python analysis scripts
+  models/           # Statistical output and reports
+04-figures/
+  final/            # Publication-quality figures
+  source-data/      # Figure source data
+05-manuscript/
+  drafts/           # Manuscript (Markdown)
+  extended-data/    # Extended Data figures and tables
+```
 
-两篇论文互补但不重叠，可独立投稿。
+## Requirements
 
-## 团队
+Python 3.9+ with: numpy, pandas, scipy, statsmodels, matplotlib, seaborn
 
-- **PI**: Andy (Xi Hongyang)
-- **分析**: data-analyst agent
-- **文献**: literature-specialist agent
-- **写作**: manuscript-writer agent
-- **图表**: figure-designer agent
-- **评审**: peer-reviewer agent
+## Citation
+
+Xi, H. (2026). Urban investment efficiency declines worldwide: evidence from 1,567 cities and regions. SSRN preprint. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6453159
+
+## License
+
+MIT
