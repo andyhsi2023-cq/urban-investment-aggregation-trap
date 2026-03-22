@@ -1,0 +1,3330 @@
+country_code,country_name,income_group,year,urbanization_pct,real_MUQ
+AUS,Australia,High income,1961,81.940117,17.651247
+AUS,Australia,High income,1963,82.459194,11.418444
+AUS,Australia,High income,1964,82.678058,8.154234
+AUS,Australia,High income,1965,82.915806,6.047751
+AUS,Australia,High income,1966,83.206945,9.482858
+AUS,Australia,High income,1967,83.638844,16.001771
+AUS,Australia,High income,1968,84.201437,7.609418
+AUS,Australia,High income,1969,84.783175,18.713240
+AUS,Australia,High income,1970,85.272515,8.068990
+AUS,Australia,High income,1976,85.991219,13.581711
+AUS,Australia,High income,1979,85.852557,10.570866
+AUS,Australia,High income,1981,85.707218,6.070369
+AUS,Australia,High income,1982,85.630058,8.402044
+AUS,Australia,High income,1983,85.537220,-4.358886
+AUS,Australia,High income,1985,85.379954,6.431548
+AUS,Australia,High income,1986,85.353241,6.122574
+AUS,Australia,High income,1988,85.369744,10.948313
+AUS,Australia,High income,1989,85.383604,6.735943
+AUS,Australia,High income,1991,85.400001,-2.421809
+AUS,Australia,High income,1993,85.366076,6.316010
+AUS,Australia,High income,1994,85.330073,8.222453
+AUS,Australia,High income,1995,85.286871,5.261199
+AUS,Australia,High income,1997,85.195361,14.991730
+AUS,Australia,High income,1998,85.155297,5.367895
+AUS,Australia,High income,1999,85.124523,8.544551
+AUS,Australia,High income,2000,85.107161,5.657151
+AUS,Australia,High income,2001,85.148109,-4.447833
+AUS,Australia,High income,2002,85.284210,5.801188
+AUS,Australia,High income,2003,85.409708,4.909916
+AUS,Australia,High income,2004,85.518768,7.348851
+AUS,Australia,High income,2005,85.619087,10.614604
+AUS,Australia,High income,2006,85.749254,8.336595
+AUS,Australia,High income,2008,86.025382,6.930666
+AUS,Australia,High income,2012,86.445126,5.503329
+AUS,Australia,High income,2013,86.574052,10.418670
+AUS,Australia,High income,2018,87.226768,7.296843
+AUT,Austria,High income,1971,51.886943,8.358074
+AUT,Austria,High income,1972,52.124899,7.331225
+AUT,Austria,High income,1977,53.519410,11.435784
+AUT,Austria,High income,1979,54.253007,13.427679
+AUT,Austria,High income,1980,54.674664,18.476197
+AUT,Austria,High income,1985,58.903249,12.846052
+AUT,Austria,High income,1987,61.294694,17.936948
+AUT,Austria,High income,1988,62.398829,11.410080
+AUT,Austria,High income,1989,63.358420,14.855455
+AUT,Austria,High income,1990,64.110852,14.619670
+AUT,Austria,High income,1991,64.600959,10.360987
+AUT,Austria,High income,1994,65.585474,14.738300
+AUT,Austria,High income,1998,66.510675,19.274333
+AUT,Austria,High income,2000,66.769024,12.298924
+AUT,Austria,High income,2003,66.926357,16.663238
+AUT,Austria,High income,2007,67.021104,11.291939
+AUT,Austria,High income,2008,67.043556,17.534317
+AUT,Austria,High income,2011,67.148426,6.642008
+AUT,Austria,High income,2016,67.721806,10.827747
+AUT,Austria,High income,2017,67.905120,9.961424
+AUT,Austria,High income,2018,68.104679,10.321668
+AUT,Austria,High income,2019,68.317604,9.541570
+BEL,Belgium,High income,1973,71.884044,12.274977
+BEL,Belgium,High income,1974,72.295064,7.500573
+BEL,Belgium,High income,1976,73.111940,19.637615
+BEL,Belgium,High income,1980,74.721424,11.727762
+BEL,Belgium,High income,1981,75.117987,-3.041514
+BEL,Belgium,High income,1983,75.903240,-4.375889
+BEL,Belgium,High income,1985,76.677138,10.991947
+BEL,Belgium,High income,1987,77.438648,11.276544
+BEL,Belgium,High income,1988,77.814435,4.885148
+BEL,Belgium,High income,1989,78.186738,6.715291
+BEL,Belgium,High income,1990,78.555428,9.946399
+BEL,Belgium,High income,1995,80.340173,15.492812
+BEL,Belgium,High income,1997,81.024267,10.521915
+BEL,Belgium,High income,1999,81.689783,13.458979
+BEL,Belgium,High income,2000,82.015252,13.681073
+BEL,Belgium,High income,2004,83.265523,7.684708
+BEL,Belgium,High income,2005,83.564545,11.887345
+BEL,Belgium,High income,2006,83.857891,18.840374
+BEL,Belgium,High income,2007,84.145431,8.594166
+BEL,Belgium,High income,2008,84.427037,16.136524
+BEL,Belgium,High income,2011,85.234961,9.839183
+BEL,Belgium,High income,2014,85.984834,11.548407
+BEL,Belgium,High income,2018,86.888345,19.564548
+BEL,Belgium,High income,2019,87.096163,13.766900
+BHR,Bahrain,High income,1983,82.133006,10.898503
+BHR,Bahrain,High income,1985,84.010038,-3.221917
+BHR,Bahrain,High income,1987,85.989287,-3.810372
+BHR,Bahrain,High income,1991,88.414168,16.199980
+BHR,Bahrain,High income,1992,88.437727,15.640895
+BHR,Bahrain,High income,1993,88.396339,12.222973
+BHR,Bahrain,High income,1998,87.954125,12.225880
+BHR,Bahrain,High income,2000,87.835621,4.872290
+BHR,Bahrain,High income,2001,87.839715,19.182742
+BHR,Bahrain,High income,2002,88.142787,4.887342
+BHR,Bahrain,High income,2005,91.168166,9.704650
+BHR,Bahrain,High income,2006,92.718608,10.516724
+BHR,Bahrain,High income,2007,94.460506,12.478535
+BHR,Bahrain,High income,2010,100.000000,18.116726
+BHR,Bahrain,High income,2012,100.000000,7.723336
+BHR,Bahrain,High income,2016,100.000000,16.393307
+BHS,"Bahamas, The",High income,1978,71.483303,11.625398
+BHS,"Bahamas, The",High income,1979,72.310489,1.491031
+BHS,"Bahamas, The",High income,1980,73.108378,1.700688
+BHS,"Bahamas, The",High income,1982,74.853230,3.137977
+BHS,"Bahamas, The",High income,1985,77.643536,4.206539
+BHS,"Bahamas, The",High income,1987,79.205050,4.989391
+BHS,"Bahamas, The",High income,1990,80.401533,-3.946488
+BHS,"Bahamas, The",High income,1993,80.645733,-1.627889
+BHS,"Bahamas, The",High income,1994,80.698733,2.977374
+BHS,"Bahamas, The",High income,1995,80.744823,5.046491
+BHS,"Bahamas, The",High income,1996,80.788669,4.035432
+BHS,"Bahamas, The",High income,1998,80.888304,6.104300
+BHS,"Bahamas, The",High income,2000,81.036116,15.586554
+BHS,"Bahamas, The",High income,2005,81.860558,4.365216
+BHS,"Bahamas, The",High income,2006,82.039610,4.084555
+BHS,"Bahamas, The",High income,2011,82.413035,9.552493
+BHS,"Bahamas, The",High income,2012,82.394749,8.192717
+BHS,"Bahamas, The",High income,2014,82.318093,10.393552
+BHS,"Bahamas, The",High income,2015,82.256857,-2.465384
+BHS,"Bahamas, The",High income,2016,82.178438,19.737406
+BHS,"Bahamas, The",High income,2017,82.081402,8.402292
+BRN,Brunei Darussalam,High income,1991,66.502975,15.506491
+BRN,Brunei Darussalam,High income,1992,67.121812,11.505592
+BRN,Brunei Darussalam,High income,1993,67.709471,10.698974
+BRN,Brunei Darussalam,High income,1995,68.813188,8.022833
+BRN,Brunei Darussalam,High income,1996,69.332241,19.838826
+BRN,Brunei Darussalam,High income,1999,70.776142,-1.524779
+BRN,Brunei Darussalam,High income,2000,71.224681,-1.215223
+BRN,Brunei Darussalam,High income,2001,71.657883,0.342147
+BRN,Brunei Darussalam,High income,2002,72.102156,1.455971
+BRN,Brunei Darussalam,High income,2003,72.577636,-0.565224
+BRN,Brunei Darussalam,High income,2004,73.067507,-3.272022
+BRN,Brunei Darussalam,High income,2005,73.552871,-2.453231
+BRN,Brunei Darussalam,High income,2007,74.434486,5.544989
+BRN,Brunei Darussalam,High income,2009,75.071297,5.606415
+BRN,Brunei Darussalam,High income,2011,75.312126,14.614269
+BRN,Brunei Darussalam,High income,2012,75.271423,10.073912
+BRN,Brunei Darussalam,High income,2013,75.175692,14.061937
+BRN,Brunei Darussalam,High income,2014,75.057264,-2.956627
+BRN,Brunei Darussalam,High income,2015,74.948462,5.960353
+BRN,Brunei Darussalam,High income,2018,74.817247,10.466103
+CAN,Canada,High income,1962,70.448843,17.377205
+CAN,Canada,High income,1963,71.289126,16.727658
+CAN,Canada,High income,1964,72.144072,6.163376
+CAN,Canada,High income,1965,72.946031,7.310387
+CAN,Canada,High income,1966,73.632366,8.328065
+CAN,Canada,High income,1969,75.540274,17.511234
+CAN,Canada,High income,1971,76.086924,9.078005
+CAN,Canada,High income,1972,76.021067,17.147621
+CAN,Canada,High income,1973,75.879442,8.433808
+CAN,Canada,High income,1974,75.715440,11.105153
+CAN,Canada,High income,1975,75.582304,15.384033
+CAN,Canada,High income,1976,75.532954,16.524963
+CAN,Canada,High income,1979,75.621370,13.607776
+CAN,Canada,High income,1980,75.676714,16.398402
+CAN,Canada,High income,1981,75.739465,10.059314
+CAN,Canada,High income,1982,75.853606,-4.333690
+CAN,Canada,High income,1985,76.378473,9.220910
+CAN,Canada,High income,1986,76.465782,17.964753
+CAN,Canada,High income,1987,76.497943,9.217105
+CAN,Canada,High income,1988,76.517701,9.793461
+CAN,Canada,High income,1989,76.534076,19.813251
+CAN,Canada,High income,1994,77.317129,7.283754
+CAN,Canada,High income,1996,77.892463,13.852915
+CAN,Canada,High income,1997,78.090340,5.617301
+CAN,Canada,High income,1998,78.269382,12.178186
+CAN,Canada,High income,1999,78.443931,18.820515
+CAN,Canada,High income,2001,78.841476,13.460360
+CAN,Canada,High income,2004,79.692306,9.362759
+CAN,Canada,High income,2005,79.976062,9.361061
+CAN,Canada,High income,2006,80.219066,9.768222
+CAN,Canada,High income,2007,80.442562,16.928139
+CAN,Canada,High income,2010,81.012089,7.607886
+CAN,Canada,High income,2011,81.103143,18.861814
+CAN,Canada,High income,2012,81.151348,10.956090
+CAN,Canada,High income,2014,81.211183,16.866801
+CAN,Canada,High income,2017,81.401895,19.223294
+CAN,Canada,High income,2018,81.550034,19.449533
+CHE,Switzerland,High income,1971,57.905548,3.475882
+CHE,Switzerland,High income,1972,58.326619,7.282877
+CHE,Switzerland,High income,1973,58.706213,16.313731
+CHE,Switzerland,High income,1975,59.392715,-1.027251
+CHE,Switzerland,High income,1976,59.725493,-1.084745
+CHE,Switzerland,High income,1977,60.068535,6.706413
+CHE,Switzerland,High income,1978,60.434777,6.790284
+CHE,Switzerland,High income,1979,60.837155,6.197377
+CHE,Switzerland,High income,1980,61.289232,2.366716
+CHE,Switzerland,High income,1981,61.811422,11.126609
+CHE,Switzerland,High income,1982,62.444571,-3.724104
+CHE,Switzerland,High income,1983,63.168954,9.180067
+CHE,Switzerland,High income,1984,63.959299,12.999611
+CHE,Switzerland,High income,1985,64.790339,5.980279
+CHE,Switzerland,High income,1986,65.636804,7.377105
+CHE,Switzerland,High income,1987,66.473425,12.289493
+CHE,Switzerland,High income,1988,67.274932,3.996474
+CHE,Switzerland,High income,1989,68.016057,5.847883
+CHE,Switzerland,High income,1990,68.662386,17.832579
+CHE,Switzerland,High income,1992,69.820060,-2.303956
+CHE,Switzerland,High income,1993,70.405187,-3.502155
+CHE,Switzerland,High income,1994,70.980442,12.402747
+CHE,Switzerland,High income,1997,72.483426,12.545000
+CHE,Switzerland,High income,1998,72.855643,5.004402
+CHE,Switzerland,High income,1999,73.136214,10.549859
+CHE,Switzerland,High income,2000,73.302431,6.948806
+CHE,Switzerland,High income,2004,73.476132,5.094330
+CHE,Switzerland,High income,2005,73.495100,12.075993
+CHE,Switzerland,High income,2006,73.511582,10.003506
+CHE,Switzerland,High income,2007,73.528380,7.586135
+CHE,Switzerland,High income,2009,73.574123,-2.901398
+CHE,Switzerland,High income,2010,73.608672,8.066603
+CHE,Switzerland,High income,2011,73.650587,8.485844
+CHE,Switzerland,High income,2012,73.752263,6.627755
+CHE,Switzerland,High income,2013,74.112138,15.104346
+CHE,Switzerland,High income,2014,74.740268,8.713488
+CHE,Switzerland,High income,2015,75.604496,16.869141
+CHE,Switzerland,High income,2016,76.672668,11.822021
+CHE,Switzerland,High income,2017,77.912627,7.726577
+CHL,Chile,High income,1961,68.670365,16.616586
+CHL,Chile,High income,1963,70.263038,11.376996
+CHL,Chile,High income,1974,78.102648,5.803355
+CHL,Chile,High income,1976,79.496180,-3.302864
+CHL,Chile,High income,1977,80.138299,9.221867
+CHL,Chile,High income,1978,80.726020,6.375698
+CHL,Chile,High income,1979,81.245865,14.520754
+CHL,Chile,High income,1980,81.684359,7.468965
+CHL,Chile,High income,1981,82.028025,8.139835
+CHL,Chile,High income,1982,82.265968,-1.319576
+CHL,Chile,High income,1983,82.438237,-2.654748
+CHL,Chile,High income,1984,82.579530,3.893916
+CHL,Chile,High income,1985,82.696546,7.754322
+CHL,Chile,High income,1986,82.797106,10.712223
+CHL,Chile,High income,1987,82.889030,5.449006
+CHL,Chile,High income,1988,82.980140,8.167668
+CHL,Chile,High income,1989,83.078255,5.469767
+CHL,Chile,High income,1992,83.495935,5.626652
+CHL,Chile,High income,1993,83.734188,7.725284
+CHL,Chile,High income,1995,84.416727,12.254732
+CHL,Chile,High income,1996,84.814859,9.184524
+CHL,Chile,High income,1997,85.221450,14.159560
+CHL,Chile,High income,1999,85.971654,-4.616376
+CHL,Chile,High income,2005,86.776824,10.993028
+CHL,Chile,High income,2007,86.844507,17.649014
+CHL,Chile,High income,2008,86.876577,7.319151
+CHL,Chile,High income,2011,87.010916,12.448432
+CHL,Chile,High income,2012,87.082494,11.651398
+CHL,Chile,High income,2018,87.962049,16.099916
+CHL,Chile,High income,2019,88.127369,16.980826
+CRI,Costa Rica,High income,1961,34.222476,7.010656
+CRI,Costa Rica,High income,1962,34.348629,5.003577
+CRI,Costa Rica,High income,1963,34.489264,11.486470
+CRI,Costa Rica,High income,1965,35.206875,3.260230
+CRI,Costa Rica,High income,1967,36.496893,6.167184
+CRI,Costa Rica,High income,1968,37.257654,14.778109
+CRI,Costa Rica,High income,1969,38.043693,6.011491
+CRI,Costa Rica,High income,1970,38.816090,4.432685
+CRI,Costa Rica,High income,1971,39.535928,3.387655
+CRI,Costa Rica,High income,1972,40.164288,8.493045
+CRI,Costa Rica,High income,1973,40.664527,6.765506
+CRI,Costa Rica,High income,1974,41.068820,4.169106
+CRI,Costa Rica,High income,1976,41.747890,5.621852
+CRI,Costa Rica,High income,1977,42.043960,18.186748
+CRI,Costa Rica,High income,1978,42.326189,7.871431
+CRI,Costa Rica,High income,1979,42.605928,4.123296
+CRI,Costa Rica,High income,1982,43.543735,-0.137722
+CRI,Costa Rica,High income,1983,43.927040,-1.339699
+CRI,Costa Rica,High income,1984,44.365230,1.976572
+CRI,Costa Rica,High income,1987,46.142873,5.155226
+CRI,Costa Rica,High income,1989,47.705855,4.066391
+CRI,Costa Rica,High income,1990,48.579821,4.758003
+CRI,Costa Rica,High income,1991,49.506125,-1.657686
+CRI,Costa Rica,High income,1992,50.477788,3.356694
+CRI,Costa Rica,High income,1993,51.487825,6.297966
+CRI,Costa Rica,High income,1997,55.772079,6.674213
+CRI,Costa Rica,High income,1998,56.869258,4.924223
+CRI,Costa Rica,High income,2001,60.142760,18.035990
+CRI,Costa Rica,High income,2003,62.451806,18.692375
+CRI,Costa Rica,High income,2004,63.659601,15.662280
+CRI,Costa Rica,High income,2005,64.899863,17.716113
+CRI,Costa Rica,High income,2006,66.170305,9.054517
+CRI,Costa Rica,High income,2007,67.468641,5.280177
+CRI,Costa Rica,High income,2008,68.792583,8.598223
+CRI,Costa Rica,High income,2011,72.842659,19.191480
+CRI,Costa Rica,High income,2012,73.389502,11.275598
+CYP,Cyprus,High income,1976,53.269489,1.225079
+CYP,Cyprus,High income,1977,55.479667,4.058288
+CYP,Cyprus,High income,1978,57.578034,9.671760
+CYP,Cyprus,High income,1979,59.453576,16.084041
+CYP,Cyprus,High income,1984,64.646093,10.562093
+CYP,Cyprus,High income,1988,66.504830,12.633612
+CYP,Cyprus,High income,1989,66.842621,9.931921
+CYP,Cyprus,High income,1992,67.607457,12.446695
+CYP,Cyprus,High income,1995,68.169172,3.521580
+CYP,Cyprus,High income,1997,68.482758,19.480485
+CYP,Cyprus,High income,1998,68.608045,-3.547208
+CYP,Cyprus,High income,1999,68.706218,7.395454
+CYP,Cyprus,High income,2002,68.786359,7.982594
+CYP,Cyprus,High income,2004,68.590814,16.903336
+CYP,Cyprus,High income,2005,68.434067,13.365187
+CYP,Cyprus,High income,2006,68.253415,7.263410
+CYP,Cyprus,High income,2008,67.866626,14.400531
+CYP,Cyprus,High income,2012,67.301029,-2.217841
+CYP,Cyprus,High income,2013,67.210233,-1.459303
+CYP,Cyprus,High income,2014,67.123056,-0.281065
+CYP,Cyprus,High income,2016,66.962560,2.367487
+CYP,Cyprus,High income,2017,66.890745,5.572930
+CYP,Cyprus,High income,2019,66.767736,11.951976
+CZE,Czechia,High income,1991,75.166291,-4.602770
+CZE,Czechia,High income,1992,75.090144,7.663414
+CZE,Czechia,High income,1994,74.853737,6.600545
+CZE,Czechia,High income,1995,74.709287,4.048699
+CZE,Czechia,High income,1996,74.556649,13.587116
+CZE,Czechia,High income,2000,74.003826,6.580544
+CZE,Czechia,High income,2005,73.637555,9.127793
+CZE,Czechia,High income,2006,73.578883,11.184799
+CZE,Czechia,High income,2007,73.521949,6.928096
+CZE,Czechia,High income,2009,73.408489,-3.462118
+CZE,Czechia,High income,2014,73.099592,11.896299
+CZE,Czechia,High income,2015,73.037044,4.997770
+CZE,Czechia,High income,2017,72.912185,13.428797
+CZE,Czechia,High income,2018,72.849874,6.960382
+CZE,Czechia,High income,2019,72.787643,6.581745
+DEU,Germany,High income,1971,79.696871,16.376576
+DEU,Germany,High income,1976,79.841674,16.882712
+DEU,Germany,High income,1977,79.863464,15.560739
+DEU,Germany,High income,1978,79.883205,13.627477
+DEU,Germany,High income,1979,79.901042,9.288913
+DEU,Germany,High income,1980,79.917121,16.377582
+DEU,Germany,High income,1988,79.999974,11.377290
+DEU,Germany,High income,1989,80.006797,8.618404
+DEU,Germany,High income,1990,80.013321,7.232604
+DEU,Germany,High income,1991,80.019692,8.734933
+DEU,Germany,High income,1994,80.039345,19.368940
+DEU,Germany,High income,2000,80.094216,17.345833
+DEU,Germany,High income,2002,80.121397,-4.486212
+DEU,Germany,High income,2006,80.196100,5.522263
+DEU,Germany,High income,2007,80.219864,9.730799
+DEU,Germany,High income,2008,80.245955,17.763617
+DEU,Germany,High income,2009,80.274519,-2.032494
+DEU,Germany,High income,2010,80.305703,5.248908
+DEU,Germany,High income,2011,80.340576,4.736349
+DEU,Germany,High income,2014,80.575740,10.607509
+DEU,Germany,High income,2016,80.834787,9.888567
+DEU,Germany,High income,2017,80.984254,11.416820
+DEU,Germany,High income,2018,81.142304,8.424472
+DEU,Germany,High income,2019,81.305399,14.601355
+DNK,Denmark,High income,1967,78.053490,11.511353
+DNK,Denmark,High income,1969,79.194826,7.309769
+DNK,Denmark,High income,1972,80.781974,9.837946
+DNK,Denmark,High income,1973,81.296908,19.193522
+DNK,Denmark,High income,1975,82.228822,-4.798720
+DNK,Denmark,High income,1976,82.612297,5.393097
+DNK,Denmark,High income,1981,83.948405,-1.660354
+DNK,Denmark,High income,1982,84.112758,5.171469
+DNK,Denmark,High income,1983,84.272145,10.085554
+DNK,Denmark,High income,1984,84.420129,5.332868
+DNK,Denmark,High income,1985,84.552167,4.419245
+DNK,Denmark,High income,1986,84.663716,4.737145
+DNK,Denmark,High income,1994,84.960190,5.330471
+DNK,Denmark,High income,1995,85.001219,4.572519
+DNK,Denmark,High income,1996,85.039203,12.159301
+DNK,Denmark,High income,1997,85.070653,5.481651
+DNK,Denmark,High income,1998,85.092081,8.687009
+DNK,Denmark,High income,2000,85.099998,7.629175
+DNK,Denmark,High income,2004,85.713028,15.386735
+DNK,Denmark,High income,2005,86.005971,8.928828
+DNK,Denmark,High income,2006,86.250129,3.977940
+DNK,Denmark,High income,2009,86.761765,-1.384170
+DNK,Denmark,High income,2010,86.865242,-2.037542
+DNK,Denmark,High income,2011,87.156765,9.433557
+DNK,Denmark,High income,2012,87.233620,6.855205
+DNK,Denmark,High income,2013,87.543652,18.286060
+DNK,Denmark,High income,2014,87.682399,6.837974
+DNK,Denmark,High income,2015,87.725406,6.922416
+DNK,Denmark,High income,2016,87.699997,4.153344
+DNK,Denmark,High income,2017,88.016194,8.859209
+DNK,Denmark,High income,2018,88.105976,9.058736
+ESP,Spain,High income,1972,67.391280,13.003826
+ESP,Spain,High income,1973,67.973453,12.368710
+ESP,Spain,High income,1974,68.538714,13.553847
+ESP,Spain,High income,1985,73.484272,17.564201
+ESP,Spain,High income,1986,73.804012,17.138896
+ESP,Spain,High income,1987,74.099745,10.027262
+ESP,Spain,High income,1988,74.370923,9.251417
+ESP,Spain,High income,1989,74.617002,11.868915
+ESP,Spain,High income,1995,75.588297,14.885527
+ESP,Spain,High income,1997,75.804259,18.197124
+ESP,Spain,High income,1998,75.914506,11.850922
+ESP,Spain,High income,1999,76.033069,10.831066
+ESP,Spain,High income,2000,76.165055,11.015630
+ESP,Spain,High income,2003,76.709336,16.561145
+ESP,Spain,High income,2004,76.954963,18.678591
+ESP,Spain,High income,2005,77.220680,13.819270
+ESP,Spain,High income,2006,77.496865,14.492550
+ESP,Spain,High income,2009,78.291992,-3.009384
+ESP,Spain,High income,2012,78.845568,-3.680815
+ESP,Spain,High income,2013,78.985809,-4.113298
+ESP,Spain,High income,2014,79.119671,9.902647
+ESP,Spain,High income,2015,79.245489,8.260214
+ESP,Spain,High income,2016,79.361596,19.632767
+ESP,Spain,High income,2017,79.466323,8.107759
+ESP,Spain,High income,2018,79.558006,9.590847
+ESP,Spain,High income,2019,79.634976,11.737063
+EST,Estonia,High income,1994,69.500313,-1.207300
+EST,Estonia,High income,1995,68.959092,-1.179577
+EST,Estonia,High income,1996,68.447574,3.183688
+EST,Estonia,High income,1997,68.000391,2.701346
+EST,Estonia,High income,1998,67.652176,5.381129
+EST,Estonia,High income,1999,67.437562,-2.418362
+EST,Estonia,High income,2000,67.385529,5.237818
+EST,Estonia,High income,2001,67.392646,8.797276
+EST,Estonia,High income,2002,67.409087,5.550131
+EST,Estonia,High income,2003,67.434176,7.286226
+EST,Estonia,High income,2005,67.508052,8.541237
+EST,Estonia,High income,2006,67.555718,5.897454
+EST,Estonia,High income,2007,67.609787,18.496932
+EST,Estonia,High income,2008,67.669698,-4.229887
+EST,Estonia,High income,2009,67.734891,-0.584528
+EST,Estonia,High income,2011,67.877556,3.137183
+EST,Estonia,High income,2012,67.962959,8.241766
+EST,Estonia,High income,2017,68.993194,7.487254
+EST,Estonia,High income,2018,69.280353,9.810981
+FIN,Finland,High income,1971,60.663939,12.314927
+FIN,Finland,High income,1972,61.090626,9.268766
+FIN,Finland,High income,1973,61.551579,8.364703
+FIN,Finland,High income,1974,62.052258,11.272901
+FIN,Finland,High income,1975,62.391376,10.554217
+FIN,Finland,High income,1979,62.969898,12.878377
+FIN,Finland,High income,1980,63.091339,4.622939
+FIN,Finland,High income,1982,63.241924,14.867222
+FIN,Finland,High income,1983,63.294495,13.790728
+FIN,Finland,High income,1985,63.471771,12.643223
+FIN,Finland,High income,1987,63.699989,9.115063
+FIN,Finland,High income,1988,63.795898,6.572965
+FIN,Finland,High income,1989,63.836563,5.071435
+FIN,Finland,High income,1991,63.970184,-1.827764
+FIN,Finland,High income,1992,64.095474,-1.295080
+FIN,Finland,High income,1993,64.252029,-0.587836
+FIN,Finland,High income,1994,64.489395,8.794412
+FIN,Finland,High income,1995,64.805939,3.553165
+FIN,Finland,High income,1996,65.209822,3.684270
+FIN,Finland,High income,1997,65.679398,4.333577
+FIN,Finland,High income,1998,66.178714,5.546407
+FIN,Finland,High income,1999,66.671821,9.338953
+FIN,Finland,High income,2000,67.122769,6.135602
+FIN,Finland,High income,2003,68.042555,15.762292
+FIN,Finland,High income,2004,68.276660,7.678657
+FIN,Finland,High income,2005,68.514053,8.093902
+FIN,Finland,High income,2006,68.758828,13.326714
+FIN,Finland,High income,2007,69.020038,4.427575
+FIN,Finland,High income,2009,69.546260,-2.081681
+FIN,Finland,High income,2010,69.785580,13.781197
+FIN,Finland,High income,2011,70.058326,13.673060
+FIN,Finland,High income,2016,71.615838,3.959168
+FIN,Finland,High income,2017,71.956304,6.857441
+FIN,Finland,High income,2018,72.342347,8.551652
+FRA,France,High income,1961,62.532605,11.080121
+FRA,France,High income,1962,63.459845,19.802479
+FRA,France,High income,1963,64.573309,12.686493
+FRA,France,High income,1964,65.860270,12.171500
+FRA,France,High income,1965,67.184427,18.214312
+FRA,France,High income,1966,68.422852,18.509281
+FRA,France,High income,1967,69.452618,18.493508
+FRA,France,High income,1971,71.875133,19.909582
+FRA,France,High income,1973,72.661239,16.274791
+FRA,France,High income,1974,72.897155,16.095400
+FRA,France,High income,1980,73.248197,15.357367
+FRA,France,High income,1987,73.733774,12.226572
+FRA,France,High income,1988,73.832942,9.058092
+FRA,France,High income,1989,73.942842,11.457683
+FRA,France,High income,1998,75.891856,11.060380
+FRA,France,High income,1999,76.168270,8.596725
+FRA,France,High income,2000,76.514398,8.912159
+FRA,France,High income,2004,77.490050,13.106390
+FRA,France,High income,2005,77.436332,15.160563
+FRA,France,High income,2006,77.346724,10.458796
+FRA,France,High income,2007,77.245798,11.009386
+FRA,France,High income,2009,77.100539,-4.440032
+FRA,France,High income,2011,77.118272,13.527086
+FRA,France,High income,2016,78.599911,15.947939
+FRA,France,High income,2017,78.646780,10.145278
+FRA,France,High income,2018,78.671443,12.144568
+FRA,France,High income,2019,78.689078,10.614377
+GBR,United Kingdom,High income,1973,77.109759,4.753677
+GBR,United Kingdom,High income,1974,77.310992,12.626078
+GBR,United Kingdom,High income,1979,78.459003,14.156566
+GBR,United Kingdom,High income,1981,78.598870,-2.375946
+GBR,United Kingdom,High income,1982,78.579044,17.482264
+GBR,United Kingdom,High income,1983,78.536545,15.337981
+GBR,United Kingdom,High income,1984,78.477578,6.271020
+GBR,United Kingdom,High income,1985,78.408057,14.749493
+GBR,United Kingdom,High income,1986,78.333898,16.573275
+GBR,United Kingdom,High income,1987,78.261015,7.270461
+GBR,United Kingdom,High income,1988,78.195324,5.485789
+GBR,United Kingdom,High income,1989,78.142740,10.406508
+GBR,United Kingdom,High income,1991,78.102065,-3.459121
+GBR,United Kingdom,High income,1994,78.447422,9.391618
+GBR,United Kingdom,High income,1996,78.896145,13.308940
+GBR,United Kingdom,High income,1998,79.391564,11.709819
+GBR,United Kingdom,High income,2000,79.824141,9.874980
+GBR,United Kingdom,High income,2005,80.445594,12.316440
+GBR,United Kingdom,High income,2006,80.546435,16.539017
+GBR,United Kingdom,High income,2007,80.648333,10.407788
+GBR,United Kingdom,High income,2009,80.869218,-2.405594
+GBR,United Kingdom,High income,2012,81.290567,17.050500
+GBR,United Kingdom,High income,2013,81.457377,10.457694
+GBR,United Kingdom,High income,2014,81.635575,6.719527
+GBR,United Kingdom,High income,2015,81.824377,7.216630
+GBR,United Kingdom,High income,2016,82.022999,8.632719
+GBR,United Kingdom,High income,2017,82.230657,9.156407
+GRC,Greece,High income,1961,56.360831,12.429812
+GRC,Greece,High income,1962,57.006733,11.142837
+GRC,Greece,High income,1964,58.695402,10.556497
+GRC,Greece,High income,1965,59.662197,14.412637
+GRC,Greece,High income,1966,60.664077,16.529097
+GRC,Greece,High income,1968,62.633435,8.281540
+GRC,Greece,High income,1969,63.531082,11.769860
+GRC,Greece,High income,1971,64.988977,15.573553
+GRC,Greece,High income,1972,65.596339,8.558063
+GRC,Greece,High income,1974,66.762863,-3.196981
+GRC,Greece,High income,1976,67.822758,16.034080
+GRC,Greece,High income,1977,68.301197,9.323990
+GRC,Greece,High income,1978,68.739153,8.187388
+GRC,Greece,High income,1979,69.132015,13.528387
+GRC,Greece,High income,1983,70.256946,18.626517
+GRC,Greece,High income,1984,70.472880,-4.122358
+GRC,Greece,High income,1985,70.671910,10.180583
+GRC,Greece,High income,1989,71.345843,10.627324
+GRC,Greece,High income,1996,72.179165,13.034045
+GRC,Greece,High income,1998,72.391194,7.066269
+GRC,Greece,High income,1999,72.517941,17.793975
+GRC,Greece,High income,2000,72.665643,16.308007
+GRC,Greece,High income,2003,73.432268,11.469049
+GRC,Greece,High income,2004,73.826760,17.395183
+GRC,Greece,High income,2006,74.717750,5.943732
+GRC,Greece,High income,2007,75.175347,12.601619
+GRC,Greece,High income,2009,76.017496,-3.943022
+GRC,Greece,High income,2010,76.363148,-1.206681
+GRC,Greece,High income,2011,76.635261,0.947272
+GRC,Greece,High income,2012,76.867980,3.973737
+GRC,Greece,High income,2013,77.095200,11.331661
+GRC,Greece,High income,2018,78.049066,15.467695
+HKG,"Hong Kong SAR, China",High income,1962,85.280099,9.035834
+HKG,"Hong Kong SAR, China",High income,1963,85.436468,9.383829
+HKG,"Hong Kong SAR, China",High income,1964,85.660480,15.711472
+HKG,"Hong Kong SAR, China",High income,1970,87.673770,6.643117
+HKG,"Hong Kong SAR, China",High income,1971,88.002390,8.468155
+HKG,"Hong Kong SAR, China",High income,1976,89.929831,18.796899
+HKG,"Hong Kong SAR, China",High income,1977,90.340040,8.960870
+HKG,"Hong Kong SAR, China",High income,1978,90.740257,13.412148
+HKG,"Hong Kong SAR, China",High income,1979,91.122758,8.876211
+HKG,"Hong Kong SAR, China",High income,1980,91.479821,11.397738
+HKG,"Hong Kong SAR, China",High income,1981,91.796767,18.580876
+HKG,"Hong Kong SAR, China",High income,1986,93.327834,14.629932
+HKG,"Hong Kong SAR, China",High income,1987,94.509714,8.731452
+HKG,"Hong Kong SAR, China",High income,1988,96.242316,11.019996
+HKG,"Hong Kong SAR, China",High income,1992,99.825500,17.602932
+HKG,"Hong Kong SAR, China",High income,1994,99.961659,11.050740
+HKG,"Hong Kong SAR, China",High income,1997,100.000000,13.324007
+HKG,"Hong Kong SAR, China",High income,2000,100.000000,12.076798
+HKG,"Hong Kong SAR, China",High income,2004,100.000000,12.010773
+HKG,"Hong Kong SAR, China",High income,2006,100.000000,9.139133
+HKG,"Hong Kong SAR, China",High income,2010,100.000000,6.731975
+HKG,"Hong Kong SAR, China",High income,2011,100.000000,7.187046
+HKG,"Hong Kong SAR, China",High income,2012,100.000000,8.772794
+HKG,"Hong Kong SAR, China",High income,2017,100.000000,12.495485
+HKG,"Hong Kong SAR, China",High income,2019,100.000000,-2.213741
+HRV,Croatia,High income,1996,55.315560,2.420537
+HRV,Croatia,High income,1997,55.450427,4.677898
+HRV,Croatia,High income,2001,55.691383,14.646813
+HRV,Croatia,High income,2002,55.674547,7.168622
+HRV,Croatia,High income,2003,55.638696,6.361741
+HRV,Croatia,High income,2006,55.468597,13.400289
+HRV,Croatia,High income,2008,55.353069,18.741827
+HRV,Croatia,High income,2009,55.309664,-4.784745
+HRV,Croatia,High income,2010,55.282498,-3.249086
+HRV,Croatia,High income,2015,55.581259,14.374856
+HRV,Croatia,High income,2016,55.729440,11.469539
+HRV,Croatia,High income,2018,56.093170,13.853873
+HRV,Croatia,High income,2019,56.303248,6.693220
+HUN,Hungary,High income,1992,61.647561,-4.929192
+HUN,Hungary,High income,1994,62.299373,9.073731
+HUN,Hungary,High income,1996,62.953630,15.611649
+HUN,Hungary,High income,1997,63.280953,19.896494
+HUN,Hungary,High income,1998,63.608020,15.027356
+HUN,Hungary,High income,1999,63.934544,17.561333
+HUN,Hungary,High income,2000,64.260234,19.986914
+HUN,Hungary,High income,2004,65.022537,19.279619
+HUN,Hungary,High income,2013,69.927764,6.639830
+HUN,Hungary,High income,2014,70.307105,8.979589
+HUN,Hungary,High income,2017,70.454254,5.704858
+HUN,Hungary,High income,2018,70.471176,7.091469
+HUN,Hungary,High income,2019,70.456528,8.973905
+IRL,Ireland,High income,1971,52.323695,18.022048
+IRL,Ireland,High income,1973,53.174267,13.528487
+IRL,Ireland,High income,1976,54.295900,10.014133
+IRL,Ireland,High income,1977,54.622431,14.949455
+IRL,Ireland,High income,1978,54.922992,6.787717
+IRL,Ireland,High income,1979,55.196207,9.708601
+IRL,Ireland,High income,1981,55.654542,16.137305
+IRL,Ireland,High income,1988,56.666071,10.029295
+IRL,Ireland,High income,1989,56.781783,8.424563
+IRL,Ireland,High income,1990,56.909594,6.230433
+IRL,Ireland,High income,1994,57.698987,6.899349
+IRL,Ireland,High income,1995,57.939194,6.659664
+IRL,Ireland,High income,1996,58.174316,7.053096
+IRL,Ireland,High income,1997,58.405821,7.421297
+IRL,Ireland,High income,1998,58.640768,8.122647
+IRL,Ireland,High income,1999,58.880010,7.185651
+IRL,Ireland,High income,2000,59.124800,15.192835
+IRL,Ireland,High income,2001,59.376392,17.884618
+IRL,Ireland,High income,2003,59.912014,12.672772
+IRL,Ireland,High income,2004,60.199475,7.327582
+IRL,Ireland,High income,2005,60.488299,7.018619
+IRL,Ireland,High income,2006,60.770368,11.864540
+IRL,Ireland,High income,2008,61.358190,-4.270702
+IRL,Ireland,High income,2009,61.642102,-2.961549
+IRL,Ireland,High income,2010,61.891069,-2.499384
+IRL,Ireland,High income,2012,62.252932,3.966937
+IRL,Ireland,High income,2014,62.535402,3.599547
+IRL,Ireland,High income,2015,62.639212,2.879646
+IRL,Ireland,High income,2016,62.722940,4.044172
+IRL,Ireland,High income,2019,63.273701,1.998431
+ISL,Iceland,High income,1971,85.325363,3.355690
+ISL,Iceland,High income,1973,86.197243,6.614635
+ISL,Iceland,High income,1974,86.496590,8.424118
+ISL,Iceland,High income,1977,87.436455,16.428231
+ISL,Iceland,High income,1980,88.086998,6.095037
+ISL,Iceland,High income,1983,88.886345,-3.726535
+ISL,Iceland,High income,1987,89.827728,5.957976
+ISL,Iceland,High income,1990,90.605911,18.726672
+ISL,Iceland,High income,1992,91.145638,-4.295492
+ISL,Iceland,High income,1993,91.296257,-4.916688
+ISL,Iceland,High income,1996,91.840164,3.197045
+ISL,Iceland,High income,1997,92.018898,6.480868
+ISL,Iceland,High income,1998,91.676010,3.045155
+ISL,Iceland,High income,2000,91.967419,7.082962
+ISL,Iceland,High income,2002,92.167402,-2.407616
+ISL,Iceland,High income,2003,92.323556,4.734261
+ISL,Iceland,High income,2004,92.437729,2.984311
+ISL,Iceland,High income,2005,92.377441,3.527993
+ISL,Iceland,High income,2006,92.194901,3.603356
+ISL,Iceland,High income,2008,93.064644,-3.537285
+ISL,Iceland,High income,2009,93.444134,0.313546
+ISL,Iceland,High income,2010,93.458835,3.501214
+ISL,Iceland,High income,2011,93.411061,-2.055153
+ISL,Iceland,High income,2012,93.514893,-2.011369
+ISL,Iceland,High income,2013,93.616673,-4.121172
+ISL,Iceland,High income,2014,93.619672,1.029376
+ISL,Iceland,High income,2015,93.727920,2.003101
+ISL,Iceland,High income,2016,93.782265,3.044860
+ISL,Iceland,High income,2017,93.771898,5.988640
+ISL,Iceland,High income,2018,93.852667,7.722791
+ISR,Israel,High income,1961,78.000565,6.494997
+ISR,Israel,High income,1962,78.845088,5.798899
+ISR,Israel,High income,1964,80.429581,8.475462
+ISR,Israel,High income,1965,81.164016,15.660500
+ISR,Israel,High income,1966,81.861566,-4.267413
+ISR,Israel,High income,1967,82.523471,-4.470280
+ISR,Israel,High income,1968,83.150971,1.352437
+ISR,Israel,High income,1969,83.745307,2.862028
+ISR,Israel,High income,1970,84.307720,6.333565
+ISR,Israel,High income,1971,84.839452,5.571406
+ISR,Israel,High income,1972,85.342516,8.233077
+ISR,Israel,High income,1973,85.832844,8.406001
+ISR,Israel,High income,1976,87.256300,-4.071797
+ISR,Israel,High income,1977,87.695657,-3.934928
+ISR,Israel,High income,1978,88.108102,5.070645
+ISR,Israel,High income,1979,88.488026,5.484268
+ISR,Israel,High income,1981,89.127878,5.997013
+ISR,Israel,High income,1983,89.570958,8.195367
+ISR,Israel,High income,1984,89.730345,-4.765497
+ISR,Israel,High income,1987,90.129120,3.841660
+ISR,Israel,High income,1990,90.436616,3.063376
+ISR,Israel,High income,1991,90.525511,3.102852
+ISR,Israel,High income,1992,90.609990,15.465495
+ISR,Israel,High income,1994,90.771428,13.252525
+ISR,Israel,High income,1995,90.851179,3.062017
+ISR,Israel,High income,1996,90.932927,9.761036
+ISR,Israel,High income,2000,91.280965,19.059698
+ISR,Israel,High income,2005,91.638430,6.125030
+ISR,Israel,High income,2006,91.682576,5.887834
+ISR,Israel,High income,2007,91.713640,4.889361
+ISR,Israel,High income,2010,91.731643,8.067374
+ISR,Israel,High income,2011,91.730402,4.773249
+ISR,Israel,High income,2012,91.727650,9.483166
+ISR,Israel,High income,2016,91.689462,5.812540
+ISR,Israel,High income,2018,91.645619,6.190627
+ITA,Italy,High income,1973,65.381860,11.777270
+ITA,Italy,High income,1974,65.663019,13.131573
+ITA,Italy,High income,1979,66.744686,18.250494
+ITA,Italy,High income,1980,66.847713,12.092843
+ITA,Italy,High income,1988,66.751250,16.509520
+ITA,Italy,High income,1995,66.816610,13.356626
+ITA,Italy,High income,2000,67.193228,10.891460
+ITA,Italy,High income,2009,68.049424,-4.145668
+ITA,Italy,High income,2012,68.760879,-2.456999
+ITA,Italy,High income,2013,69.307399,-1.728772
+ITA,Italy,High income,2014,69.580764,-4.307273
+ITA,Italy,High income,2015,69.610001,7.138734
+ITA,Italy,High income,2016,69.596923,9.733514
+ITA,Italy,High income,2017,69.518078,8.749768
+ITA,Italy,High income,2018,69.480003,10.474096
+JPN,Japan,High income,1972,73.678911,12.534832
+JPN,Japan,High income,1973,74.631368,6.648823
+JPN,Japan,High income,1978,76.076462,13.306997
+JPN,Japan,High income,1979,76.117157,8.078003
+JPN,Japan,High income,1984,76.574373,19.272972
+JPN,Japan,High income,1985,76.693064,14.051810
+JPN,Japan,High income,1986,76.813414,17.836500
+JPN,Japan,High income,1987,76.940295,7.813294
+JPN,Japan,High income,1988,77.072111,6.102452
+JPN,Japan,High income,1989,77.206389,9.527071
+JPN,Japan,High income,1990,77.340418,9.589900
+JPN,Japan,High income,1995,78.019084,19.347970
+JPN,Japan,High income,1996,78.137405,8.384263
+JPN,Japan,High income,2002,80.546986,-4.620017
+JPN,Japan,High income,2005,85.957362,5.758643
+JPN,Japan,High income,2006,87.146090,11.194014
+JPN,Japan,High income,2009,90.113116,-0.040987
+JPN,Japan,High income,2010,90.622859,2.010795
+JPN,Japan,High income,2011,90.863165,0.308657
+JPN,Japan,High income,2012,91.026528,1.443116
+JPN,Japan,High income,2013,91.151660,1.765237
+JPN,Japan,High income,2014,91.254895,4.828025
+JPN,Japan,High income,2015,91.353264,11.426043
+JPN,Japan,High income,2017,91.549842,5.229214
+JPN,Japan,High income,2018,91.637732,8.030475
+JPN,Japan,High income,2019,91.716421,19.908713
+KOR,"Korea, Rep.",High income,1961,28.448717,1.655264
+KOR,"Korea, Rep.",High income,1962,29.233507,0.566418
+KOR,"Korea, Rep.",High income,1965,31.963548,2.148417
+KOR,"Korea, Rep.",High income,1966,33.103455,3.806339
+KOR,"Korea, Rep.",High income,1967,34.558830,7.571552
+KOR,"Korea, Rep.",High income,1968,36.533258,5.074371
+KOR,"Korea, Rep.",High income,1969,38.709989,7.349226
+KOR,"Korea, Rep.",High income,1970,40.708527,13.952595
+KOR,"Korea, Rep.",High income,1973,45.147374,4.468059
+KOR,"Korea, Rep.",High income,1974,46.509403,5.441339
+KOR,"Korea, Rep.",High income,1975,47.967397,13.392033
+KOR,"Korea, Rep.",High income,1976,49.573656,13.843917
+KOR,"Korea, Rep.",High income,1977,51.302703,6.961391
+KOR,"Korea, Rep.",High income,1978,53.095580,7.135191
+KOR,"Korea, Rep.",High income,1979,54.898778,13.350418
+KOR,"Korea, Rep.",High income,1982,59.950567,11.758242
+KOR,"Korea, Rep.",High income,1983,61.544269,8.986089
+KOR,"Korea, Rep.",High income,1984,63.149438,16.058193
+KOR,"Korea, Rep.",High income,1985,64.795281,18.275346
+KOR,"Korea, Rep.",High income,1986,66.577110,12.678338
+KOR,"Korea, Rep.",High income,1987,68.562847,9.814883
+KOR,"Korea, Rep.",High income,1988,70.587784,11.262607
+KOR,"Korea, Rep.",High income,1989,72.466037,11.052019
+KOR,"Korea, Rep.",High income,1990,73.985116,7.046802
+KOR,"Korea, Rep.",High income,1991,75.160602,10.334879
+KOR,"Korea, Rep.",High income,1994,77.858565,16.451347
+KOR,"Korea, Rep.",High income,1995,78.400437,13.850241
+KOR,"Korea, Rep.",High income,1996,78.750815,16.906127
+KOR,"Korea, Rep.",High income,1998,79.181237,-4.525162
+KOR,"Korea, Rep.",High income,1999,79.362339,12.220079
+KOR,"Korea, Rep.",High income,2000,79.579961,7.838570
+KOR,"Korea, Rep.",High income,2002,80.276629,17.048857
+KOR,"Korea, Rep.",High income,2003,80.707794,18.274687
+KOR,"Korea, Rep.",High income,2006,81.566462,18.436644
+KOR,"Korea, Rep.",High income,2008,81.835083,15.138992
+KOR,"Korea, Rep.",High income,2010,81.968508,15.334587
+KOR,"Korea, Rep.",High income,2011,81.961541,18.826537
+KOR,"Korea, Rep.",High income,2016,81.555924,14.002835
+KOR,"Korea, Rep.",High income,2017,81.471030,8.918453
+LTU,Lithuania,High income,1996,67.266313,5.980159
+LTU,Lithuania,High income,1997,67.185976,4.748507
+LTU,Lithuania,High income,1998,67.108956,7.300878
+LTU,Lithuania,High income,2001,66.928610,5.739737
+LTU,Lithuania,High income,2002,66.888710,11.281892
+LTU,Lithuania,High income,2003,66.759666,7.055944
+LTU,Lithuania,High income,2004,66.602257,9.061455
+LTU,Lithuania,High income,2005,66.578491,11.016630
+LTU,Lithuania,High income,2006,66.638153,6.998280
+LTU,Lithuania,High income,2007,66.718498,6.720036
+LTU,Lithuania,High income,2009,66.781662,-0.526314
+LTU,Lithuania,High income,2011,66.751834,5.051548
+LTU,Lithuania,High income,2013,67.009209,7.794716
+LTU,Lithuania,High income,2014,67.151494,13.441600
+LTU,Lithuania,High income,2015,67.228249,15.839651
+LTU,Lithuania,High income,2016,67.189423,19.302966
+LTU,Lithuania,High income,2017,67.101295,16.333458
+LTU,Lithuania,High income,2018,67.146474,13.407311
+LTU,Lithuania,High income,2019,67.245735,14.383779
+LUX,Luxembourg,High income,1971,74.887774,3.306590
+LUX,Luxembourg,High income,1972,75.506764,16.497633
+LUX,Luxembourg,High income,1973,76.188784,12.797036
+LUX,Luxembourg,High income,1975,77.626423,10.916880
+LUX,Luxembourg,High income,1979,79.987618,15.938048
+LUX,Luxembourg,High income,1980,80.302385,5.974103
+LUX,Luxembourg,High income,1983,80.600224,-3.031834
+LUX,Luxembourg,High income,1985,80.687240,-3.176382
+LUX,Luxembourg,High income,1986,80.721847,1.977359
+LUX,Luxembourg,High income,1987,80.757556,3.606747
+LUX,Luxembourg,High income,1988,80.799643,7.537062
+LUX,Luxembourg,High income,1989,80.853384,8.686379
+LUX,Luxembourg,High income,1990,80.924054,8.621335
+LUX,Luxembourg,High income,1991,81.025113,3.981277
+LUX,Luxembourg,High income,1992,81.200200,-2.752041
+LUX,Luxembourg,High income,1993,81.464750,4.138896
+LUX,Luxembourg,High income,1997,83.070353,5.604460
+LUX,Luxembourg,High income,1998,83.531620,6.666849
+LUX,Luxembourg,High income,1999,83.986040,4.083716
+LUX,Luxembourg,High income,2001,84.817325,5.349418
+LUX,Luxembourg,High income,2004,85.979910,10.116247
+LUX,Luxembourg,High income,2007,87.183195,5.345923
+LUX,Luxembourg,High income,2008,87.603766,11.452089
+LUX,Luxembourg,High income,2009,88.037908,-2.867192
+LUX,Luxembourg,High income,2011,88.956281,5.145910
+LUX,Luxembourg,High income,2014,90.457781,11.364283
+LUX,Luxembourg,High income,2016,91.535709,13.357959
+LUX,Luxembourg,High income,2017,92.096377,14.226166
+LUX,Luxembourg,High income,2019,93.258984,4.180705
+LVA,Latvia,High income,1996,68.849553,-4.962214
+LVA,Latvia,High income,1998,68.294653,1.778511
+LVA,Latvia,High income,2000,68.052056,7.433756
+LVA,Latvia,High income,2001,68.016366,11.341234
+LVA,Latvia,High income,2003,67.949384,8.122770
+LVA,Latvia,High income,2004,67.920670,6.222225
+LVA,Latvia,High income,2005,67.895391,7.898505
+LVA,Latvia,High income,2006,67.873734,5.893542
+LVA,Latvia,High income,2007,67.855885,7.254650
+LVA,Latvia,High income,2009,67.832365,-0.497534
+LVA,Latvia,High income,2010,67.827068,1.007157
+LVA,Latvia,High income,2011,67.826690,1.905848
+LVA,Latvia,High income,2012,67.833164,3.324632
+LVA,Latvia,High income,2016,67.930711,-2.012909
+LVA,Latvia,High income,2017,67.970687,3.863160
+LVA,Latvia,High income,2018,68.016035,5.893093
+MAC,"Macao SAR, China",High income,1984,98.954451,11.411699
+MAC,"Macao SAR, China",High income,1986,99.191295,4.762278
+MAC,"Macao SAR, China",High income,1987,99.305303,9.373109
+MAC,"Macao SAR, China",High income,1988,99.414333,10.164346
+MAC,"Macao SAR, China",High income,1989,99.516860,13.548681
+MAC,"Macao SAR, China",High income,1990,99.611357,18.254555
+MAC,"Macao SAR, China",High income,1991,99.696300,5.689185
+MAC,"Macao SAR, China",High income,1992,99.770162,4.638118
+MAC,"Macao SAR, China",High income,1996,99.932588,-2.201283
+MAC,"Macao SAR, China",High income,1998,99.971570,-3.756322
+MAC,"Macao SAR, China",High income,2000,99.995793,-0.475896
+MAC,"Macao SAR, China",High income,2001,99.999898,-1.831440
+MAC,"Macao SAR, China",High income,2002,100.000000,2.708774
+MAC,"Macao SAR, China",High income,2003,100.000000,2.455593
+MAC,"Macao SAR, China",High income,2004,100.000000,3.407236
+MAC,"Macao SAR, China",High income,2005,100.000000,3.035537
+MAC,"Macao SAR, China",High income,2006,100.000000,4.155761
+MAC,"Macao SAR, China",High income,2007,100.000000,6.705842
+MAC,"Macao SAR, China",High income,2009,100.000000,-1.850898
+MAC,"Macao SAR, China",High income,2011,100.000000,6.029571
+MAC,"Macao SAR, China",High income,2012,100.000000,6.820022
+MAC,"Macao SAR, China",High income,2013,100.000000,13.497568
+MAC,"Macao SAR, China",High income,2014,100.000000,4.575618
+MAC,"Macao SAR, China",High income,2019,100.000000,-3.232338
+MLT,Malta,High income,1974,89.414991,5.076519
+MLT,Malta,High income,1975,89.436152,11.387624
+MLT,Malta,High income,1976,89.460277,4.947573
+MLT,Malta,High income,1979,89.550381,6.545675
+MLT,Malta,High income,1981,89.625176,11.220013
+MLT,Malta,High income,1982,89.666977,14.781126
+MLT,Malta,High income,1983,89.711708,16.056774
+MLT,Malta,High income,1987,90.063821,7.104470
+MLT,Malta,High income,1989,90.660004,11.117598
+MLT,Malta,High income,1990,91.031932,6.931202
+MLT,Malta,High income,1993,92.164907,10.395585
+MLT,Malta,High income,1994,92.471031,18.780799
+MLT,Malta,High income,1995,92.697347,9.421984
+MLT,Malta,High income,1998,93.089771,14.499705
+MLT,Malta,High income,2000,93.278339,5.129365
+MLT,Malta,High income,2002,93.443110,-3.518834
+MLT,Malta,High income,2003,93.524103,4.537075
+MLT,Malta,High income,2005,93.698519,13.925238
+MLT,Malta,High income,2007,93.911823,10.803485
+MLT,Malta,High income,2010,94.241244,9.573326
+MLT,Malta,High income,2011,94.315592,-4.575767
+MLT,Malta,High income,2012,94.362626,4.478995
+MLT,Malta,High income,2014,94.412513,14.408793
+MLT,Malta,High income,2015,94.438770,3.284980
+MLT,Malta,High income,2018,94.724237,7.793773
+MLT,Malta,High income,2019,94.933203,8.059637
+NLD,Netherlands,High income,1970,62.085855,8.390237
+NLD,Netherlands,High income,1977,64.584999,10.150757
+NLD,Netherlands,High income,1980,64.991058,16.477412
+NLD,Netherlands,High income,1984,67.359926,9.974824
+NLD,Netherlands,High income,1985,67.619904,9.803645
+NLD,Netherlands,High income,1986,67.970352,11.623070
+NLD,Netherlands,High income,1987,68.161831,17.710974
+NLD,Netherlands,High income,1988,68.429772,6.668800
+NLD,Netherlands,High income,1995,70.693627,13.317235
+NLD,Netherlands,High income,1996,72.423331,9.444169
+NLD,Netherlands,High income,1997,75.554237,13.008698
+NLD,Netherlands,High income,1998,76.752319,12.012320
+NLD,Netherlands,High income,1999,77.060743,6.950306
+NLD,Netherlands,High income,2005,83.504895,17.230561
+NLD,Netherlands,High income,2006,84.653228,8.055978
+NLD,Netherlands,High income,2007,85.408923,4.573007
+NLD,Netherlands,High income,2010,87.350279,-4.614505
+NLD,Netherlands,High income,2011,88.005920,8.551902
+NLD,Netherlands,High income,2012,88.534246,-3.255752
+NLD,Netherlands,High income,2015,90.278774,2.133965
+NLD,Netherlands,High income,2016,90.580324,-3.338741
+NLD,Netherlands,High income,2017,91.121970,7.476986
+NLD,Netherlands,High income,2018,92.606247,12.731552
+NLD,Netherlands,High income,2019,93.889803,6.273120
+NOR,Norway,High income,1971,66.430192,4.096508
+NOR,Norway,High income,1973,67.748444,6.638521
+NOR,Norway,High income,1974,68.328350,5.952140
+NOR,Norway,High income,1975,68.854394,4.152529
+NOR,Norway,High income,1976,69.325788,4.685565
+NOR,Norway,High income,1977,69.741745,11.981646
+NOR,Norway,High income,1978,70.101476,-3.507165
+NOR,Norway,High income,1981,70.838515,19.223502
+NOR,Norway,High income,1983,71.103793,8.365523
+NOR,Norway,High income,1986,71.367833,2.876467
+NOR,Norway,High income,1987,71.459332,13.393618
+NOR,Norway,High income,1989,71.706337,-3.108558
+NOR,Norway,High income,1990,71.876859,-1.399678
+NOR,Norway,High income,1993,73.203144,5.518348
+NOR,Norway,High income,1994,73.650002,4.653382
+NOR,Norway,High income,1995,73.919742,9.604422
+NOR,Norway,High income,1996,74.199997,5.495423
+NOR,Norway,High income,1997,74.702436,3.489010
+NOR,Norway,High income,1998,75.330634,3.331930
+NOR,Norway,High income,1999,75.839996,-3.778929
+NOR,Norway,High income,2000,76.133892,-2.639374
+NOR,Norway,High income,2004,77.568459,5.178061
+NOR,Norway,High income,2005,77.826015,7.708294
+NOR,Norway,High income,2006,78.087723,10.036520
+NOR,Norway,High income,2007,78.407250,3.922426
+NOR,Norway,High income,2010,79.245003,-3.294894
+NOR,Norway,High income,2011,79.311620,9.185262
+NOR,Norway,High income,2012,79.490593,6.791729
+NOR,Norway,High income,2013,79.972398,8.278804
+NOR,Norway,High income,2014,80.611716,14.160203
+NOR,Norway,High income,2016,81.680000,5.984803
+NOR,Norway,High income,2019,82.493589,3.525873
+NZL,New Zealand,High income,1971,81.520665,19.287337
+NZL,New Zealand,High income,1972,81.931494,3.528330
+NZL,New Zealand,High income,1973,82.262995,6.230928
+NZL,New Zealand,High income,1974,82.516127,2.572674
+NZL,New Zealand,High income,1975,82.718334,5.350954
+NZL,New Zealand,High income,1976,82.895065,-2.756862
+NZL,New Zealand,High income,1977,83.052401,-1.685646
+NZL,New Zealand,High income,1979,83.302640,-2.426770
+NZL,New Zealand,High income,1980,83.404990,8.565779
+NZL,New Zealand,High income,1981,83.495755,1.774573
+NZL,New Zealand,High income,1982,83.569386,5.974958
+NZL,New Zealand,High income,1983,83.628857,8.635965
+NZL,New Zealand,High income,1984,83.688870,5.228007
+NZL,New Zealand,High income,1985,83.762930,6.969631
+NZL,New Zealand,High income,1986,83.871559,-3.262288
+NZL,New Zealand,High income,1988,84.296021,-3.729611
+NZL,New Zealand,High income,1989,84.553853,19.917843
+NZL,New Zealand,High income,1991,84.950314,-1.145042
+NZL,New Zealand,High income,1992,85.080677,10.235227
+NZL,New Zealand,High income,1993,85.198322,2.351832
+NZL,New Zealand,High income,1994,85.302131,3.065719
+NZL,New Zealand,High income,1995,85.392759,4.471896
+NZL,New Zealand,High income,1996,85.470843,13.281337
+NZL,New Zealand,High income,1999,85.655510,3.874916
+NZL,New Zealand,High income,2001,85.754517,6.568754
+NZL,New Zealand,High income,2002,85.806158,6.507250
+NZL,New Zealand,High income,2003,85.857962,4.720636
+NZL,New Zealand,High income,2004,85.901771,6.044032
+NZL,New Zealand,High income,2005,85.929933,8.555955
+NZL,New Zealand,High income,2007,85.929184,14.758788
+NZL,New Zealand,High income,2009,85.891835,-2.425529
+NZL,New Zealand,High income,2011,85.823315,13.551478
+NZL,New Zealand,High income,2012,85.777701,5.526027
+NZL,New Zealand,High income,2013,85.708013,8.356077
+NZL,New Zealand,High income,2014,85.507666,4.712881
+NZL,New Zealand,High income,2015,85.151876,7.764424
+NZL,New Zealand,High income,2016,84.691366,16.139565
+NZL,New Zealand,High income,2017,84.170103,8.638693
+NZL,New Zealand,High income,2018,83.801785,7.107508
+NZL,New Zealand,High income,2019,83.804966,16.821766
+OMN,Oman,High income,1971,35.350355,2.008101
+OMN,Oman,High income,1972,37.568186,7.773601
+OMN,Oman,High income,1973,39.814718,-3.163306
+OMN,Oman,High income,1974,42.077533,4.974495
+OMN,Oman,High income,1975,44.344215,3.579234
+OMN,Oman,High income,1976,46.602345,5.664468
+OMN,Oman,High income,1981,57.330097,14.899491
+OMN,Oman,High income,1982,59.276143,8.369001
+OMN,Oman,High income,1991,71.004001,4.389149
+OMN,Oman,High income,1992,71.436486,7.658798
+OMN,Oman,High income,1993,71.642284,10.173013
+OMN,Oman,High income,1997,71.618031,4.231815
+OMN,Oman,High income,1998,71.592254,1.450800
+OMN,Oman,High income,1999,71.565559,-1.901267
+OMN,Oman,High income,2000,71.540084,-1.836602
+OMN,Oman,High income,2001,71.517962,6.104798
+OMN,Oman,High income,2002,71.501332,10.435724
+OMN,Oman,High income,2003,71.492617,8.243937
+OMN,Oman,High income,2004,71.542892,8.738046
+OMN,Oman,High income,2006,72.392026,12.204327
+OMN,Oman,High income,2007,73.067925,7.655060
+OMN,Oman,High income,2008,73.807772,15.136722
+OMN,Oman,High income,2009,74.533864,10.173153
+OMN,Oman,High income,2013,76.491423,14.898649
+OMN,Oman,High income,2015,77.302536,8.879572
+OMN,Oman,High income,2016,77.752136,8.726645
+PAN,Panama,High income,1961,41.747490,5.892882
+PAN,Panama,High income,1963,43.004631,15.630009
+PAN,Panama,High income,1965,44.531748,12.514908
+PAN,Panama,High income,1966,45.305344,5.348358
+PAN,Panama,High income,1968,46.690205,13.177483
+PAN,Panama,High income,1969,47.228508,12.450311
+PAN,Panama,High income,1970,47.618399,9.832934
+PAN,Panama,High income,1971,47.907532,15.409817
+PAN,Panama,High income,1972,48.153389,14.804057
+PAN,Panama,High income,1976,48.898003,17.472469
+PAN,Panama,High income,1977,49.077326,-2.010509
+PAN,Panama,High income,1978,49.275067,5.295150
+PAN,Panama,High income,1980,49.767142,7.662692
+PAN,Panama,High income,1981,50.063755,7.661970
+PAN,Panama,High income,1983,50.724943,-2.360091
+PAN,Panama,High income,1984,51.092020,-3.237987
+PAN,Panama,High income,1985,51.484702,9.576303
+PAN,Panama,High income,1986,51.903954,7.969864
+PAN,Panama,High income,1987,52.350739,10.592762
+PAN,Panama,High income,1988,52.826021,0.524433
+PAN,Panama,High income,1989,53.330763,6.206653
+PAN,Panama,High income,1990,53.871276,-2.184016
+PAN,Panama,High income,1991,54.527746,1.484556
+PAN,Panama,High income,1992,55.337613,4.582461
+PAN,Panama,High income,1993,56.255375,6.226815
+PAN,Panama,High income,1995,58.248412,13.159144
+PAN,Panama,High income,1997,60.174522,17.459756
+PAN,Panama,High income,1998,61.008625,7.658265
+PAN,Panama,High income,2001,62.633702,-2.098864
+PAN,Panama,High income,2003,63.407995,3.801317
+PAN,Panama,High income,2004,63.755376,19.736030
+PAN,Panama,High income,2005,64.072193,8.741702
+PAN,Panama,High income,2006,64.355408,6.154605
+PAN,Panama,High income,2007,64.601981,4.499667
+PAN,Panama,High income,2008,64.808871,7.176822
+PAN,Panama,High income,2010,65.092610,18.572253
+PAN,Panama,High income,2011,65.189668,10.283260
+PAN,Panama,High income,2012,65.282947,8.098193
+PAN,Panama,High income,2013,65.370977,11.377499
+POL,Poland,High income,1996,61.639679,6.888036
+POL,Poland,High income,1997,61.675878,6.711946
+POL,Poland,High income,1998,61.705778,10.447084
+POL,Poland,High income,2004,61.655517,12.574540
+POL,Poland,High income,2005,61.549701,15.716012
+POL,Poland,High income,2006,61.419969,7.828699
+POL,Poland,High income,2007,61.275601,7.767833
+POL,Poland,High income,2008,61.125876,17.967800
+POL,Poland,High income,2011,60.735709,13.096415
+POL,Poland,High income,2014,60.434006,11.608141
+POL,Poland,High income,2018,60.053331,8.018762
+POL,Poland,High income,2019,59.962618,15.885079
+PRT,Portugal,High income,1971,35.764468,18.638429
+PRT,Portugal,High income,1972,36.328916,13.910526
+PRT,Portugal,High income,1977,39.340477,14.663786
+PRT,Portugal,High income,1978,39.972068,19.871243
+PRT,Portugal,High income,1980,41.254718,13.096598
+PRT,Portugal,High income,1981,41.903324,15.547696
+PRT,Portugal,High income,1984,43.863546,-3.649027
+PRT,Portugal,High income,1987,45.819619,8.649178
+PRT,Portugal,High income,1988,46.464997,11.116889
+PRT,Portugal,High income,1997,52.379580,12.705116
+PRT,Portugal,High income,1998,53.063097,17.661103
+PRT,Portugal,High income,2011,61.141070,-3.425743
+PRT,Portugal,High income,2012,61.140979,-0.044352
+PRT,Portugal,High income,2013,61.140532,1.596888
+PRT,Portugal,High income,2014,61.139454,-1.455196
+PRT,Portugal,High income,2015,61.137469,2.690879
+PRT,Portugal,High income,2016,61.134301,7.757943
+PRT,Portugal,High income,2017,61.129673,4.152259
+PRT,Portugal,High income,2018,61.123307,7.552627
+PRT,Portugal,High income,2019,61.114927,9.796164
+ROU,Romania,High income,1991,54.312680,1.037582
+ROU,Romania,High income,1992,54.313057,-1.921775
+ROU,Romania,High income,1993,54.235676,3.848028
+ROU,Romania,High income,1994,54.090569,1.247821
+ROU,Romania,High income,1995,53.898544,4.070997
+ROU,Romania,High income,1996,53.677523,4.789589
+ROU,Romania,High income,1997,53.445430,-4.994825
+ROU,Romania,High income,1998,53.220189,-2.268661
+ROU,Romania,High income,2000,52.861955,6.472043
+ROU,Romania,High income,2001,52.764809,4.854656
+ROU,Romania,High income,2002,52.746643,9.747174
+ROU,Romania,High income,2003,52.802349,10.263825
+ROU,Romania,High income,2004,52.917530,11.805436
+ROU,Romania,High income,2005,53.074507,11.362830
+ROU,Romania,High income,2006,53.256638,6.899623
+ROU,Romania,High income,2007,53.447279,5.819301
+ROU,Romania,High income,2008,53.629786,13.095410
+ROU,Romania,High income,2009,53.787515,-2.033091
+ROU,Romania,High income,2011,53.960887,12.865790
+ROU,Romania,High income,2017,53.364864,17.064399
+ROU,Romania,High income,2019,52.893184,12.391475
+SAU,Saudi Arabia,High income,1972,53.185718,3.901236
+SAU,Saudi Arabia,High income,1973,55.052710,3.658800
+SAU,Saudi Arabia,High income,1974,56.777755,-2.221135
+SAU,Saudi Arabia,High income,1975,58.415011,2.793778
+SAU,Saudi Arabia,High income,1976,60.053418,4.546713
+SAU,Saudi Arabia,High income,1977,61.688997,6.590983
+SAU,Saudi Arabia,High income,1978,63.307312,8.842906
+SAU,Saudi Arabia,High income,1985,72.939496,-2.365935
+SAU,Saudi Arabia,High income,1988,75.591691,-4.888487
+SAU,Saudi Arabia,High income,1990,77.008735,7.271740
+SAU,Saudi Arabia,High income,1991,77.567036,6.859331
+SAU,Saudi Arabia,High income,1993,78.343165,13.229612
+SAU,Saudi Arabia,High income,1994,78.648162,-4.318301
+SAU,Saudi Arabia,High income,1995,78.920239,17.453271
+SAU,Saudi Arabia,High income,1998,79.591423,4.923287
+SAU,Saudi Arabia,High income,2001,80.155243,19.716737
+SAU,Saudi Arabia,High income,2003,80.541446,13.226109
+SAU,Saudi Arabia,High income,2004,80.754232,12.919042
+SAU,Saudi Arabia,High income,2007,81.423002,15.617741
+SAU,Saudi Arabia,High income,2009,81.864448,19.586691
+SAU,Saudi Arabia,High income,2015,82.956277,10.697202
+SGP,Singapore,High income,1961,100.000000,3.408002
+SGP,Singapore,High income,1962,100.000000,5.755697
+SGP,Singapore,High income,1963,100.000000,8.541388
+SGP,Singapore,High income,1964,100.000000,5.638965
+SGP,Singapore,High income,1965,100.000000,10.461768
+SGP,Singapore,High income,1967,100.000000,14.580492
+SGP,Singapore,High income,1968,100.000000,5.596768
+SGP,Singapore,High income,1969,100.000000,6.695519
+SGP,Singapore,High income,1970,100.000000,5.378168
+SGP,Singapore,High income,1971,100.000000,7.040613
+SGP,Singapore,High income,1972,100.000000,9.594181
+SGP,Singapore,High income,1974,100.000000,9.331044
+SGP,Singapore,High income,1976,100.000000,15.169588
+SGP,Singapore,High income,1978,100.000000,9.579372
+SGP,Singapore,High income,1979,100.000000,9.767499
+SGP,Singapore,High income,1980,100.000000,6.161004
+SGP,Singapore,High income,1981,100.000000,7.199912
+SGP,Singapore,High income,1982,100.000000,8.523404
+SGP,Singapore,High income,1983,100.000000,14.579004
+SGP,Singapore,High income,1984,100.000000,15.081994
+SGP,Singapore,High income,1989,100.000000,7.707325
+SGP,Singapore,High income,1990,100.000000,11.213236
+SGP,Singapore,High income,1991,100.000000,10.089427
+SGP,Singapore,High income,1992,100.000000,8.974809
+SGP,Singapore,High income,1993,100.000000,11.929904
+SGP,Singapore,High income,1994,100.000000,16.726574
+SGP,Singapore,High income,1995,100.000000,18.850052
+SGP,Singapore,High income,1996,100.000000,6.912431
+SGP,Singapore,High income,1997,100.000000,14.189796
+SGP,Singapore,High income,2004,100.000000,12.693615
+SGP,Singapore,High income,2006,100.000000,12.307087
+SGP,Singapore,High income,2007,100.000000,7.967882
+SGP,Singapore,High income,2008,100.000000,7.102950
+SGP,Singapore,High income,2012,100.000000,13.236637
+SGP,Singapore,High income,2013,100.000000,12.885634
+SGP,Singapore,High income,2014,100.000000,18.260845
+SVK,Slovak Republic,High income,1991,56.827189,-3.006204
+SVK,Slovak Republic,High income,1992,56.807175,8.389639
+SVK,Slovak Republic,High income,1996,56.534638,3.238153
+SVK,Slovak Republic,High income,1997,56.434348,8.406413
+SVK,Slovak Republic,High income,1998,56.327393,11.667800
+SVK,Slovak Republic,High income,1999,56.216874,-3.528333
+SVK,Slovak Republic,High income,2000,56.105889,-2.839859
+SVK,Slovak Republic,High income,2001,55.996843,5.421235
+SVK,Slovak Republic,High income,2005,55.418985,5.735481
+SVK,Slovak Republic,High income,2006,55.246428,15.348952
+SVK,Slovak Republic,High income,2007,55.070735,10.324760
+SVK,Slovak Republic,High income,2009,54.726036,-2.243459
+SVK,Slovak Republic,High income,2010,54.565074,9.527623
+SVK,Slovak Republic,High income,2011,54.416739,7.507208
+SVK,Slovak Republic,High income,2015,53.870063,5.097787
+SVK,Slovak Republic,High income,2018,53.488150,15.674363
+SVK,Slovak Republic,High income,2019,53.366656,19.091159
+SVN,Slovenia,High income,1992,50.663132,-3.209183
+SVN,Slovenia,High income,1994,50.175529,9.220075
+SVN,Slovenia,High income,1995,50.202911,7.370014
+SVN,Slovenia,High income,1996,50.274749,18.110350
+SVN,Slovenia,High income,1997,50.375585,12.328651
+SVN,Slovenia,High income,1998,50.489962,18.643970
+SVN,Slovenia,High income,1999,50.602421,13.139288
+SVN,Slovenia,High income,2004,50.712441,14.403773
+SVN,Slovenia,High income,2005,50.648781,18.516738
+SVN,Slovenia,High income,2006,50.567255,12.070420
+SVN,Slovenia,High income,2007,50.470713,12.635010
+SVN,Slovenia,High income,2009,50.243978,-2.405011
+SVN,Slovenia,High income,2010,50.119486,-3.223243
+SVN,Slovenia,High income,2012,49.761948,-1.366468
+SVN,Slovenia,High income,2013,50.046658,7.190582
+SVN,Slovenia,High income,2016,53.647274,-1.554882
+SVN,Slovenia,High income,2017,55.245113,2.963386
+SVN,Slovenia,High income,2018,55.191343,4.311714
+SVN,Slovenia,High income,2019,55.452328,10.707847
+SWE,Sweden,High income,1961,73.351266,8.568756
+SWE,Sweden,High income,1962,74.288426,10.054596
+SWE,Sweden,High income,1963,75.250922,8.597009
+SWE,Sweden,High income,1964,76.206330,9.191142
+SWE,Sweden,High income,1965,77.114482,17.666453
+SWE,Sweden,High income,1967,78.937089,18.124084
+SWE,Sweden,High income,1979,83.056572,8.471784
+SWE,Sweden,High income,1980,83.088287,14.011354
+SWE,Sweden,High income,1983,83.095487,13.560675
+SWE,Sweden,High income,1984,83.096693,9.199452
+SWE,Sweden,High income,1985,83.098680,8.336672
+SWE,Sweden,High income,1987,83.159258,7.680213
+SWE,Sweden,High income,1988,83.232121,8.077400
+SWE,Sweden,High income,1989,83.318377,5.197519
+SWE,Sweden,High income,1991,83.495069,-3.083729
+SWE,Sweden,High income,1992,83.607889,-1.838988
+SWE,Sweden,High income,1993,83.726901,-0.253455
+SWE,Sweden,High income,1994,83.831230,3.415729
+SWE,Sweden,High income,1995,83.900002,4.099792
+SWE,Sweden,High income,1996,83.936571,6.487804
+SWE,Sweden,High income,1997,83.962469,17.950367
+SWE,Sweden,High income,1998,83.984082,3.860001
+SWE,Sweden,High income,1999,84.007797,4.956083
+SWE,Sweden,High income,2000,84.040001,4.944896
+SWE,Sweden,High income,2001,84.082715,9.681441
+SWE,Sweden,High income,2004,84.267071,5.645405
+SWE,Sweden,High income,2005,84.349998,9.125284
+SWE,Sweden,High income,2006,84.455320,4.026119
+SWE,Sweden,High income,2007,84.590688,5.550463
+SWE,Sweden,High income,2009,84.934103,-1.517943
+SWE,Sweden,High income,2010,85.133423,4.830895
+SWE,Sweden,High income,2011,85.360075,6.238372
+SWE,Sweden,High income,2014,86.256384,5.454872
+SWE,Sweden,High income,2015,86.615865,5.185508
+SWE,Sweden,High income,2016,87.000000,7.275177
+SWE,Sweden,High income,2017,87.237374,7.849451
+SWE,Sweden,High income,2018,87.473743,18.821882
+SYC,Seychelles,High income,1978,49.408465,5.484146
+SYC,Seychelles,High income,1983,49.355435,-4.010306
+SYC,Seychelles,High income,1985,49.313497,13.934129
+SYC,Seychelles,High income,1988,49.200756,8.336236
+SYC,Seychelles,High income,1989,49.083228,16.961325
+SYC,Seychelles,High income,1993,48.059706,8.589504
+SYC,Seychelles,High income,1995,46.851640,15.338435
+SYC,Seychelles,High income,1996,45.446952,6.031152
+SYC,Seychelles,High income,1998,43.953454,10.512885
+SYC,Seychelles,High income,1999,43.640607,8.635585
+SYC,Seychelles,High income,2000,43.397423,-3.740425
+SYC,Seychelles,High income,2001,43.217299,4.902957
+SYC,Seychelles,High income,2002,43.094846,-4.234385
+SYC,Seychelles,High income,2003,43.004933,-0.663331
+SYC,Seychelles,High income,2004,42.923776,-1.806407
+SYC,Seychelles,High income,2005,42.851035,4.604221
+SYC,Seychelles,High income,2006,42.788043,2.968702
+SYC,Seychelles,High income,2007,42.736133,14.710118
+SYC,Seychelles,High income,2008,42.696637,-3.543946
+SYC,Seychelles,High income,2010,42.660307,3.172681
+SYC,Seychelles,High income,2012,42.726176,8.290930
+SYC,Seychelles,High income,2014,42.938626,-4.318320
+SYC,Seychelles,High income,2019,44.004930,14.380555
+TTO,Trinidad and Tobago,High income,2001,55.901019,0.416136
+TTO,Trinidad and Tobago,High income,2002,55.829812,-0.979683
+TTO,Trinidad and Tobago,High income,2003,55.718805,1.607622
+TTO,Trinidad and Tobago,High income,2004,55.571124,-0.892733
+TTO,Trinidad and Tobago,High income,2005,55.389896,-2.889220
+TTO,Trinidad and Tobago,High income,2006,55.178246,0.774305
+TTO,Trinidad and Tobago,High income,2007,54.939300,0.307520
+TTO,Trinidad and Tobago,High income,2008,54.676186,-1.335184
+TTO,Trinidad and Tobago,High income,2009,54.392030,1.074519
+TTO,Trinidad and Tobago,High income,2010,54.089957,-0.962691
+TTO,Trinidad and Tobago,High income,2015,53.926665,3.502152
+TTO,Trinidad and Tobago,High income,2016,53.927752,-2.894993
+TTO,Trinidad and Tobago,High income,2018,53.931452,6.150730
+TTO,Trinidad and Tobago,High income,2019,53.934239,-3.041944
+URY,Uruguay,High income,1961,80.370259,6.607550
+URY,Uruguay,High income,1963,80.771378,-2.870001
+URY,Uruguay,High income,1964,80.965046,-1.655085
+URY,Uruguay,High income,1966,81.317279,3.543172
+URY,Uruguay,High income,1967,81.482238,3.881542
+URY,Uruguay,High income,1968,81.644734,-1.567010
+URY,Uruguay,High income,1969,81.808502,6.265683
+URY,Uruguay,High income,1970,81.977273,-1.228515
+URY,Uruguay,High income,1971,82.154781,0.974192
+URY,Uruguay,High income,1972,82.344757,-4.534067
+URY,Uruguay,High income,1973,82.550934,-0.632312
+URY,Uruguay,High income,1974,82.777045,1.029238
+URY,Uruguay,High income,1975,83.027966,3.271214
+URY,Uruguay,High income,1976,83.326906,6.623336
+URY,Uruguay,High income,1978,84.086633,12.399284
+URY,Uruguay,High income,1981,85.454335,5.438503
+URY,Uruguay,High income,1983,86.384399,-0.987558
+URY,Uruguay,High income,1984,86.820502,-0.346517
+URY,Uruguay,High income,1985,87.219003,2.740818
+URY,Uruguay,High income,1986,87.592494,0.138277
+URY,Uruguay,High income,1987,87.968787,2.615448
+URY,Uruguay,High income,1988,88.348168,2.895475
+URY,Uruguay,High income,1991,89.446883,4.910759
+URY,Uruguay,High income,1992,89.780656,8.805620
+URY,Uruguay,High income,1993,90.088535,19.448961
+URY,Uruguay,High income,1996,90.798717,15.622947
+URY,Uruguay,High income,1997,90.952719,5.935110
+URY,Uruguay,High income,1998,91.076356,18.846164
+URY,Uruguay,High income,2002,91.488608,-1.614551
+URY,Uruguay,High income,2003,91.626009,14.070116
+URY,Uruguay,High income,2004,91.800943,3.346210
+URY,Uruguay,High income,2005,92.081271,3.865665
+URY,Uruguay,High income,2006,92.484548,6.495604
+URY,Uruguay,High income,2007,92.960369,11.056690
+URY,Uruguay,High income,2008,93.459756,6.145302
+URY,Uruguay,High income,2010,94.333322,10.533525
+URY,Uruguay,High income,2011,94.603682,17.614973
+URY,Uruguay,High income,2012,94.760660,5.788845
+USA,United States,High income,1971,73.533032,9.947640
+USA,United States,High income,1972,73.562808,6.482293
+USA,United States,High income,1973,73.585519,9.207542
+USA,United States,High income,1976,73.635397,6.688558
+USA,United States,High income,1977,73.653983,5.283509
+USA,United States,High income,1978,73.677569,5.487965
+USA,United States,High income,1979,73.708570,9.687809
+USA,United States,High income,1983,74.016347,11.101643
+USA,United States,High income,1984,74.150051,4.769430
+USA,United States,High income,1985,74.302352,11.141875
+USA,United States,High income,1986,74.470941,17.506962
+USA,United States,High income,1993,76.299811,10.586813
+USA,United States,High income,1994,76.740566,8.148450
+USA,United States,High income,1995,77.197705,9.211717
+USA,United States,High income,1996,77.652340,8.087599
+USA,United States,High income,1997,78.085580,8.697417
+USA,United States,High income,1998,78.478536,6.841779
+USA,United States,High income,1999,78.812318,7.303012
+USA,United States,High income,2000,79.074090,9.024608
+USA,United States,High income,2003,79.777335,13.069713
+USA,United States,High income,2004,79.996094,7.105152
+USA,United States,High income,2005,80.196158,6.293433
+USA,United States,High income,2006,80.371307,12.925170
+USA,United States,High income,2009,80.685038,-1.131018
+USA,United States,High income,2011,80.695755,5.340243
+USA,United States,High income,2012,80.683749,3.801310
+USA,United States,High income,2013,80.660889,6.722588
+USA,United States,High income,2014,80.624223,4.297451
+USA,United States,High income,2015,80.570799,6.043185
+USA,United States,High income,2016,80.497665,11.725633
+USA,United States,High income,2017,80.401868,6.134067
+USA,United States,High income,2018,80.280457,6.062756
+USA,United States,High income,2019,80.130479,8.677996
+BFA,Burkina Faso,Low income,1982,9.716013,6.321192
+BFA,Burkina Faso,Low income,1985,11.458147,6.076055
+BFA,Burkina Faso,Low income,1991,13.536431,8.010234
+BFA,Burkina Faso,Low income,1994,14.513148,4.590063
+BFA,Burkina Faso,Low income,1996,15.319145,10.938255
+BFA,Burkina Faso,Low income,1997,15.814128,9.133163
+BFA,Burkina Faso,Low income,1999,17.183417,-4.945893
+BFA,Burkina Faso,Low income,2003,20.563327,8.264613
+BFA,Burkina Faso,Low income,2004,21.339218,10.743500
+BFA,Burkina Faso,Low income,2006,22.552831,16.201076
+BFA,Burkina Faso,Low income,2007,22.974176,8.734331
+BFA,Burkina Faso,Low income,2009,23.745233,15.023824
+BFA,Burkina Faso,Low income,2010,24.115092,12.067319
+BFA,Burkina Faso,Low income,2011,24.468298,16.613686
+BFA,Burkina Faso,Low income,2012,24.800191,17.369716
+BFA,Burkina Faso,Low income,2013,25.106116,15.961740
+BFA,Burkina Faso,Low income,2016,25.821510,17.087090
+CAF,Central African Republic,Low income,1978,35.445303,6.397120
+CAF,Central African Republic,Low income,1979,35.700374,1.222884
+CAF,Central African Republic,Low income,1980,35.927609,6.775438
+CAF,Central African Republic,Low income,1983,36.466865,-0.950812
+CAF,Central African Republic,Low income,1984,36.607322,-2.128043
+CAF,Central African Republic,Low income,1988,37.038180,0.477679
+CAF,Central African Republic,Low income,1989,37.124378,9.618034
+CAF,Central African Republic,Low income,1990,37.200801,16.950544
+CAF,Central African Republic,Low income,1993,37.381706,-0.473000
+CAF,Central African Republic,Low income,1994,37.430557,8.945097
+CAF,Central African Republic,Low income,1995,37.476016,18.807195
+CAF,Central African Republic,Low income,1996,37.519486,4.500064
+CAF,Central African Republic,Low income,1999,37.651967,4.099227
+CAF,Central African Republic,Low income,2003,37.886317,3.769372
+CAF,Central African Republic,Low income,2005,38.044851,3.036415
+CAF,Central African Republic,Low income,2006,38.134434,15.821719
+CAF,Central African Republic,Low income,2007,38.234334,10.052451
+CAF,Central African Republic,Low income,2008,38.347449,4.870758
+CAF,Central African Republic,Low income,2009,38.476676,9.694583
+CAF,Central African Republic,Low income,2010,38.624496,4.712472
+CAF,Central African Republic,Low income,2011,38.803067,-4.639349
+CAF,Central African Republic,Low income,2012,39.030170,-1.657140
+CAF,Central African Republic,Low income,2013,39.304296,2.757413
+CAF,Central African Republic,Low income,2014,39.622652,1.103295
+CAF,Central African Republic,Low income,2016,40.380871,16.461209
+CAF,Central African Republic,Low income,2017,40.815144,7.057378
+CAF,Central African Republic,Low income,2018,41.282467,-4.235442
+COD,"Congo, Dem. Rep.",Low income,1995,32.456171,-1.436800
+COD,"Congo, Dem. Rep.",Low income,1996,32.926262,-0.221652
+COD,"Congo, Dem. Rep.",Low income,1997,33.406325,0.191676
+COD,"Congo, Dem. Rep.",Low income,1998,33.895814,11.095279
+COD,"Congo, Dem. Rep.",Low income,1999,34.394180,-4.540822
+COD,"Congo, Dem. Rep.",Low income,2000,34.900875,-0.467092
+COD,"Congo, Dem. Rep.",Low income,2001,35.415353,0.502784
+COD,"Congo, Dem. Rep.",Low income,2002,35.937064,2.094496
+COD,"Congo, Dem. Rep.",Low income,2003,36.465463,1.057876
+COD,"Congo, Dem. Rep.",Low income,2004,37.000000,0.418321
+COD,"Congo, Dem. Rep.",Low income,2005,37.401874,0.654702
+COD,"Congo, Dem. Rep.",Low income,2007,38.201781,2.877713
+COD,"Congo, Dem. Rep.",Low income,2008,38.599725,1.003260
+COD,"Congo, Dem. Rep.",Low income,2010,39.391364,2.760600
+COD,"Congo, Dem. Rep.",Low income,2011,39.784969,10.515704
+COD,"Congo, Dem. Rep.",Low income,2013,40.567526,5.522139
+COD,"Congo, Dem. Rep.",Low income,2014,40.956387,8.836987
+COD,"Congo, Dem. Rep.",Low income,2016,41.729048,9.748422
+COD,"Congo, Dem. Rep.",Low income,2018,42.494660,11.691345
+COD,"Congo, Dem. Rep.",Low income,2019,42.874709,-3.989043
+GIN,Guinea,Low income,1987,27.403051,7.754503
+GIN,Guinea,Low income,1988,27.683761,8.530039
+GIN,Guinea,Low income,1989,27.953485,19.900823
+GIN,Guinea,Low income,1990,28.215042,11.504394
+GIN,Guinea,Low income,1994,29.236001,8.863964
+GIN,Guinea,Low income,1995,29.499024,3.579233
+GIN,Guinea,Low income,1997,30.052832,8.978663
+GIN,Guinea,Low income,1999,30.630217,7.023258
+GIN,Guinea,Low income,2000,30.923111,11.073574
+GIN,Guinea,Low income,2001,31.217695,-2.889245
+GIN,Guinea,Low income,2003,31.808602,3.393084
+GIN,Guinea,Low income,2006,32.686809,3.214881
+GIN,Guinea,Low income,2007,32.974039,5.269326
+GIN,Guinea,Low income,2011,34.073205,5.973289
+GIN,Guinea,Low income,2012,34.331394,12.153713
+GIN,Guinea,Low income,2015,35.037319,15.801511
+GIN,Guinea,Low income,2016,35.310028,3.148729
+GIN,Guinea,Low income,2017,35.582733,-1.536033
+GIN,Guinea,Low income,2018,35.855438,-4.637170
+GMB,"Gambia, The",Low income,1982,29.993905,-2.843108
+GMB,"Gambia, The",Low income,1985,32.454061,-1.985358
+GMB,"Gambia, The",Low income,1986,33.050458,3.668885
+GMB,"Gambia, The",Low income,1989,34.626476,7.361390
+GMB,"Gambia, The",Low income,1990,35.176748,12.199512
+GMB,"Gambia, The",Low income,1992,36.487475,9.419884
+GMB,"Gambia, The",Low income,1993,37.313085,-1.996847
+GMB,"Gambia, The",Low income,1995,39.566661,14.400685
+GMB,"Gambia, The",Low income,2001,48.349198,6.113046
+GMB,"Gambia, The",Low income,2004,51.506202,3.911572
+GMB,"Gambia, The",Low income,2006,53.160329,7.962423
+GMB,"Gambia, The",Low income,2007,53.919611,-4.898794
+GMB,"Gambia, The",Low income,2009,55.337929,3.168161
+GMB,"Gambia, The",Low income,2010,56.011090,3.598518
+GMB,"Gambia, The",Low income,2011,56.669669,-3.609320
+GMB,"Gambia, The",Low income,2012,57.320730,1.055283
+GMB,"Gambia, The",Low income,2013,57.970306,-1.664363
+GMB,"Gambia, The",Low income,2014,58.614180,5.394098
+GMB,"Gambia, The",Low income,2015,59.245850,4.639460
+GMB,"Gambia, The",Low income,2016,59.865247,6.853682
+GMB,"Gambia, The",Low income,2019,61.643211,6.232134
+GNB,Guinea-Bissau,Low income,1981,18.199327,12.095766
+GNB,Guinea-Bissau,Low income,1982,19.424261,7.491424
+GNB,Guinea-Bissau,Low income,1983,20.871392,-2.960593
+GNB,Guinea-Bissau,Low income,1984,22.476769,1.871353
+GNB,Guinea-Bissau,Low income,1986,25.906459,-1.437101
+GNB,Guinea-Bissau,Low income,1987,27.602873,1.801285
+GNB,Guinea-Bissau,Low income,1988,29.201731,2.990167
+GNB,Guinea-Bissau,Low income,1990,31.850983,-3.687194
+GNB,Guinea-Bissau,Low income,1991,32.751651,9.471462
+GNB,Guinea-Bissau,Low income,1992,33.400299,2.019542
+GNB,Guinea-Bissau,Low income,1993,33.951925,-1.239143
+GNB,Guinea-Bissau,Low income,1994,34.460884,-2.245133
+GNB,Guinea-Bissau,Low income,1995,34.931150,8.313067
+GNB,Guinea-Bissau,Low income,1996,35.366698,2.773500
+GNB,Guinea-Bissau,Low income,1997,35.771503,0.456857
+GNB,Guinea-Bissau,Low income,1998,36.149540,0.106577
+GNB,Guinea-Bissau,Low income,1999,36.504782,0.654594
+GNB,Guinea-Bissau,Low income,2000,36.841205,-2.848694
+GNB,Guinea-Bissau,Low income,2002,37.473492,1.199827
+GNB,Guinea-Bissau,Low income,2003,37.777306,2.421301
+GNB,Guinea-Bissau,Low income,2004,38.078198,-0.551929
+GNB,Guinea-Bissau,Low income,2005,38.380144,-1.405644
+GNB,Guinea-Bissau,Low income,2006,38.687119,1.649799
+GNB,Guinea-Bissau,Low income,2007,39.003098,1.368659
+GNB,Guinea-Bissau,Low income,2008,39.332054,-0.611609
+GNB,Guinea-Bissau,Low income,2009,39.671643,2.331795
+GNB,Guinea-Bissau,Low income,2010,40.009560,2.228426
+GNB,Guinea-Bissau,Low income,2011,40.439114,-1.508387
+GNB,Guinea-Bissau,Low income,2012,40.868603,1.827861
+GNB,Guinea-Bissau,Low income,2013,41.297638,-3.236017
+GNB,Guinea-Bissau,Low income,2014,41.727200,3.282209
+GNB,Guinea-Bissau,Low income,2015,42.156815,-3.076609
+GNB,Guinea-Bissau,Low income,2016,42.586109,1.014682
+GNB,Guinea-Bissau,Low income,2017,43.015579,9.257085
+GNB,Guinea-Bissau,Low income,2018,43.444908,4.882624
+GNB,Guinea-Bissau,Low income,2019,43.874557,0.653692
+MDG,Madagascar,Low income,1971,14.536347,11.120437
+MDG,Madagascar,Low income,1972,15.047468,-2.521450
+MDG,Madagascar,Low income,1975,16.513653,9.705355
+MDG,Madagascar,Low income,1977,17.330261,3.174886
+MDG,Madagascar,Low income,1978,17.724505,-0.050933
+MDG,Madagascar,Low income,1979,18.109487,2.161862
+MDG,Madagascar,Low income,1980,18.485790,0.384437
+MDG,Madagascar,Low income,1981,18.853993,-0.135478
+MDG,Madagascar,Low income,1982,19.214677,0.223409
+MDG,Madagascar,Low income,1983,19.568424,16.972502
+MDG,Madagascar,Low income,1984,19.915814,-0.575996
+MDG,Madagascar,Low income,1985,20.257429,0.079630
+MDG,Madagascar,Low income,1986,20.593850,0.109036
+MDG,Madagascar,Low income,1987,20.925656,0.707582
+MDG,Madagascar,Low income,1988,21.253430,-1.567748
+MDG,Madagascar,Low income,1989,21.577753,0.409358
+MDG,Madagascar,Low income,1990,21.899204,-4.649905
+MDG,Madagascar,Low income,1991,22.218366,1.046524
+MDG,Madagascar,Low income,1992,22.535819,0.104079
+MDG,Madagascar,Low income,1993,22.852168,0.927564
+MDG,Madagascar,Low income,1994,23.167176,0.412183
+MDG,Madagascar,Low income,1995,23.480057,0.087072
+MDG,Madagascar,Low income,1996,23.790709,0.783767
+MDG,Madagascar,Low income,1997,24.099059,1.771205
+MDG,Madagascar,Low income,1998,24.405035,2.329485
+MDG,Madagascar,Low income,1999,24.708565,8.525707
+MDG,Madagascar,Low income,2001,25.307994,4.206578
+MDG,Madagascar,Low income,2002,25.603749,0.300450
+MDG,Madagascar,Low income,2003,25.896767,2.864752
+MDG,Madagascar,Low income,2004,26.186975,2.376686
+MDG,Madagascar,Low income,2006,26.758674,11.406878
+MDG,Madagascar,Low income,2007,27.040020,4.214645
+MDG,Madagascar,Low income,2008,27.318265,4.402483
+MDG,Madagascar,Low income,2010,27.865168,-2.545626
+MDG,Madagascar,Low income,2015,29.173108,18.782034
+MDG,Madagascar,Low income,2018,29.918113,8.919721
+MLI,Mali,Low income,1968,10.000239,7.188047
+MLI,Mali,Low income,1971,11.129485,2.480314
+MLI,Mali,Low income,1972,11.493509,2.226931
+MLI,Mali,Low income,1974,12.192532,-0.946575
+MLI,Mali,Low income,1975,12.524051,1.718857
+MLI,Mali,Low income,1976,12.840087,9.053349
+MLI,Mali,Low income,1977,13.145408,1.847854
+MLI,Mali,Low income,1978,13.448283,5.071992
+MLI,Mali,Low income,1979,13.750203,4.643835
+MLI,Mali,Low income,1980,14.049924,1.315446
+MLI,Mali,Low income,1982,14.637788,-3.945698
+MLI,Mali,Low income,1983,14.923441,-3.814214
+MLI,Mali,Low income,1984,15.201914,-2.765162
+MLI,Mali,Low income,1985,15.471963,3.179230
+MLI,Mali,Low income,1986,15.732342,3.784097
+MLI,Mali,Low income,1987,15.981036,1.654607
+MLI,Mali,Low income,1988,16.213291,-4.582995
+MLI,Mali,Low income,1989,16.428340,2.521067
+MLI,Mali,Low income,1991,16.826651,5.593424
+MLI,Mali,Low income,1992,17.019004,8.576641
+MLI,Mali,Low income,1994,17.412833,1.522596
+MLI,Mali,Low income,1995,17.623401,4.496619
+MLI,Mali,Low income,1998,18.364395,-1.919089
+MLI,Mali,Low income,2000,18.977631,7.845574
+MLI,Mali,Low income,2001,19.318195,5.014728
+MLI,Mali,Low income,2002,19.679298,19.401444
+MLI,Mali,Low income,2003,20.059423,3.667874
+MLI,Mali,Low income,2004,20.457053,5.653850
+MLI,Mali,Low income,2006,21.298761,4.140386
+MLI,Mali,Low income,2008,22.192285,7.527464
+MLI,Mali,Low income,2010,23.135946,10.375807
+MLI,Mali,Low income,2011,23.637967,16.370438
+MLI,Mali,Low income,2012,24.160617,-2.937363
+MLI,Mali,Low income,2013,24.703363,2.889186
+MLI,Mali,Low income,2014,25.265673,8.184077
+MLI,Mali,Low income,2016,26.446859,9.660427
+MLI,Mali,Low income,2019,28.352072,14.539261
+NER,Niger,Low income,1982,14.197699,-1.969147
+NER,Niger,Low income,1983,14.424863,-2.119783
+NER,Niger,Low income,1984,14.633720,3.203824
+NER,Niger,Low income,1988,15.268026,-2.070320
+NER,Niger,Low income,1990,15.448037,1.838077
+NER,Niger,Low income,1991,15.517103,7.391918
+NER,Niger,Low income,1993,15.656964,-3.661216
+NER,Niger,Low income,1994,15.727761,1.691469
+NER,Niger,Low income,1996,15.813844,0.441773
+NER,Niger,Low income,1998,15.972312,8.274293
+NER,Niger,Low income,1999,16.051540,-1.633414
+NER,Niger,Low income,2000,16.130768,1.551657
+NER,Niger,Low income,2001,16.268723,14.524816
+NER,Niger,Low income,2002,16.268721,18.920041
+NER,Niger,Low income,2004,16.268723,9.961030
+NER,Niger,Low income,2005,16.268723,5.084316
+NER,Niger,Low income,2006,16.267572,14.315272
+NER,Niger,Low income,2008,16.258671,6.035018
+NER,Niger,Low income,2009,16.251118,15.148136
+NER,Niger,Low income,2010,16.241630,9.946635
+NER,Niger,Low income,2013,16.216260,19.753123
+NER,Niger,Low income,2014,16.245042,15.538521
+NER,Niger,Low income,2015,16.303561,17.402876
+NER,Niger,Low income,2018,16.644901,9.894059
+NER,Niger,Low income,2019,16.813146,13.381474
+RWA,Rwanda,Low income,1966,2.936400,9.203399
+RWA,Rwanda,Low income,1967,2.996049,-1.353325
+RWA,Rwanda,Low income,1968,3.063424,13.889852
+RWA,Rwanda,Low income,1969,3.141038,6.691240
+RWA,Rwanda,Low income,1970,3.236229,3.553268
+RWA,Rwanda,Low income,1971,3.371148,2.531826
+RWA,Rwanda,Low income,1972,3.549704,15.490507
+RWA,Rwanda,Low income,1974,3.972369,6.918762
+RWA,Rwanda,Low income,1975,4.187420,5.006659
+RWA,Rwanda,Low income,1976,4.385577,5.250733
+RWA,Rwanda,Low income,1978,4.672238,3.390508
+RWA,Rwanda,Low income,1979,4.752428,4.035531
+RWA,Rwanda,Low income,1980,4.816388,-4.081321
+RWA,Rwanda,Low income,1981,4.868254,5.924048
+RWA,Rwanda,Low income,1982,4.910959,8.613317
+RWA,Rwanda,Low income,1983,4.947438,13.959103
+RWA,Rwanda,Low income,1986,5.048860,17.543574
+RWA,Rwanda,Low income,1990,5.274941,7.967696
+RWA,Rwanda,Low income,1992,5.663347,4.263654
+RWA,Rwanda,Low income,1994,7.483409,0.693039
+RWA,Rwanda,Low income,1995,8.815566,-0.270194
+RWA,Rwanda,Low income,1996,10.298568,1.552279
+RWA,Rwanda,Low income,1997,11.834486,5.443407
+RWA,Rwanda,Low income,1998,13.325392,3.979004
+RWA,Rwanda,Low income,2000,15.780447,12.541682
+RWA,Rwanda,Low income,2001,16.548740,9.751289
+RWA,Rwanda,Low income,2002,16.877885,10.690058
+RWA,Rwanda,Low income,2003,16.894743,19.293973
+RWA,Rwanda,Low income,2004,16.902010,8.341824
+RWA,Rwanda,Low income,2005,16.907211,9.816128
+RWA,Rwanda,Low income,2007,16.914084,11.443029
+RWA,Rwanda,Low income,2008,16.917087,6.348251
+RWA,Rwanda,Low income,2011,16.932359,16.090102
+RWA,Rwanda,Low income,2012,16.941025,10.466001
+RWA,Rwanda,Low income,2013,17.074221,19.214521
+RWA,Rwanda,Low income,2015,18.195315,13.819864
+RWA,Rwanda,Low income,2016,19.121395,10.020737
+RWA,Rwanda,Low income,2018,21.541844,16.751556
+RWA,Rwanda,Low income,2019,22.971103,7.518950
+SDN,Sudan,Low income,1977,19.328328,-4.333594
+SDN,Sudan,Low income,1981,20.038772,4.492381
+SDN,Sudan,Low income,1982,20.310994,4.226348
+SDN,Sudan,Low income,1983,20.708940,-2.190642
+SDN,Sudan,Low income,1984,21.447488,-0.480420
+SDN,Sudan,Low income,1985,22.573409,-2.645837
+SDN,Sudan,Low income,1986,23.956706,11.330759
+SDN,Sudan,Low income,1987,25.491708,5.677296
+SDN,Sudan,Low income,1988,27.072745,-3.076299
+SDN,Sudan,Low income,1990,29.950239,8.811473
+SDN,Sudan,Low income,1992,31.743818,9.959517
+SDN,Sudan,Low income,1993,31.988448,5.227529
+SDN,Sudan,Low income,1994,32.048693,-4.071295
+SDN,Sudan,Low income,1995,32.110063,-2.820503
+SDN,Sudan,Low income,1996,32.166465,1.710594
+SDN,Sudan,Low income,1998,32.264606,17.847649
+SDN,Sudan,Low income,2000,32.343588,0.489631
+SDN,Sudan,Low income,2002,32.403882,10.752778
+SDN,Sudan,Low income,2003,32.427168,9.401353
+SDN,Sudan,Low income,2004,32.445960,6.994653
+SDN,Sudan,Low income,2006,32.470293,9.476641
+SDN,Sudan,Low income,2009,32.577462,18.495816
+SDN,Sudan,Low income,2011,32.905976,8.301221
+SDN,Sudan,Low income,2012,33.142556,-2.103756
+SDN,Sudan,Low income,2016,34.188196,-4.238252
+SDN,Sudan,Low income,2017,34.287223,4.412694
+SDN,Sudan,Low income,2019,34.472769,2.646623
+SLE,Sierra Leone,Low income,1981,30.634673,2.206319
+SLE,Sierra Leone,Low income,1982,31.034891,-1.220502
+SLE,Sierra Leone,Low income,1985,32.101509,-0.940883
+SLE,Sierra Leone,Low income,1987,32.700709,0.488235
+SLE,Sierra Leone,Low income,1988,32.969310,-0.483342
+SLE,Sierra Leone,Low income,1989,33.220723,1.300127
+SLE,Sierra Leone,Low income,1990,33.457330,0.372226
+SLE,Sierra Leone,Low income,1991,33.681509,-1.270771
+SLE,Sierra Leone,Low income,1992,33.895644,-0.742456
+SLE,Sierra Leone,Low income,1993,34.102113,7.160697
+SLE,Sierra Leone,Low income,1994,34.303299,1.537400
+SLE,Sierra Leone,Low income,1995,34.501583,0.937629
+SLE,Sierra Leone,Low income,1996,34.699344,-0.353719
+SLE,Sierra Leone,Low income,1997,34.898964,0.531897
+SLE,Sierra Leone,Low income,1998,35.102824,-0.819685
+SLE,Sierra Leone,Low income,1999,35.313305,1.456921
+SLE,Sierra Leone,Low income,2000,35.532787,-4.298512
+SLE,Sierra Leone,Low income,2001,35.763651,-0.188959
+SLE,Sierra Leone,Low income,2002,36.008279,-0.010549
+SLE,Sierra Leone,Low income,2003,36.269051,1.118818
+SLE,Sierra Leone,Low income,2004,36.549128,-2.951829
+SLE,Sierra Leone,Low income,2005,36.848552,1.751177
+SLE,Sierra Leone,Low income,2008,37.872595,3.598440
+SLE,Sierra Leone,Low income,2009,38.249635,2.564577
+SLE,Sierra Leone,Low income,2010,38.641733,1.030896
+SLE,Sierra Leone,Low income,2011,39.047215,2.255463
+SLE,Sierra Leone,Low income,2012,39.464409,-1.337184
+SLE,Sierra Leone,Low income,2013,39.891642,-1.157225
+SLE,Sierra Leone,Low income,2014,40.327241,-2.660541
+SLE,Sierra Leone,Low income,2015,40.766957,4.023639
+SLE,Sierra Leone,Low income,2016,41.229412,10.235084
+SLE,Sierra Leone,Low income,2017,41.710668,3.558817
+SLE,Sierra Leone,Low income,2018,42.201103,-0.136662
+SLE,Sierra Leone,Low income,2019,42.701844,0.325987
+TCD,Chad,Low income,1984,20.199878,-3.095591
+TCD,Chad,Low income,1985,20.422162,-0.923566
+TCD,Chad,Low income,1986,20.622029,-0.336818
+TCD,Chad,Low income,1987,20.799665,4.494887
+TCD,Chad,Low income,1988,20.955257,-4.057773
+TCD,Chad,Low income,1989,21.088993,2.337910
+TCD,Chad,Low income,1990,21.201060,-2.863913
+TCD,Chad,Low income,1991,21.291645,12.713091
+TCD,Chad,Low income,1992,21.360935,3.225437
+TCD,Chad,Low income,1993,21.410120,4.841651
+TCD,Chad,Low income,1994,21.450706,0.535776
+TCD,Chad,Low income,1995,21.489847,0.760998
+TCD,Chad,Low income,1996,21.526936,2.989055
+TCD,Chad,Low income,1997,21.561872,1.166396
+TCD,Chad,Low income,1998,21.594556,-2.541228
+TCD,Chad,Low income,1999,21.624888,1.437512
+TCD,Chad,Low income,2000,21.652769,1.274250
+TCD,Chad,Low income,2001,21.678098,1.274940
+TCD,Chad,Low income,2002,21.700776,1.605877
+TCD,Chad,Low income,2004,21.737779,-1.297424
+TCD,Chad,Low income,2005,21.751905,5.634399
+TCD,Chad,Low income,2007,21.770905,19.397863
+TCD,Chad,Low income,2009,21.778440,12.718864
+TCD,Chad,Low income,2010,21.847238,16.189249
+TCD,Chad,Low income,2011,21.955874,14.284384
+TCD,Chad,Low income,2012,22.106190,14.025967
+TCD,Chad,Low income,2013,22.297593,6.109248
+TCD,Chad,Low income,2016,23.111973,-0.407728
+TCD,Chad,Low income,2018,23.848608,2.554625
+TCD,Chad,Low income,2019,24.273105,1.996998
+TGO,Togo,Low income,1981,25.057239,-1.800814
+TGO,Togo,Low income,1982,25.428187,-2.680845
+TGO,Togo,Low income,1983,25.811578,1.354426
+TGO,Togo,Low income,1984,26.202168,2.572762
+TGO,Togo,Low income,1985,26.599551,-0.166079
+TGO,Togo,Low income,1986,27.003320,4.606356
+TGO,Togo,Low income,1987,27.413071,-1.595892
+TGO,Togo,Low income,1988,27.828397,-3.580977
+TGO,Togo,Low income,1990,28.674153,-3.360954
+TGO,Togo,Low income,1991,29.103770,-3.684325
+TGO,Togo,Low income,1992,29.537340,16.980871
+TGO,Togo,Low income,1994,30.414714,5.210216
+TGO,Togo,Low income,1995,30.857705,0.073296
+TGO,Togo,Low income,1996,31.303026,5.599171
+TGO,Togo,Low income,1997,31.750270,-0.992210
+TGO,Togo,Low income,1998,32.199032,2.605727
+TGO,Togo,Low income,1999,32.648905,-0.174970
+TGO,Togo,Low income,2000,33.099484,2.106847
+TGO,Togo,Low income,2001,33.550364,13.261611
+TGO,Togo,Low income,2002,34.001137,12.020386
+TGO,Togo,Low income,2003,34.451399,12.139763
+TGO,Togo,Low income,2006,35.795058,7.712944
+TGO,Togo,Low income,2008,36.680833,10.568927
+TGO,Togo,Low income,2009,37.119504,14.234313
+TGO,Togo,Low income,2010,37.554588,13.096113
+TGO,Togo,Low income,2011,37.987231,6.603226
+TGO,Togo,Low income,2013,38.851677,19.533889
+TGO,Togo,Low income,2014,39.283951,7.157193
+TGO,Togo,Low income,2015,39.716255,11.727527
+TGO,Togo,Low income,2017,40.580946,-4.978241
+TGO,Togo,Low income,2018,41.013328,14.877596
+TJK,Tajikistan,Low income,2012,26.410225,16.847286
+TJK,Tajikistan,Low income,2015,26.478832,-2.715732
+TJK,Tajikistan,Low income,2017,26.273151,3.518791
+TJK,Tajikistan,Low income,2018,26.233875,-1.914520
+TJK,Tajikistan,Low income,2019,26.130074,3.122700
+TZA,Tanzania,Low income,1995,20.512389,-4.258621
+TZA,Tanzania,Low income,1998,21.470736,0.992639
+TZA,Tanzania,Low income,2001,22.596323,8.833990
+TZA,Tanzania,Low income,2002,23.030692,17.201796
+TZA,Tanzania,Low income,2003,23.520209,5.636421
+TZA,Tanzania,Low income,2004,24.083247,4.008125
+TZA,Tanzania,Low income,2005,24.706188,5.661048
+TZA,Tanzania,Low income,2006,25.374103,6.494877
+TZA,Tanzania,Low income,2007,26.072061,7.924317
+TZA,Tanzania,Low income,2008,26.785133,9.262617
+TZA,Tanzania,Low income,2011,28.865726,6.463628
+TZA,Tanzania,Low income,2013,30.072511,14.422763
+TZA,Tanzania,Low income,2016,31.757730,17.064357
+TZA,Tanzania,Low income,2017,32.298701,12.454037
+TZA,Tanzania,Low income,2018,32.828742,10.934702
+TZA,Tanzania,Low income,2019,33.347526,12.193601
+UGA,Uganda,Low income,1983,7.425207,-3.013874
+UGA,Uganda,Low income,1984,7.742547,7.863793
+UGA,Uganda,Low income,1985,8.085810,14.074786
+UGA,Uganda,Low income,1987,8.801122,10.882017
+UGA,Uganda,Low income,1988,9.148678,8.018106
+UGA,Uganda,Low income,1989,9.473173,13.559186
+UGA,Uganda,Low income,1990,9.762360,5.978472
+UGA,Uganda,Low income,1991,10.005323,4.086525
+UGA,Uganda,Low income,1992,10.215852,9.008252
+UGA,Uganda,Low income,1995,10.727372,7.107458
+UGA,Uganda,Low income,1996,10.883930,9.795369
+UGA,Uganda,Low income,1999,11.417313,4.650393
+UGA,Uganda,Low income,2002,12.202794,8.920526
+UGA,Uganda,Low income,2003,12.590414,12.044227
+UGA,Uganda,Low income,2005,13.790724,8.718958
+UGA,Uganda,Low income,2007,15.494298,12.720983
+UGA,Uganda,Low income,2008,16.507064,11.593192
+UGA,Uganda,Low income,2009,17.612352,9.681767
+UGA,Uganda,Low income,2010,18.799065,9.004409
+UGA,Uganda,Low income,2011,20.056103,16.297063
+UGA,Uganda,Low income,2013,22.736766,4.768407
+UGA,Uganda,Low income,2016,25.695357,10.560267
+UGA,Uganda,Low income,2019,27.836978,12.091547
+AGO,Angola,Lower middle income,2004,55.044528,8.794801
+AGO,Angola,Lower middle income,2007,57.756463,6.859539
+AGO,Angola,Lower middle income,2008,58.585175,8.133160
+AGO,Angola,Lower middle income,2009,59.377532,4.703770
+AGO,Angola,Lower middle income,2010,60.131029,-3.679624
+AGO,Angola,Lower middle income,2012,61.511422,19.595746
+AGO,Angola,Lower middle income,2014,62.723116,18.270095
+AGO,Angola,Lower middle income,2018,65.873214,-1.971973
+BEN,Benin,Lower middle income,1983,29.766536,-1.480917
+BEN,Benin,Lower middle income,1984,30.580491,-1.948645
+BEN,Benin,Lower middle income,1985,31.377171,1.397872
+BEN,Benin,Lower middle income,1986,32.148473,1.117886
+BEN,Benin,Lower middle income,1988,33.582538,0.953749
+BEN,Benin,Lower middle income,1989,34.229097,-0.302610
+BEN,Benin,Lower middle income,1990,34.817870,5.220822
+BEN,Benin,Lower middle income,1991,35.340756,9.850068
+BEN,Benin,Lower middle income,1992,35.789762,11.308846
+BEN,Benin,Lower middle income,1993,36.181941,8.954752
+BEN,Benin,Lower middle income,1994,36.527325,4.151297
+BEN,Benin,Lower middle income,1995,36.838514,5.972902
+BEN,Benin,Lower middle income,1997,37.403381,7.941888
+BEN,Benin,Lower middle income,1998,37.679599,19.933301
+BEN,Benin,Lower middle income,1999,37.966699,4.104741
+BEN,Benin,Lower middle income,2001,38.618626,13.225974
+BEN,Benin,Lower middle income,2003,39.416970,13.637029
+BEN,Benin,Lower middle income,2007,41.285778,4.587115
+BEN,Benin,Lower middle income,2009,42.338538,16.542443
+BEN,Benin,Lower middle income,2010,42.891689,14.615076
+BEN,Benin,Lower middle income,2013,44.650288,7.459758
+BEN,Benin,Lower middle income,2014,45.288053,17.478553
+BEN,Benin,Lower middle income,2017,47.294277,9.062853
+BEN,Benin,Lower middle income,2018,47.995283,12.342589
+BGD,Bangladesh,Lower middle income,1981,15.393663,11.028287
+BGD,Bangladesh,Lower middle income,1991,20.266686,19.357385
+BGD,Bangladesh,Lower middle income,1992,20.648333,18.049480
+BGD,Bangladesh,Lower middle income,1993,21.002845,18.340109
+BGD,Bangladesh,Lower middle income,1995,21.661232,19.473636
+BGD,Bangladesh,Lower middle income,1996,21.978079,14.272417
+BGD,Bangladesh,Lower middle income,1997,22.295344,19.307418
+BTN,Bhutan,Lower middle income,1981,13.047203,16.216608
+BTN,Bhutan,Lower middle income,1983,14.662003,17.855657
+BTN,Bhutan,Lower middle income,1985,16.265483,15.776932
+BTN,Bhutan,Lower middle income,1988,18.642127,19.917172
+BTN,Bhutan,Lower middle income,1991,20.974397,5.298473
+BTN,Bhutan,Lower middle income,1992,21.739999,10.541737
+BTN,Bhutan,Lower middle income,1999,26.890574,15.641069
+BTN,Bhutan,Lower middle income,2000,27.591524,11.716431
+BTN,Bhutan,Lower middle income,2001,28.282502,14.332249
+BTN,Bhutan,Lower middle income,2002,28.963088,17.943163
+BTN,Bhutan,Lower middle income,2008,32.763720,18.225654
+BTN,Bhutan,Lower middle income,2009,33.339680,18.243406
+BTN,Bhutan,Lower middle income,2010,33.905197,10.957240
+CIV,Cote d'Ivoire,Lower middle income,1969,27.539200,14.463862
+CIV,Cote d'Ivoire,Lower middle income,1970,28.185943,4.954533
+CIV,Cote d'Ivoire,Lower middle income,1971,28.844332,10.832559
+CIV,Cote d'Ivoire,Lower middle income,1973,30.309978,8.740177
+CIV,Cote d'Ivoire,Lower middle income,1975,32.192205,5.105722
+CIV,Cote d'Ivoire,Lower middle income,1976,33.671097,9.013158
+CIV,Cote d'Ivoire,Lower middle income,1977,35.313770,6.866102
+CIV,Cote d'Ivoire,Lower middle income,1978,36.400002,6.242068
+CIV,Cote d'Ivoire,Lower middle income,1980,37.182547,-4.592644
+CIV,Cote d'Ivoire,Lower middle income,1983,37.967455,-2.472541
+CIV,Cote d'Ivoire,Lower middle income,1984,38.184078,-0.027020
+CIV,Cote d'Ivoire,Lower middle income,1985,38.395636,-0.843096
+CIV,Cote d'Ivoire,Lower middle income,1986,38.613496,4.003217
+CIV,Cote d'Ivoire,Lower middle income,1987,38.849027,-2.982951
+CIV,Cote d'Ivoire,Lower middle income,1988,39.111703,4.978472
+CIV,Cote d'Ivoire,Lower middle income,1989,39.392566,1.427496
+CIV,Cote d'Ivoire,Lower middle income,1990,39.684543,2.137391
+CIV,Cote d'Ivoire,Lower middle income,1993,40.622591,-3.106632
+CIV,Cote d'Ivoire,Lower middle income,1994,40.953435,-0.012607
+CIV,Cote d'Ivoire,Lower middle income,1995,41.292087,1.353272
+CIV,Cote d'Ivoire,Lower middle income,1996,41.637785,1.091548
+CIV,Cote d'Ivoire,Lower middle income,1997,41.989765,12.036090
+CIV,Cote d'Ivoire,Lower middle income,1998,42.347206,7.284147
+CIV,Cote d'Ivoire,Lower middle income,1999,42.710691,6.144574
+CIV,Cote d'Ivoire,Lower middle income,2000,43.084007,-0.334812
+CIV,Cote d'Ivoire,Lower middle income,2001,43.467015,0.755833
+CIV,Cote d'Ivoire,Lower middle income,2003,44.259374,-0.001801
+CIV,Cote d'Ivoire,Lower middle income,2004,44.667358,2.094921
+CIV,Cote d'Ivoire,Lower middle income,2005,45.082299,4.019302
+CIV,Cote d'Ivoire,Lower middle income,2006,45.503513,3.985185
+CIV,Cote d'Ivoire,Lower middle income,2007,45.930317,2.691341
+CIV,Cote d'Ivoire,Lower middle income,2009,46.797960,13.609597
+CIV,Cote d'Ivoire,Lower middle income,2010,47.237430,2.365851
+CIV,Cote d'Ivoire,Lower middle income,2011,47.679755,-1.192851
+CIV,Cote d'Ivoire,Lower middle income,2013,48.570233,5.460071
+CIV,Cote d'Ivoire,Lower middle income,2014,49.017314,10.060168
+CIV,Cote d'Ivoire,Lower middle income,2015,49.469489,16.125846
+CMR,Cameroon,Lower middle income,1977,29.419915,1.121288
+CMR,Cameroon,Lower middle income,1978,30.435200,2.860640
+CMR,Cameroon,Lower middle income,1980,32.343731,-1.520735
+CMR,Cameroon,Lower middle income,1981,33.241528,3.866414
+CMR,Cameroon,Lower middle income,1983,34.935561,17.766736
+CMR,Cameroon,Lower middle income,1986,37.256842,2.658753
+CMR,Cameroon,Lower middle income,1988,38.693414,-3.198417
+CMR,Cameroon,Lower middle income,1989,39.396169,-4.016552
+CMR,Cameroon,Lower middle income,1990,40.088736,-4.353264
+CMR,Cameroon,Lower middle income,1992,41.439508,-0.399573
+CMR,Cameroon,Lower middle income,1994,42.738123,3.792029
+CMR,Cameroon,Lower middle income,1995,43.365496,15.812055
+CMR,Cameroon,Lower middle income,1996,43.976977,11.400966
+CMR,Cameroon,Lower middle income,1997,44.571618,8.627209
+CMR,Cameroon,Lower middle income,1998,45.148466,11.254110
+CMR,Cameroon,Lower middle income,2001,46.762751,9.799015
+CMR,Cameroon,Lower middle income,2004,48.182685,11.449268
+CMR,Cameroon,Lower middle income,2007,49.702703,11.461458
+CMR,Cameroon,Lower middle income,2008,50.085833,13.670474
+CMR,Cameroon,Lower middle income,2014,52.299394,15.536071
+CMR,Cameroon,Lower middle income,2016,52.981503,18.615299
+COG,"Congo, Rep.",Lower middle income,1975,40.243770,4.713904
+COG,"Congo, Rep.",Lower middle income,1976,41.213317,-3.815260
+COG,"Congo, Rep.",Lower middle income,1977,42.418910,-2.937795
+COG,"Congo, Rep.",Lower middle income,1979,45.261956,7.658709
+COG,"Congo, Rep.",Lower middle income,1980,46.761266,4.449444
+COG,"Congo, Rep.",Lower middle income,1981,48.220341,6.068012
+COG,"Congo, Rep.",Lower middle income,1982,49.570110,6.694557
+COG,"Congo, Rep.",Lower middle income,1983,50.741502,-4.300819
+COG,"Congo, Rep.",Lower middle income,1987,53.352568,-0.371378
+COG,"Congo, Rep.",Lower middle income,1988,53.796187,3.313689
+COG,"Congo, Rep.",Lower middle income,1989,54.202140,1.526895
+COG,"Congo, Rep.",Lower middle income,1990,54.580426,-0.204460
+COG,"Congo, Rep.",Lower middle income,1991,54.941043,1.085006
+COG,"Congo, Rep.",Lower middle income,1992,55.293991,2.104166
+COG,"Congo, Rep.",Lower middle income,1993,55.649269,1.907700
+COG,"Congo, Rep.",Lower middle income,1994,56.016878,2.624809
+COG,"Congo, Rep.",Lower middle income,1995,56.406815,-1.078141
+COG,"Congo, Rep.",Lower middle income,1996,56.829318,3.592210
+COG,"Congo, Rep.",Lower middle income,1997,57.297651,-0.385310
+COG,"Congo, Rep.",Lower middle income,1998,57.807929,2.425565
+COG,"Congo, Rep.",Lower middle income,1999,58.345205,-4.144844
+COG,"Congo, Rep.",Lower middle income,2000,58.894738,0.467688
+COG,"Congo, Rep.",Lower middle income,2001,59.441786,0.622383
+COG,"Congo, Rep.",Lower middle income,2002,59.971607,0.309088
+COG,"Congo, Rep.",Lower middle income,2003,60.469458,1.063127
+COG,"Congo, Rep.",Lower middle income,2004,60.920599,-3.263839
+COG,"Congo, Rep.",Lower middle income,2005,61.310287,7.449159
+COG,"Congo, Rep.",Lower middle income,2006,61.623779,7.009142
+COG,"Congo, Rep.",Lower middle income,2007,61.850256,2.745977
+COG,"Congo, Rep.",Lower middle income,2008,62.035482,-4.176284
+COG,"Congo, Rep.",Lower middle income,2009,62.217229,3.335682
+COG,"Congo, Rep.",Lower middle income,2012,62.718717,8.955060
+COG,"Congo, Rep.",Lower middle income,2013,62.868282,8.647214
+COG,"Congo, Rep.",Lower middle income,2014,63.007542,7.893828
+COG,"Congo, Rep.",Lower middle income,2015,63.135593,4.464424
+COG,"Congo, Rep.",Lower middle income,2017,63.354455,-0.487669
+COG,"Congo, Rep.",Lower middle income,2018,63.443458,-0.364933
+COM,Comoros,Lower middle income,1990,28.348162,19.801728
+COM,Comoros,Lower middle income,1997,28.220934,11.648262
+COM,Comoros,Lower middle income,1999,28.092213,14.560942
+COM,Comoros,Lower middle income,2001,27.990289,3.250184
+COM,Comoros,Lower middle income,2002,27.958627,1.910961
+COM,Comoros,Lower middle income,2005,28.016895,-0.487125
+COM,Comoros,Lower middle income,2007,28.249332,2.440498
+COM,Comoros,Lower middle income,2008,28.419350,2.080887
+COM,Comoros,Lower middle income,2009,28.621798,-2.669265
+COM,Comoros,Lower middle income,2010,28.854098,2.127514
+COM,Comoros,Lower middle income,2017,31.099656,3.923206
+COM,Comoros,Lower middle income,2018,31.407365,6.823136
+EGY,"Egypt, Arab Rep.",Lower middle income,1961,38.421204,1.539728
+EGY,"Egypt, Arab Rep.",Lower middle income,1962,39.047847,4.016507
+EGY,"Egypt, Arab Rep.",Lower middle income,1963,39.676369,2.868190
+EGY,"Egypt, Arab Rep.",Lower middle income,1964,40.270068,2.106163
+EGY,"Egypt, Arab Rep.",Lower middle income,1966,41.208581,13.514026
+EGY,"Egypt, Arab Rep.",Lower middle income,1967,41.564047,-3.018913
+EGY,"Egypt, Arab Rep.",Lower middle income,1968,41.914131,-0.974798
+EGY,"Egypt, Arab Rep.",Lower middle income,1969,42.251199,3.363495
+EGY,"Egypt, Arab Rep.",Lower middle income,1973,43.354950,3.371196
+EGY,"Egypt, Arab Rep.",Lower middle income,1974,43.541168,1.756780
+EGY,"Egypt, Arab Rep.",Lower middle income,1975,43.680062,0.861026
+EGY,"Egypt, Arab Rep.",Lower middle income,1977,43.803899,5.289733
+EGY,"Egypt, Arab Rep.",Lower middle income,1978,43.834715,2.052359
+EGY,"Egypt, Arab Rep.",Lower middle income,1979,43.862706,5.694087
+EGY,"Egypt, Arab Rep.",Lower middle income,1981,43.909559,2.474435
+EGY,"Egypt, Arab Rep.",Lower middle income,1983,43.943148,3.666600
+EGY,"Egypt, Arab Rep.",Lower middle income,1985,43.962160,12.251476
+EGY,"Egypt, Arab Rep.",Lower middle income,1986,43.965684,5.109755
+EGY,"Egypt, Arab Rep.",Lower middle income,1988,43.872679,2.745082
+EGY,"Egypt, Arab Rep.",Lower middle income,1994,42.823655,8.235051
+EGY,"Egypt, Arab Rep.",Lower middle income,1996,42.639697,8.178110
+EGY,"Egypt, Arab Rep.",Lower middle income,1997,42.635798,7.163476
+EGY,"Egypt, Arab Rep.",Lower middle income,2005,42.956927,9.860696
+EGY,"Egypt, Arab Rep.",Lower middle income,2006,42.972999,12.475294
+EGY,"Egypt, Arab Rep.",Lower middle income,2007,42.972967,8.901021
+EGY,"Egypt, Arab Rep.",Lower middle income,2008,42.960899,11.974191
+EGY,"Egypt, Arab Rep.",Lower middle income,2015,42.605631,8.274988
+EGY,"Egypt, Arab Rep.",Lower middle income,2016,42.521072,12.458160
+EGY,"Egypt, Arab Rep.",Lower middle income,2017,42.448601,7.405793
+EGY,"Egypt, Arab Rep.",Lower middle income,2018,42.457718,7.615429
+EGY,"Egypt, Arab Rep.",Lower middle income,2019,42.481203,19.232700
+GHA,Ghana,Lower middle income,1969,28.646357,7.124384
+GHA,Ghana,Lower middle income,1970,28.992417,10.547914
+GHA,Ghana,Lower middle income,1972,29.540992,4.802983
+GHA,Ghana,Lower middle income,1973,29.764945,-4.807182
+GHA,Ghana,Lower middle income,1974,29.964412,7.324098
+GHA,Ghana,Lower middle income,1985,32.522407,2.279253
+GHA,Ghana,Lower middle income,1986,33.027276,17.293373
+GHA,Ghana,Lower middle income,1987,33.611720,1.796427
+GHA,Ghana,Lower middle income,1988,34.265810,8.809012
+GHA,Ghana,Lower middle income,1989,34.979618,9.643687
+GHA,Ghana,Lower middle income,1990,35.743215,14.888176
+GHA,Ghana,Lower middle income,1991,36.546671,16.303134
+GHA,Ghana,Lower middle income,1992,37.380059,-4.214227
+GHA,Ghana,Lower middle income,1993,38.233449,1.006575
+GHA,Ghana,Lower middle income,1997,41.648457,6.839380
+GHA,Ghana,Lower middle income,1999,43.217825,-0.283218
+GHA,Ghana,Lower middle income,2000,43.937379,18.822232
+GHA,Ghana,Lower middle income,2001,44.641051,10.773154
+GHA,Ghana,Lower middle income,2002,45.348469,-0.951419
+GHA,Ghana,Lower middle income,2003,46.054797,6.160059
+GHA,Ghana,Lower middle income,2004,46.757200,7.236798
+GHA,Ghana,Lower middle income,2011,51.330409,15.166051
+GHA,Ghana,Lower middle income,2012,51.919792,9.274971
+GHA,Ghana,Lower middle income,2013,52.498579,2.581077
+GHA,Ghana,Lower middle income,2014,53.066340,7.386039
+GHA,Ghana,Lower middle income,2015,53.622642,18.089106
+GHA,Ghana,Lower middle income,2018,55.218478,8.188437
+HND,Honduras,Lower middle income,1990,40.487741,19.900539
+HND,Honduras,Lower middle income,1993,41.923821,17.227228
+HND,Honduras,Lower middle income,1994,42.392319,18.277254
+HND,Honduras,Lower middle income,1996,43.333487,12.051822
+HND,Honduras,Lower middle income,1997,43.812644,9.052341
+HND,Honduras,Lower middle income,1998,44.301842,11.326126
+HND,Honduras,Lower middle income,1999,44.804325,9.779365
+HND,Honduras,Lower middle income,2003,46.990185,10.519571
+HND,Honduras,Lower middle income,2004,47.573978,7.146684
+HND,Honduras,Lower middle income,2006,48.779007,10.126738
+HND,Honduras,Lower middle income,2007,49.399425,8.605046
+HND,Honduras,Lower middle income,2009,50.674018,-1.398855
+HND,Honduras,Lower middle income,2011,51.990889,8.090771
+HND,Honduras,Lower middle income,2015,54.382847,15.772770
+HND,Honduras,Lower middle income,2017,55.387732,13.472014
+HND,Honduras,Lower middle income,2018,55.885258,17.500697
+HTI,Haiti,Lower middle income,2003,41.200760,4.582444
+HTI,Haiti,Lower middle income,2006,43.284644,6.842510
+HTI,Haiti,Lower middle income,2008,44.684736,8.716849
+HTI,Haiti,Lower middle income,2010,46.067974,2.541402
+HTI,Haiti,Lower middle income,2017,50.735083,9.169004
+HTI,Haiti,Lower middle income,2019,52.006906,15.576416
+IND,India,Lower middle income,1975,21.476170,17.748152
+IND,India,Lower middle income,1995,26.566177,15.782781
+IND,India,Lower middle income,1999,27.408167,16.911776
+IND,India,Lower middle income,2001,27.902865,14.950747
+IND,India,Lower middle income,2004,28.772607,16.392245
+IND,India,Lower middle income,2005,29.094550,18.819851
+IRN,"Iran, Islamic Rep.",Lower middle income,1964,36.619225,11.507971
+IRN,"Iran, Islamic Rep.",Lower middle income,1965,37.139894,7.604374
+IRN,"Iran, Islamic Rep.",Lower middle income,1967,38.856129,7.577690
+IRN,"Iran, Islamic Rep.",Lower middle income,1968,39.740734,17.792549
+IRN,"Iran, Islamic Rep.",Lower middle income,1969,40.632107,8.745194
+IRN,"Iran, Islamic Rep.",Lower middle income,1970,41.529686,9.419686
+IRN,"Iran, Islamic Rep.",Lower middle income,1971,42.432926,17.885169
+IRN,"Iran, Islamic Rep.",Lower middle income,1972,43.341248,6.872707
+IRN,"Iran, Islamic Rep.",Lower middle income,1975,46.090786,5.731502
+IRN,"Iran, Islamic Rep.",Lower middle income,1976,46.769542,7.296795
+IRN,"Iran, Islamic Rep.",Lower middle income,1979,49.211037,-1.922097
+IRN,"Iran, Islamic Rep.",Lower middle income,1982,51.390751,12.527354
+IRN,"Iran, Islamic Rep.",Lower middle income,1983,52.116550,6.628668
+IRN,"Iran, Islamic Rep.",Lower middle income,1988,55.365807,-2.727963
+IRN,"Iran, Islamic Rep.",Lower middle income,1989,55.910778,13.732054
+IRN,"Iran, Islamic Rep.",Lower middle income,1990,56.461113,4.310898
+IRN,"Iran, Islamic Rep.",Lower middle income,1991,56.899283,4.946291
+IRN,"Iran, Islamic Rep.",Lower middle income,1996,61.062187,3.826473
+IRN,"Iran, Islamic Rep.",Lower middle income,2001,65.216866,11.607556
+IRN,"Iran, Islamic Rep.",Lower middle income,2007,68.806190,16.497511
+IRN,"Iran, Islamic Rep.",Lower middle income,2008,69.379007,16.676826
+IRN,"Iran, Islamic Rep.",Lower middle income,2014,72.832407,13.219975
+KEN,Kenya,Lower middle income,1965,9.116981,13.202316
+KEN,Kenya,Lower middle income,1966,9.262275,5.948491
+KEN,Kenya,Lower middle income,1967,9.421080,4.966125
+KEN,Kenya,Lower middle income,1971,10.596418,7.758344
+KEN,Kenya,Lower middle income,1972,11.157986,16.977277
+KEN,Kenya,Lower middle income,1977,14.495677,11.986196
+KEN,Kenya,Lower middle income,1978,15.047925,6.869439
+KEN,Kenya,Lower middle income,1985,17.290843,13.921729
+KEN,Kenya,Lower middle income,1986,17.520233,4.121602
+KEN,Kenya,Lower middle income,1987,17.726687,13.496919
+KEN,Kenya,Lower middle income,1988,17.909192,7.842998
+KEN,Kenya,Lower middle income,1990,18.196296,7.685006
+KEN,Kenya,Lower middle income,1992,18.380351,-4.235005
+KEN,Kenya,Lower middle income,1994,18.514941,5.344387
+KEN,Kenya,Lower middle income,1995,18.582760,4.901970
+KEN,Kenya,Lower middle income,1996,18.661102,-3.409926
+KEN,Kenya,Lower middle income,2000,19.455383,14.505798
+KEN,Kenya,Lower middle income,2001,20.441630,10.197643
+KEN,Kenya,Lower middle income,2004,25.414754,11.882043
+KEN,Kenya,Lower middle income,2005,27.268675,6.511224
+KEN,Kenya,Lower middle income,2006,28.983077,13.394205
+KEN,Kenya,Lower middle income,2007,30.415386,12.023345
+KEN,Kenya,Lower middle income,2010,31.871329,7.835148
+KEN,Kenya,Lower middle income,2012,31.855813,19.104600
+KEN,Kenya,Lower middle income,2014,31.793155,9.166836
+KGZ,Kyrgyz Republic,Lower middle income,1991,37.707741,-3.136044
+KGZ,Kyrgyz Republic,Lower middle income,1992,37.367182,-0.053475
+KGZ,Kyrgyz Republic,Lower middle income,1993,36.979276,3.256791
+KGZ,Kyrgyz Republic,Lower middle income,1994,36.573971,6.483810
+KGZ,Kyrgyz Republic,Lower middle income,1995,36.181214,-0.152095
+KGZ,Kyrgyz Republic,Lower middle income,1996,35.830953,-2.289265
+KGZ,Kyrgyz Republic,Lower middle income,1997,35.553134,2.581607
+KGZ,Kyrgyz Republic,Lower middle income,1999,35.328153,-1.863746
+KGZ,Kyrgyz Republic,Lower middle income,2000,35.321607,1.825346
+KGZ,Kyrgyz Republic,Lower middle income,2003,35.308652,-0.510503
+KGZ,Kyrgyz Republic,Lower middle income,2004,35.305889,2.639757
+KGZ,Kyrgyz Republic,Lower middle income,2005,35.303097,5.663046
+KGZ,Kyrgyz Republic,Lower middle income,2006,35.299793,3.724125
+KGZ,Kyrgyz Republic,Lower middle income,2007,35.295493,8.805959
+KGZ,Kyrgyz Republic,Lower middle income,2008,35.289713,8.474259
+KGZ,Kyrgyz Republic,Lower middle income,2009,35.281552,17.297520
+KGZ,Kyrgyz Republic,Lower middle income,2012,35.218916,5.841881
+KGZ,Kyrgyz Republic,Lower middle income,2014,35.145549,11.962139
+KHM,Cambodia,Lower middle income,1994,17.127688,-2.652799
+KHM,Cambodia,Lower middle income,1995,17.496249,6.812372
+KHM,Cambodia,Lower middle income,1999,18.511186,6.426342
+KHM,Cambodia,Lower middle income,2000,18.624222,9.762754
+KHM,Cambodia,Lower middle income,2002,18.803642,8.740330
+KHM,Cambodia,Lower middle income,2003,18.888177,16.595155
+KHM,Cambodia,Lower middle income,2004,18.981362,17.046647
+KHM,Cambodia,Lower middle income,2005,19.092272,15.050035
+KHM,Cambodia,Lower middle income,2006,19.229983,14.394731
+KHM,Cambodia,Lower middle income,2007,19.403571,14.164691
+KHM,Cambodia,Lower middle income,2009,20.197973,11.596930
+KHM,Cambodia,Lower middle income,2012,23.941105,12.085592
+KHM,Cambodia,Lower middle income,2013,25.764474,12.767461
+KHM,Cambodia,Lower middle income,2014,27.817956,9.952293
+KHM,Cambodia,Lower middle income,2018,37.640434,19.435736
+KHM,Cambodia,Lower middle income,2019,39.583024,17.306063
+LAO,Lao PDR,Lower middle income,1985,13.797902,8.369298
+LAO,Lao PDR,Lower middle income,1987,14.372065,7.390448
+LAO,Lao PDR,Lower middle income,1988,14.652979,11.552927
+LAO,Lao PDR,Lower middle income,2002,24.524783,3.041313
+LAO,Lao PDR,Lower middle income,2004,26.537109,10.599463
+LAO,Lao PDR,Lower middle income,2005,27.322498,14.327304
+LAO,Lao PDR,Lower middle income,2009,30.042031,19.379645
+LAO,Lao PDR,Lower middle income,2012,31.742280,14.733223
+MAR,Morocco,Lower middle income,1967,32.773655,11.499334
+MAR,Morocco,Lower middle income,1974,36.960850,10.777482
+MAR,Morocco,Lower middle income,1975,37.610256,7.955771
+MAR,Morocco,Lower middle income,1976,38.278114,15.960094
+MAR,Morocco,Lower middle income,1980,41.097660,18.529540
+MAR,Morocco,Lower middle income,1981,41.838070,12.647159
+MAR,Morocco,Lower middle income,1988,46.947495,13.729937
+MAR,Morocco,Lower middle income,1989,47.705734,8.819635
+MAR,Morocco,Lower middle income,2004,54.978757,18.741102
+MAR,Morocco,Lower middle income,2006,55.962759,19.789345
+MAR,Morocco,Lower middle income,2007,56.530384,15.355189
+MAR,Morocco,Lower middle income,2008,57.125417,18.175420
+MAR,Morocco,Lower middle income,2016,60.965766,18.006570
+MRT,Mauritania,Lower middle income,1962,8.107929,12.435258
+MRT,Mauritania,Lower middle income,1963,8.751334,-2.757676
+MRT,Mauritania,Lower middle income,1964,9.400832,-1.399588
+MRT,Mauritania,Lower middle income,1967,12.051109,4.638115
+MRT,Mauritania,Lower middle income,1968,13.030607,7.031690
+MRT,Mauritania,Lower middle income,1972,17.304457,9.400584
+MRT,Mauritania,Lower middle income,1975,20.837150,15.376452
+MRT,Mauritania,Lower middle income,1976,22.068231,4.723776
+MRT,Mauritania,Lower middle income,1978,24.927155,-0.641193
+MRT,Mauritania,Lower middle income,1980,28.662628,4.798487
+MRT,Mauritania,Lower middle income,1981,30.668695,4.672176
+MRT,Mauritania,Lower middle income,1983,34.544479,1.995009
+MRT,Mauritania,Lower middle income,1984,36.248990,-2.285463
+MRT,Mauritania,Lower middle income,1985,37.687779,5.994153
+MRT,Mauritania,Lower middle income,1986,38.778242,6.892000
+MRT,Mauritania,Lower middle income,1989,39.558053,-0.367729
+MRT,Mauritania,Lower middle income,1990,39.470498,1.265701
+MRT,Mauritania,Lower middle income,1991,39.345067,-3.320789
+MRT,Mauritania,Lower middle income,1992,39.191112,4.452251
+MRT,Mauritania,Lower middle income,1993,39.017981,-1.981470
+MRT,Mauritania,Lower middle income,1994,38.835024,0.444696
+MRT,Mauritania,Lower middle income,1995,38.651590,-0.605338
+MRT,Mauritania,Lower middle income,1996,38.477029,-2.337948
+MRT,Mauritania,Lower middle income,1997,38.320691,-0.726197
+MRT,Mauritania,Lower middle income,1999,38.100082,6.303913
+MRT,Mauritania,Lower middle income,2000,38.055586,14.327526
+MRT,Mauritania,Lower middle income,2002,38.390038,5.194907
+MRT,Mauritania,Lower middle income,2003,38.886692,8.429619
+MRT,Mauritania,Lower middle income,2007,42.440600,14.465834
+MRT,Mauritania,Lower middle income,2012,48.273245,10.491494
+MRT,Mauritania,Lower middle income,2014,50.469479,7.250265
+MRT,Mauritania,Lower middle income,2017,54.197045,2.278387
+MRT,Mauritania,Lower middle income,2018,55.130508,7.141496
+NIC,Nicaragua,Lower middle income,2007,56.281662,11.936764
+NIC,Nicaragua,Lower middle income,2008,56.463812,14.541909
+NIC,Nicaragua,Lower middle income,2009,56.651098,-2.036745
+NIC,Nicaragua,Lower middle income,2010,56.842311,10.401309
+NIC,Nicaragua,Lower middle income,2011,57.036243,5.617697
+NIC,Nicaragua,Lower middle income,2012,57.231684,7.021080
+NIC,Nicaragua,Lower middle income,2015,57.814988,12.816637
+NIC,Nicaragua,Lower middle income,2018,58.368386,-3.937029
+NIC,Nicaragua,Lower middle income,2019,58.540567,-0.798688
+NPL,Nepal,Lower middle income,1982,16.112245,19.494185
+NPL,Nepal,Lower middle income,1985,17.530009,12.553302
+NPL,Nepal,Lower middle income,1991,20.409395,13.480505
+NPL,Nepal,Lower middle income,1993,22.038692,19.701020
+NPL,Nepal,Lower middle income,2011,63.139950,18.116547
+NPL,Nepal,Lower middle income,2015,64.951009,19.417368
+NPL,Nepal,Lower middle income,2017,65.576893,18.325739
+PAK,Pakistan,Lower middle income,1961,22.632127,18.950137
+PAK,Pakistan,Lower middle income,1963,23.208181,19.801811
+PAK,Pakistan,Lower middle income,1964,23.460517,17.787890
+PAK,Pakistan,Lower middle income,1975,26.326610,9.967444
+PAK,Pakistan,Lower middle income,1976,26.689030,14.782061
+PAK,Pakistan,Lower middle income,1980,28.093759,15.175189
+PAK,Pakistan,Lower middle income,1981,28.394161,15.874425
+PAK,Pakistan,Lower middle income,1989,30.511299,16.428483
+PAK,Pakistan,Lower middle income,1992,31.225818,11.226067
+PAK,Pakistan,Lower middle income,2000,33.004688,9.146008
+PAK,Pakistan,Lower middle income,2003,33.566921,11.974196
+PAK,Pakistan,Lower middle income,2004,33.744137,6.463515
+PAK,Pakistan,Lower middle income,2005,33.919006,9.595527
+PAK,Pakistan,Lower middle income,2006,34.093179,8.313557
+PAK,Pakistan,Lower middle income,2012,35.216023,10.500340
+PAK,Pakistan,Lower middle income,2015,35.901733,10.084676
+PAK,Pakistan,Lower middle income,2016,36.159718,15.541535
+PAK,Pakistan,Lower middle income,2017,36.435155,18.149577
+PAK,Pakistan,Lower middle income,2018,36.747851,11.801314
+PHL,Philippines,Lower middle income,2006,41.830856,16.931551
+PHL,Philippines,Lower middle income,2007,42.347050,19.224567
+PHL,Philippines,Lower middle income,2010,45.520818,9.766915
+PHL,Philippines,Lower middle income,2012,47.918278,13.020881
+PHL,Philippines,Lower middle income,2013,49.131369,14.999520
+PHL,Philippines,Lower middle income,2015,51.154905,14.613340
+PHL,Philippines,Lower middle income,2016,51.911475,11.498123
+PHL,Philippines,Lower middle income,2018,53.208890,16.539740
+PSE,West Bank and Gaza,Lower middle income,1997,68.735183,19.515256
+PSE,West Bank and Gaza,Lower middle income,1998,69.499872,15.043598
+PSE,West Bank and Gaza,Lower middle income,1999,70.627758,7.273711
+PSE,West Bank and Gaza,Lower middle income,2000,72.069433,-3.849169
+PSE,West Bank and Gaza,Lower middle income,2002,75.497875,-3.435621
+PSE,West Bank and Gaza,Lower middle income,2003,77.286503,6.824457
+PSE,West Bank and Gaza,Lower middle income,2005,80.517224,13.929234
+PSE,West Bank and Gaza,Lower middle income,2009,83.505034,17.301695
+PSE,West Bank and Gaza,Lower middle income,2010,83.885349,13.759563
+PSE,West Bank and Gaza,Lower middle income,2011,84.234095,7.555688
+PSE,West Bank and Gaza,Lower middle income,2013,84.817846,15.989024
+PSE,West Bank and Gaza,Lower middle income,2015,85.218217,11.102110
+PSE,West Bank and Gaza,Lower middle income,2016,85.337739,16.905847
+PSE,West Bank and Gaza,Lower middle income,2017,85.378226,17.198374
+SEN,Senegal,Lower middle income,1966,27.180678,-3.721380
+SEN,Senegal,Lower middle income,1968,29.427566,2.490038
+SEN,Senegal,Lower middle income,1970,31.285225,1.162751
+SEN,Senegal,Lower middle income,1971,31.944243,4.721219
+SEN,Senegal,Lower middle income,1972,32.506875,8.359429
+SEN,Senegal,Lower middle income,1974,33.498280,3.833531
+SEN,Senegal,Lower middle income,1977,34.779425,-3.001973
+SEN,Senegal,Lower middle income,1978,35.184029,17.825297
+SEN,Senegal,Lower middle income,1979,35.578962,3.193049
+SEN,Senegal,Lower middle income,1980,35.963043,5.101169
+SEN,Senegal,Lower middle income,1981,36.335091,2.271433
+SEN,Senegal,Lower middle income,1982,36.693926,0.916485
+SEN,Senegal,Lower middle income,1986,37.973509,-2.590780
+SEN,Senegal,Lower middle income,1987,38.248560,5.290876
+SEN,Senegal,Lower middle income,1988,38.503152,8.442419
+SEN,Senegal,Lower middle income,1990,38.946656,11.276320
+SEN,Senegal,Lower middle income,1992,39.319707,13.514475
+SEN,Senegal,Lower middle income,1994,39.650346,4.242712
+SEN,Senegal,Lower middle income,1996,39.966470,10.140140
+SEN,Senegal,Lower middle income,1998,40.295975,4.824729
+SEN,Senegal,Lower middle income,2000,40.666756,11.055979
+SEN,Senegal,Lower middle income,2002,41.108147,12.839225
+SEN,Senegal,Lower middle income,2005,41.905760,15.280359
+SEN,Senegal,Lower middle income,2006,42.204641,8.395390
+SEN,Senegal,Lower middle income,2008,42.867747,14.002916
+SEN,Senegal,Lower middle income,2011,44.068967,10.311211
+SEN,Senegal,Lower middle income,2013,45.039875,17.391897
+SEN,Senegal,Lower middle income,2014,45.602091,13.431593
+SEN,Senegal,Lower middle income,2016,47.055358,17.670186
+SEN,Senegal,Lower middle income,2017,47.933835,12.849718
+SEN,Senegal,Lower middle income,2018,48.900169,11.597263
+SEN,Senegal,Lower middle income,2019,49.944332,18.061274
+SYR,Syrian Arab Republic,Lower middle income,1969,43.046980,18.575672
+SYR,Syrian Arab Republic,Lower middle income,1972,44.109660,9.239537
+SYR,Syrian Arab Republic,Lower middle income,1974,44.815072,13.612604
+SYR,Syrian Arab Republic,Lower middle income,1975,45.160026,10.906059
+SYR,Syrian Arab Republic,Lower middle income,1976,45.497335,12.292454
+SYR,Syrian Arab Republic,Lower middle income,1991,49.047150,9.835164
+SYR,Syrian Arab Republic,Lower middle income,1992,49.265046,6.567697
+SYR,Syrian Arab Republic,Lower middle income,1993,49.500954,10.624840
+SYR,Syrian Arab Republic,Lower middle income,1994,49.758744,10.356489
+SYR,Syrian Arab Republic,Lower middle income,2001,52.285464,8.577326
+SYR,Syrian Arab Republic,Lower middle income,2003,53.102401,10.883778
+SYR,Syrian Arab Republic,Lower middle income,2009,55.029365,19.692607
+SYR,Syrian Arab Republic,Lower middle income,2010,55.696200,15.034379
+SYR,Syrian Arab Republic,Lower middle income,2012,65.089666,-0.890965
+SYR,Syrian Arab Republic,Lower middle income,2013,73.062049,6.932191
+SYR,Syrian Arab Republic,Lower middle income,2014,76.000000,2.323290
+SYR,Syrian Arab Republic,Lower middle income,2015,75.752907,-3.572508
+SYR,Syrian Arab Republic,Lower middle income,2016,75.154010,2.172240
+TUN,Tunisia,Lower middle income,1972,47.233804,13.066435
+TUN,Tunisia,Lower middle income,1975,49.906634,8.176166
+TUN,Tunisia,Lower middle income,1976,50.352844,10.646435
+TUN,Tunisia,Lower middle income,1981,51.833820,12.901656
+TUN,Tunisia,Lower middle income,1989,57.091672,7.022063
+TUN,Tunisia,Lower middle income,1990,58.056716,5.617101
+TUN,Tunisia,Lower middle income,1992,59.825363,5.006723
+TUN,Tunisia,Lower middle income,1993,60.553753,16.673657
+TUN,Tunisia,Lower middle income,1997,62.500624,12.007548
+TUN,Tunisia,Lower middle income,1998,62.894582,14.619639
+TUN,Tunisia,Lower middle income,1999,63.265032,13.410310
+TUN,Tunisia,Lower middle income,2000,63.616665,11.914419
+TUN,Tunisia,Lower middle income,2006,65.520981,9.572820
+TUN,Tunisia,Lower middle income,2007,65.800003,11.644444
+TUN,Tunisia,Lower middle income,2008,66.067605,14.868746
+TUN,Tunisia,Lower middle income,2009,66.336220,16.181753
+TUN,Tunisia,Lower middle income,2010,66.628006,9.830706
+TUN,Tunisia,Lower middle income,2011,66.919189,-4.624733
+TUN,Tunisia,Lower middle income,2012,67.209892,10.651897
+UKR,Ukraine,Lower middle income,1992,67.860342,15.822465
+UKR,Ukraine,Lower middle income,1993,67.917966,3.757042
+UKR,Ukraine,Lower middle income,2006,68.029335,2.235260
+UKR,Ukraine,Lower middle income,2007,68.210232,11.451550
+UKR,Ukraine,Lower middle income,2009,68.525144,6.736392
+UKR,Ukraine,Lower middle income,2014,69.055434,18.190011
+UZB,Uzbekistan,Lower middle income,1993,42.089431,-1.145276
+UZB,Uzbekistan,Lower middle income,1994,42.744963,12.675166
+UZB,Uzbekistan,Lower middle income,1995,43.478246,7.966630
+UZB,Uzbekistan,Lower middle income,1997,45.105174,8.282918
+UZB,Uzbekistan,Lower middle income,2001,48.490189,9.198654
+UZB,Uzbekistan,Lower middle income,2004,50.569651,14.717254
+UZB,Uzbekistan,Lower middle income,2006,51.463882,13.020444
+UZB,Uzbekistan,Lower middle income,2007,51.708701,13.285244
+UZB,Uzbekistan,Lower middle income,2008,51.794357,12.199091
+UZB,Uzbekistan,Lower middle income,2018,50.581497,14.864027
+UZB,Uzbekistan,Lower middle income,2019,50.592010,17.381443
+VEN,"Venezuela, RB",Lower middle income,1961,62.836755,-0.705597
+VEN,"Venezuela, RB",Lower middle income,1962,63.792684,3.647018
+VEN,"Venezuela, RB",Lower middle income,1964,65.827158,0.893277
+VEN,"Venezuela, RB",Lower middle income,1965,66.876289,2.087437
+VEN,"Venezuela, RB",Lower middle income,1966,67.929107,1.533069
+VEN,"Venezuela, RB",Lower middle income,1968,69.993073,1.015388
+VEN,"Venezuela, RB",Lower middle income,1969,70.977857,1.723162
+VEN,"Venezuela, RB",Lower middle income,1971,72.783315,4.188040
+VEN,"Venezuela, RB",Lower middle income,1972,73.598776,2.577824
+VEN,"Venezuela, RB",Lower middle income,1973,74.386059,5.239366
+VEN,"Venezuela, RB",Lower middle income,1974,75.151161,-1.033369
+VEN,"Venezuela, RB",Lower middle income,1975,75.892895,1.077997
+VEN,"Venezuela, RB",Lower middle income,1976,76.610075,1.363623
+VEN,"Venezuela, RB",Lower middle income,1977,77.301513,1.431090
+VEN,"Venezuela, RB",Lower middle income,1978,77.966022,2.788951
+VEN,"Venezuela, RB",Lower middle income,1979,78.602416,-0.814436
+VEN,"Venezuela, RB",Lower middle income,1980,79.209508,-0.866294
+VEN,"Venezuela, RB",Lower middle income,1983,80.847508,-0.437260
+VEN,"Venezuela, RB",Lower middle income,1984,81.338454,-0.356687
+VEN,"Venezuela, RB",Lower middle income,1985,81.808140,1.573147
+VEN,"Venezuela, RB",Lower middle income,1986,82.260500,0.713491
+VEN,"Venezuela, RB",Lower middle income,1987,82.699469,1.589057
+VEN,"Venezuela, RB",Lower middle income,1988,83.128983,1.143239
+VEN,"Venezuela, RB",Lower middle income,1989,83.552975,-0.078406
+VEN,"Venezuela, RB",Lower middle income,1990,83.974102,-0.175334
+VEN,"Venezuela, RB",Lower middle income,1991,84.409202,0.551455
+VEN,"Venezuela, RB",Lower middle income,1992,84.876636,1.239500
+VEN,"Venezuela, RB",Lower middle income,1993,85.365727,-3.136969
+VEN,"Venezuela, RB",Lower middle income,1994,85.862472,-0.789300
+VEN,"Venezuela, RB",Lower middle income,1995,86.352867,-4.788043
+VEN,"Venezuela, RB",Lower middle income,1996,86.822910,-2.269380
+VEN,"Venezuela, RB",Lower middle income,1997,87.258595,0.301567
+VEN,"Venezuela, RB",Lower middle income,1998,87.645921,1.154638
+VEN,"Venezuela, RB",Lower middle income,1999,87.970882,-0.306726
+VEN,"Venezuela, RB",Lower middle income,2000,88.219476,-1.137958
+VEN,"Venezuela, RB",Lower middle income,2001,88.372774,0.820737
+VEN,"Venezuela, RB",Lower middle income,2002,88.455381,-0.316587
+VEN,"Venezuela, RB",Lower middle income,2003,88.522274,0.210123
+VEN,"Venezuela, RB",Lower middle income,2004,88.583555,0.185718
+VEN,"Venezuela, RB",Lower middle income,2005,88.638673,0.864952
+VEN,"Venezuela, RB",Lower middle income,2006,88.687082,1.234669
+VEN,"Venezuela, RB",Lower middle income,2007,88.728231,1.390981
+VEN,"Venezuela, RB",Lower middle income,2008,88.761572,-3.337862
+VEN,"Venezuela, RB",Lower middle income,2009,88.786557,6.416909
+VEN,"Venezuela, RB",Lower middle income,2010,88.802637,-0.674776
+VEN,"Venezuela, RB",Lower middle income,2012,88.840187,3.941885
+VEN,"Venezuela, RB",Lower middle income,2013,88.878682,0.590812
+VEN,"Venezuela, RB",Lower middle income,2014,88.916391,-0.287545
+VEN,"Venezuela, RB",Lower middle income,2015,88.953980,-1.370112
+VEN,"Venezuela, RB",Lower middle income,2016,88.991443,0.345217
+VEN,"Venezuela, RB",Lower middle income,2017,89.028773,1.345915
+VEN,"Venezuela, RB",Lower middle income,2018,89.065964,2.133794
+VEN,"Venezuela, RB",Lower middle income,2019,89.103010,4.033046
+VNM,Viet Nam,Lower middle income,1996,22.072511,13.174780
+VNM,Viet Nam,Lower middle income,1997,22.688328,17.103177
+VNM,Viet Nam,Lower middle income,2000,24.367253,10.794342
+VNM,Viet Nam,Lower middle income,2001,24.948936,12.482145
+VNM,Viet Nam,Lower middle income,2002,25.554093,10.899331
+VNM,Viet Nam,Lower middle income,2003,26.174541,9.804807
+VNM,Viet Nam,Lower middle income,2004,26.802100,18.367807
+VNM,Viet Nam,Lower middle income,2006,28.045829,19.693313
+VNM,Viet Nam,Lower middle income,2007,28.645637,8.800934
+VNM,Viet Nam,Lower middle income,2009,29.758135,13.262978
+VNM,Viet Nam,Lower middle income,2010,30.250403,15.181373
+VNM,Viet Nam,Lower middle income,2015,32.381095,11.796535
+VNM,Viet Nam,Lower middle income,2017,33.362596,18.362690
+ZWE,Zimbabwe,Lower middle income,1961,12.765667,13.321490
+ZWE,Zimbabwe,Lower middle income,1962,13.077449,2.929477
+ZWE,Zimbabwe,Lower middle income,1964,13.964187,7.084374
+ZWE,Zimbabwe,Lower middle income,1966,15.139939,6.071619
+ZWE,Zimbabwe,Lower middle income,1967,15.757591,-0.904862
+ZWE,Zimbabwe,Lower middle income,1968,16.354229,0.339671
+ZWE,Zimbabwe,Lower middle income,1969,16.901508,0.333944
+ZWE,Zimbabwe,Lower middle income,1970,17.412425,0.464215
+ZWE,Zimbabwe,Lower middle income,1971,17.909988,1.451309
+ZWE,Zimbabwe,Lower middle income,1972,18.396620,2.977213
+ZWE,Zimbabwe,Lower middle income,1973,18.875947,2.138092
+ZWE,Zimbabwe,Lower middle income,1974,19.351595,3.648394
+ZWE,Zimbabwe,Lower middle income,1976,20.306356,-0.984043
+ZWE,Zimbabwe,Lower middle income,1977,20.792722,0.145211
+ZWE,Zimbabwe,Lower middle income,1978,21.289912,1.039343
+ZWE,Zimbabwe,Lower middle income,1980,22.331271,-0.173676
+ZWE,Zimbabwe,Lower middle income,1981,22.882691,0.613784
+ZWE,Zimbabwe,Lower middle income,1982,23.457692,2.255415
+ZWE,Zimbabwe,Lower middle income,1984,24.832910,-0.418325
+ZWE,Zimbabwe,Lower middle income,1985,25.636239,0.715487
+ZWE,Zimbabwe,Lower middle income,1986,26.476550,-0.364669
+ZWE,Zimbabwe,Lower middle income,1987,27.323063,0.209024
+ZWE,Zimbabwe,Lower middle income,1988,28.145002,2.086823
+ZWE,Zimbabwe,Lower middle income,1989,28.911587,-1.250604
+ZWE,Zimbabwe,Lower middle income,1990,29.592041,0.728170
+ZWE,Zimbabwe,Lower middle income,1991,30.155585,1.695966
+ZWE,Zimbabwe,Lower middle income,1993,30.875317,3.512763
+ZWE,Zimbabwe,Lower middle income,1995,31.429986,1.485706
+ZWE,Zimbabwe,Lower middle income,1996,31.676908,-0.148526
+ZWE,Zimbabwe,Lower middle income,1997,31.899972,0.969843
+ZWE,Zimbabwe,Lower middle income,1998,32.096492,0.771855
+ZWE,Zimbabwe,Lower middle income,1999,32.263783,-0.047962
+ZWE,Zimbabwe,Lower middle income,2000,32.399157,0.847779
+ZWE,Zimbabwe,Lower middle income,2001,32.499928,12.613200
+ZWE,Zimbabwe,Lower middle income,2002,32.563188,-0.738612
+ZWE,Zimbabwe,Lower middle income,2003,32.600337,3.792262
+ZWE,Zimbabwe,Lower middle income,2004,32.627817,0.740062
+ZWE,Zimbabwe,Lower middle income,2005,32.648271,3.314795
+ZWE,Zimbabwe,Lower middle income,2007,32.677622,-2.407125
+ZWE,Zimbabwe,Lower middle income,2008,32.691279,3.677153
+ZWE,Zimbabwe,Lower middle income,2009,32.707429,0.898724
+ZWE,Zimbabwe,Lower middle income,2010,32.728453,2.143530
+ZWE,Zimbabwe,Lower middle income,2013,32.901934,-2.487073
+ZWE,Zimbabwe,Lower middle income,2014,33.162808,13.156396
+ZWE,Zimbabwe,Lower middle income,2015,33.561264,15.821362
+ZWE,Zimbabwe,Lower middle income,2017,34.701495,3.876189
+ZWE,Zimbabwe,Lower middle income,2019,36.183764,-1.943631
+ALB,Albania,Upper middle income,1991,36.282412,1.524543
+ALB,Albania,Upper middle income,1993,37.201625,-1.640329
+ALB,Albania,Upper middle income,1994,37.728534,3.445156
+ALB,Albania,Upper middle income,1995,38.295684,4.092905
+ALB,Albania,Upper middle income,1997,39.536825,-1.385317
+ALB,Albania,Upper middle income,1998,40.203875,3.628324
+ALB,Albania,Upper middle income,1999,40.897284,5.925260
+ALB,Albania,Upper middle income,2000,41.613583,5.195128
+ALB,Albania,Upper middle income,2001,42.354514,9.165496
+ARG,Argentina,Upper middle income,1961,72.435474,4.940515
+ARG,Argentina,Upper middle income,1962,73.172879,-3.305507
+ARG,Argentina,Upper middle income,1963,73.927374,-2.731281
+ARG,Argentina,Upper middle income,1965,75.443651,4.932027
+ARG,Argentina,Upper middle income,1966,76.183442,13.250915
+ARG,Argentina,Upper middle income,1967,76.896339,12.129065
+ARG,Argentina,Upper middle income,1968,77.571347,12.025192
+ARG,Argentina,Upper middle income,1969,78.197471,5.414937
+ARG,Argentina,Upper middle income,1970,78.761840,18.861199
+ARG,Argentina,Upper middle income,1974,80.583590,6.888967
+ARG,Argentina,Upper middle income,1975,80.975584,2.308100
+ARG,Argentina,Upper middle income,1977,81.726908,11.564143
+ARG,Argentina,Upper middle income,1978,82.098418,-4.252671
+ARG,Argentina,Upper middle income,1980,82.863955,11.899495
+ARG,Argentina,Upper middle income,1981,83.268984,-3.661438
+ARG,Argentina,Upper middle income,1985,84.991956,-0.949428
+ARG,Argentina,Upper middle income,1986,85.417816,6.369806
+ARG,Argentina,Upper middle income,1987,85.829590,3.392577
+ARG,Argentina,Upper middle income,1989,86.586614,-0.540394
+ARG,Argentina,Upper middle income,1990,86.919733,0.290394
+ARG,Argentina,Upper middle income,1991,87.215028,2.801591
+ARG,Argentina,Upper middle income,1992,87.481587,3.641970
+ARG,Argentina,Upper middle income,1993,87.730771,3.890200
+ARG,Argentina,Upper middle income,1994,87.964583,8.402850
+ARG,Argentina,Upper middle income,1995,88.185368,-4.402739
+ARG,Argentina,Upper middle income,1996,88.395473,11.613314
+ARG,Argentina,Upper middle income,1997,88.597245,5.953004
+ARG,Argentina,Upper middle income,1998,88.793031,12.684858
+ARG,Argentina,Upper middle income,1999,88.985176,-4.453718
+ARG,Argentina,Upper middle income,2000,89.176027,-4.687232
+ARG,Argentina,Upper middle income,2001,89.368295,-1.817615
+ARG,Argentina,Upper middle income,2002,89.561670,1.161177
+ARG,Argentina,Upper middle income,2003,89.752468,0.617759
+ARG,Argentina,Upper middle income,2004,89.939721,5.006035
+ARG,Argentina,Upper middle income,2005,90.123374,4.631232
+ARG,Argentina,Upper middle income,2006,90.303373,6.530761
+ARG,Argentina,Upper middle income,2007,90.479663,6.735060
+ARG,Argentina,Upper middle income,2009,90.820902,-2.215955
+ARG,Argentina,Upper middle income,2010,90.993005,6.085052
+ARG,Argentina,Upper middle income,2011,91.107229,11.516077
+ARG,Argentina,Upper middle income,2013,91.301451,17.226281
+ARG,Argentina,Upper middle income,2017,91.677603,9.606810
+ARG,Argentina,Upper middle income,2019,91.856784,-4.100523
+ARM,Armenia,Upper middle income,1991,67.548991,-1.388137
+ARM,Armenia,Upper middle income,1992,67.318972,0.545091
+ARM,Armenia,Upper middle income,1993,67.040308,4.715076
+ARM,Armenia,Upper middle income,1994,66.727662,-0.762556
+ARM,Armenia,Upper middle income,1995,66.395696,3.699092
+ARM,Armenia,Upper middle income,1996,66.059072,-1.708561
+ARM,Armenia,Upper middle income,1997,65.732453,1.969544
+ARM,Armenia,Upper middle income,1998,65.430499,3.178066
+ARM,Armenia,Upper middle income,1999,65.167873,6.477220
+ARM,Armenia,Upper middle income,2000,64.959238,1.621644
+ARM,Armenia,Upper middle income,2001,64.822812,11.004092
+ARM,Armenia,Upper middle income,2002,64.739621,3.366684
+ARM,Armenia,Upper middle income,2003,64.666354,5.646286
+ARM,Armenia,Upper middle income,2004,64.597263,9.813865
+ARM,Armenia,Upper middle income,2005,64.533421,4.271226
+ARM,Armenia,Upper middle income,2006,64.475898,5.257063
+ARM,Armenia,Upper middle income,2007,64.425765,9.035847
+ARM,Armenia,Upper middle income,2008,64.384093,10.337283
+ARM,Armenia,Upper middle income,2009,64.351953,-4.086234
+ARM,Armenia,Upper middle income,2011,64.320745,-4.658994
+ARM,Armenia,Upper middle income,2015,64.492962,15.892377
+ARM,Armenia,Upper middle income,2016,64.592875,-4.259656
+ARM,Armenia,Upper middle income,2017,64.712495,10.406774
+AZE,Azerbaijan,Upper middle income,1991,53.241467,0.106418
+AZE,Azerbaijan,Upper middle income,1992,52.918549,0.740298
+AZE,Azerbaijan,Upper middle income,1993,52.699203,-0.041689
+AZE,Azerbaijan,Upper middle income,1994,52.501118,8.291503
+AZE,Azerbaijan,Upper middle income,1995,52.311676,0.728589
+AZE,Azerbaijan,Upper middle income,1996,52.121605,0.232865
+AZE,Azerbaijan,Upper middle income,1997,51.927078,1.253247
+AZE,Azerbaijan,Upper middle income,1998,51.467205,9.326534
+AZE,Azerbaijan,Upper middle income,1999,50.998251,-3.273081
+AZE,Azerbaijan,Upper middle income,2001,51.158482,9.033761
+AZE,Azerbaijan,Upper middle income,2002,51.214417,1.783690
+AZE,Azerbaijan,Upper middle income,2003,51.725800,1.491628
+AZE,Azerbaijan,Upper middle income,2004,52.283199,3.251354
+AZE,Azerbaijan,Upper middle income,2009,53.135813,9.483881
+AZE,Azerbaijan,Upper middle income,2011,53.508546,15.764300
+AZE,Azerbaijan,Upper middle income,2012,53.807644,11.472528
+AZE,Azerbaijan,Upper middle income,2013,54.182109,8.207431
+AZE,Azerbaijan,Upper middle income,2014,54.631918,16.910226
+BGR,Bulgaria,Upper middle income,1985,64.955993,8.880473
+BGR,Bulgaria,Upper middle income,1986,65.250710,8.341897
+BGR,Bulgaria,Upper middle income,1987,66.001648,9.510004
+BGR,Bulgaria,Upper middle income,1988,66.703011,5.920830
+BGR,Bulgaria,Upper middle income,1990,67.038803,-0.499519
+BGR,Bulgaria,Upper middle income,1991,67.088028,0.334768
+BGR,Bulgaria,Upper middle income,1992,67.150688,0.841303
+BGR,Bulgaria,Upper middle income,1993,67.427528,1.545165
+BGR,Bulgaria,Upper middle income,1994,67.722511,-3.501198
+BGR,Bulgaria,Upper middle income,1995,67.833542,3.216201
+BGR,Bulgaria,Upper middle income,1996,67.698196,0.812720
+BGR,Bulgaria,Upper middle income,1997,67.659447,1.683491
+BGR,Bulgaria,Upper middle income,1998,67.865402,3.290350
+BGR,Bulgaria,Upper middle income,2001,69.196712,10.965851
+BGR,Bulgaria,Upper middle income,2003,69.780846,19.738103
+BGR,Bulgaria,Upper middle income,2004,69.919334,16.307609
+BGR,Bulgaria,Upper middle income,2005,70.086960,8.194395
+BGR,Bulgaria,Upper middle income,2006,70.507523,15.548182
+BGR,Bulgaria,Upper middle income,2008,70.902100,10.696678
+BIH,Bosnia and Herzegovina,Upper middle income,1996,41.258340,2.581726
+BIH,Bosnia and Herzegovina,Upper middle income,1997,41.583260,7.041711
+BIH,Bosnia and Herzegovina,Upper middle income,1998,41.907523,18.177521
+BIH,Bosnia and Herzegovina,Upper middle income,2000,42.553990,4.646721
+BIH,Bosnia and Herzegovina,Upper middle income,2005,44.157080,12.153416
+BIH,Bosnia and Herzegovina,Upper middle income,2007,44.792608,7.365530
+BIH,Bosnia and Herzegovina,Upper middle income,2008,45.109058,14.002545
+BIH,Bosnia and Herzegovina,Upper middle income,2011,46.052878,17.542968
+BIH,Bosnia and Herzegovina,Upper middle income,2014,47.130783,13.354814
+BIH,Bosnia and Herzegovina,Upper middle income,2017,48.491840,16.052723
+BLR,Belarus,Upper middle income,1993,67.517967,2.598405
+BLR,Belarus,Upper middle income,1994,67.758598,-2.275592
+BLR,Belarus,Upper middle income,1995,68.016273,0.335821
+BLR,Belarus,Upper middle income,1996,68.273743,1.453298
+BLR,Belarus,Upper middle income,1997,68.614594,0.817685
+BLR,Belarus,Upper middle income,1998,69.023422,3.686254
+BLR,Belarus,Upper middle income,1999,69.480764,5.266278
+BLR,Belarus,Upper middle income,2000,69.917230,19.670579
+BLR,Belarus,Upper middle income,2001,70.314720,-3.432247
+BLR,Belarus,Upper middle income,2002,70.880470,16.953747
+BLR,Belarus,Upper middle income,2003,71.309242,4.238668
+BLR,Belarus,Upper middle income,2004,71.765854,4.698378
+BLR,Belarus,Upper middle income,2005,72.031013,7.064884
+BLR,Belarus,Upper middle income,2006,72.611382,6.130287
+BLR,Belarus,Upper middle income,2007,73.091347,9.277147
+BLR,Belarus,Upper middle income,2008,73.553169,9.353910
+BLR,Belarus,Upper middle income,2009,74.190965,19.990677
+BLR,Belarus,Upper middle income,2010,74.550140,9.091359
+BLR,Belarus,Upper middle income,2013,75.949707,11.734491
+BLR,Belarus,Upper middle income,2015,76.626389,-4.850747
+BLR,Belarus,Upper middle income,2016,76.845871,-4.742263
+BLR,Belarus,Upper middle income,2017,77.020821,15.867476
+BLZ,Belize,Upper middle income,1981,51.290830,10.731884
+BLZ,Belize,Upper middle income,1982,50.842232,-3.027022
+BLZ,Belize,Upper middle income,1983,50.339611,-0.399312
+BLZ,Belize,Upper middle income,1984,49.807355,5.000100
+BLZ,Belize,Upper middle income,1985,49.269851,-1.100831
+BLZ,Belize,Upper middle income,1986,48.751488,7.979651
+BLZ,Belize,Upper middle income,1987,48.276653,3.977502
+BLZ,Belize,Upper middle income,1988,47.869733,5.964731
+BLZ,Belize,Upper middle income,1989,47.555116,9.194821
+BLZ,Belize,Upper middle income,1990,47.357189,5.777615
+BLZ,Belize,Upper middle income,1991,47.299238,6.241016
+BLZ,Belize,Upper middle income,1992,47.315709,16.424867
+BLZ,Belize,Upper middle income,1993,47.353667,8.537752
+BLZ,Belize,Upper middle income,1994,47.406662,-2.084477
+BLZ,Belize,Upper middle income,1995,47.468342,12.453739
+BLZ,Belize,Upper middle income,1999,47.674831,3.198425
+BLZ,Belize,Upper middle income,2000,47.683685,4.880681
+BLZ,Belize,Upper middle income,2005,46.727119,8.886508
+BLZ,Belize,Upper middle income,2006,46.408481,10.499405
+BLZ,Belize,Upper middle income,2007,46.081247,7.196483
+BLZ,Belize,Upper middle income,2008,45.759912,4.386304
+BLZ,Belize,Upper middle income,2009,45.458971,-1.764424
+BLZ,Belize,Upper middle income,2010,45.191484,-1.359024
+BLZ,Belize,Upper middle income,2011,44.941782,10.121640
+BLZ,Belize,Upper middle income,2013,44.438054,5.667944
+BLZ,Belize,Upper middle income,2014,44.185016,4.409185
+BLZ,Belize,Upper middle income,2016,43.676551,10.986586
+BLZ,Belize,Upper middle income,2017,43.421109,-4.514615
+BLZ,Belize,Upper middle income,2018,43.164848,11.575998
+BLZ,Belize,Upper middle income,2019,42.907762,16.257300
+BOL,Bolivia,Upper middle income,1971,39.454806,19.441782
+BOL,Bolivia,Upper middle income,1972,39.767404,10.696303
+BOL,Bolivia,Upper middle income,1973,40.098897,4.945851
+BOL,Bolivia,Upper middle income,1975,40.823732,4.553166
+BOL,Bolivia,Upper middle income,1976,41.215100,12.314739
+BOL,Bolivia,Upper middle income,1978,42.336981,7.468197
+BOL,Bolivia,Upper middle income,1980,44.094776,-1.856492
+BOL,Bolivia,Upper middle income,1982,46.308726,2.399111
+BOL,Bolivia,Upper middle income,1983,47.527431,2.262942
+BOL,Bolivia,Upper middle income,1984,48.788980,-1.303064
+BOL,Bolivia,Upper middle income,1985,50.069644,-1.878004
+BOL,Bolivia,Upper middle income,1986,51.345689,-2.320633
+BOL,Bolivia,Upper middle income,1988,53.789002,6.160543
+BOL,Bolivia,Upper middle income,1990,55.929069,8.096309
+BOL,Bolivia,Upper middle income,1991,56.826057,5.312502
+BOL,Bolivia,Upper middle income,1992,57.577669,8.031233
+BOL,Bolivia,Upper middle income,1993,58.226832,15.492843
+BOL,Bolivia,Upper middle income,1995,59.391206,10.775702
+BOL,Bolivia,Upper middle income,1996,59.920244,13.311288
+BOL,Bolivia,Upper middle income,1997,60.423944,6.979370
+BOL,Bolivia,Upper middle income,1998,60.909876,6.648481
+BOL,Bolivia,Upper middle income,2001,62.337481,-1.593742
+BOL,Bolivia,Upper middle income,2002,62.818763,6.010331
+BOL,Bolivia,Upper middle income,2003,63.291871,-3.102646
+BOL,Bolivia,Upper middle income,2005,64.213306,5.203515
+BOL,Bolivia,Upper middle income,2006,64.663143,6.140668
+BOL,Bolivia,Upper middle income,2007,65.106733,6.263430
+BOL,Bolivia,Upper middle income,2008,65.544830,10.197127
+BOL,Bolivia,Upper middle income,2011,66.833716,8.980399
+BOL,Bolivia,Upper middle income,2013,67.669706,15.335529
+BOL,Bolivia,Upper middle income,2014,68.037425,10.663936
+BOL,Bolivia,Upper middle income,2017,69.083802,9.151375
+BRA,Brazil,Upper middle income,1971,54.328032,12.362744
+BRA,Brazil,Upper middle income,1972,55.660346,15.481008
+BRA,Brazil,Upper middle income,1973,57.136706,17.130825
+BRA,Brazil,Upper middle income,1974,58.708533,15.087940
+BRA,Brazil,Upper middle income,1975,60.327251,18.248046
+BRA,Brazil,Upper middle income,1978,64.978971,19.866585
+BRA,Brazil,Upper middle income,1979,66.299474,14.548960
+BRA,Brazil,Upper middle income,1983,70.082913,-4.848007
+BRA,Brazil,Upper middle income,1986,72.295456,8.098943
+BRA,Brazil,Upper middle income,1987,72.965827,6.339995
+BRA,Brazil,Upper middle income,1988,73.613862,18.666560
+BRA,Brazil,Upper middle income,1989,74.246306,6.377171
+BRA,Brazil,Upper middle income,1990,74.869901,-2.322215
+BRA,Brazil,Upper middle income,1993,76.640640,10.385965
+BRA,Brazil,Upper middle income,1994,77.171034,8.881447
+BRA,Brazil,Upper middle income,2000,81.148437,8.773287
+BRA,Brazil,Upper middle income,2004,82.681682,8.179452
+BRA,Brazil,Upper middle income,2006,83.267210,17.918940
+BRA,Brazil,Upper middle income,2007,83.538257,9.852304
+BRA,Brazil,Upper middle income,2008,83.803605,9.107856
+BRA,Brazil,Upper middle income,2010,84.343846,8.501473
+BRA,Brazil,Upper middle income,2015,85.693570,-4.645979
+BRA,Brazil,Upper middle income,2016,85.948705,-2.511571
+BRA,Brazil,Upper middle income,2018,86.442072,10.470570
+BRA,Brazil,Upper middle income,2019,86.679799,16.453451
+BWA,Botswana,Upper middle income,1969,7.929736,4.769689
+BWA,Botswana,Upper middle income,1970,9.000223,6.542745
+BWA,Botswana,Upper middle income,1971,9.885781,6.731902
+BWA,Botswana,Upper middle income,1972,10.571264,12.518717
+BWA,Botswana,Upper middle income,1977,13.050161,8.073060
+BWA,Botswana,Upper middle income,1978,13.583607,4.029134
+BWA,Botswana,Upper middle income,1979,14.203077,6.296954
+BWA,Botswana,Upper middle income,1980,14.940057,7.332666
+BWA,Botswana,Upper middle income,1981,15.813881,12.597266
+BWA,Botswana,Upper middle income,1984,22.617110,17.875467
+BWA,Botswana,Upper middle income,1987,33.865796,2.976329
+BWA,Botswana,Upper middle income,1988,37.581925,4.308073
+BWA,Botswana,Upper middle income,1989,40.915097,11.219301
+BWA,Botswana,Upper middle income,1990,43.645567,18.385084
+BWA,Botswana,Upper middle income,1995,49.611860,10.422455
+BWA,Botswana,Upper middle income,1997,51.052410,6.495056
+BWA,Botswana,Upper middle income,1998,51.738790,17.546989
+BWA,Botswana,Upper middle income,2002,55.014299,11.980760
+BWA,Botswana,Upper middle income,2007,60.782231,8.867255
+BWA,Botswana,Upper middle income,2011,64.018781,12.735496
+BWA,Botswana,Upper middle income,2018,66.157918,18.778911
+BWA,Botswana,Upper middle income,2019,66.327169,19.562050
+CHN,China,Upper middle income,1961,19.294250,-0.269345
+CHN,China,Upper middle income,1962,17.324953,1.380300
+CHN,China,Upper middle income,1963,16.836292,1.775498
+CHN,China,Upper middle income,1964,18.299999,2.969477
+CHN,China,Upper middle income,1965,17.983679,7.028893
+CHN,China,Upper middle income,1966,17.859728,9.176138
+CHN,China,Upper middle income,1967,17.740416,-3.219866
+CHN,China,Upper middle income,1969,17.499472,2.922796
+CHN,China,Upper middle income,1970,17.379990,4.811083
+CHN,China,Upper middle income,1971,17.260557,14.105763
+CHN,China,Upper middle income,1974,17.163958,12.061004
+CHN,China,Upper middle income,1975,17.344730,8.240687
+CHN,China,Upper middle income,1978,17.915207,9.200966
+CHN,China,Upper middle income,1980,19.391115,16.752887
+CHN,China,Upper middle income,1982,20.565502,10.808142
+CHN,China,Upper middle income,1983,21.623564,13.186493
+CHN,China,Upper middle income,1984,23.014269,7.351456
+CHN,China,Upper middle income,1985,23.706909,8.423739
+CHN,China,Upper middle income,1986,24.524916,12.549492
+CHN,China,Upper middle income,1987,25.319305,12.769088
+CHN,China,Upper middle income,1988,25.814672,10.426458
+CHN,China,Upper middle income,1991,26.940247,6.051921
+CHN,China,Upper middle income,1992,27.459869,4.207040
+CHN,China,Upper middle income,1993,27.990076,4.021697
+CHN,China,Upper middle income,1996,30.479864,17.943975
+CHN,China,Upper middle income,1997,31.909954,18.925855
+CHN,China,Upper middle income,1998,33.350166,10.308314
+CHN,China,Upper middle income,2000,36.432023,15.539292
+CHN,China,Upper middle income,2001,37.659744,12.686105
+CHN,China,Upper middle income,2002,39.089783,10.203586
+CHN,China,Upper middle income,2003,40.530231,7.940183
+CHN,China,Upper middle income,2004,41.760014,10.869459
+CHN,China,Upper middle income,2005,42.989998,13.166717
+CHN,China,Upper middle income,2006,44.343010,14.239730
+CHN,China,Upper middle income,2007,45.889244,13.035962
+CHN,China,Upper middle income,2008,46.989506,11.686556
+CHN,China,Upper middle income,2009,48.341705,7.761590
+CHN,China,Upper middle income,2010,49.234027,14.570639
+CHN,China,Upper middle income,2011,51.830029,16.113336
+CHN,China,Upper middle income,2012,53.100311,17.122569
+CHN,China,Upper middle income,2013,54.490002,18.001745
+CHN,China,Upper middle income,2017,60.240269,19.383184
+CHN,China,Upper middle income,2018,61.500198,16.188443
+COL,Colombia,Upper middle income,1966,53.986098,11.950900
+COL,Colombia,Upper middle income,1968,56.108440,14.766893
+COL,Colombia,Upper middle income,1969,57.156596,17.853688
+COL,Colombia,Upper middle income,1978,63.753456,14.119445
+COL,Colombia,Upper middle income,1980,64.734117,15.591022
+COL,Colombia,Upper middle income,1988,68.541179,10.092663
+COL,Colombia,Upper middle income,1990,69.490757,11.275815
+COL,Colombia,Upper middle income,1992,70.419021,8.502370
+COL,Colombia,Upper middle income,1993,70.873348,6.257905
+COL,Colombia,Upper middle income,1994,71.334904,18.509631
+COL,Colombia,Upper middle income,1999,73.870000,-0.379813
+COL,Colombia,Upper middle income,2000,74.349357,1.413492
+COL,Colombia,Upper middle income,2001,74.793837,3.309556
+COL,Colombia,Upper middle income,2002,75.192444,5.166294
+COL,Colombia,Upper middle income,2003,75.534183,6.325467
+COL,Colombia,Upper middle income,2004,75.808057,9.364570
+COL,Colombia,Upper middle income,2005,76.004939,6.309222
+COL,Colombia,Upper middle income,2006,76.161919,8.186238
+COL,Colombia,Upper middle income,2007,76.314404,9.795303
+COL,Colombia,Upper middle income,2011,76.839004,19.848619
+COL,Colombia,Upper middle income,2013,77.031599,19.724432
+COL,Colombia,Upper middle income,2014,77.105845,11.682192
+COL,Colombia,Upper middle income,2015,77.163628,19.860483
+DOM,Dominican Republic,Upper middle income,1961,31.001433,0.821773
+DOM,Dominican Republic,Upper middle income,1962,31.897953,3.921508
+DOM,Dominican Republic,Upper middle income,1963,32.856877,6.950022
+DOM,Dominican Republic,Upper middle income,1964,33.865201,9.258597
+DOM,Dominican Republic,Upper middle income,1965,34.909927,-0.446717
+DOM,Dominican Republic,Upper middle income,1966,35.978053,4.229465
+DOM,Dominican Republic,Upper middle income,1970,40.248897,10.595670
+DOM,Dominican Republic,Upper middle income,1971,41.361460,18.110120
+DOM,Dominican Republic,Upper middle income,1972,42.550843,9.380255
+DOM,Dominican Republic,Upper middle income,1979,50.658459,15.633195
+DOM,Dominican Republic,Upper middle income,1983,53.051726,12.574710
+DOM,Dominican Republic,Upper middle income,1986,53.964929,10.382297
+DOM,Dominican Republic,Upper middle income,1987,54.210082,8.251580
+DOM,Dominican Republic,Upper middle income,1989,54.694693,14.164666
+DOM,Dominican Republic,Upper middle income,1991,55.264132,-1.871530
+DOM,Dominican Republic,Upper middle income,1992,55.615320,2.156159
+DOM,Dominican Republic,Upper middle income,1993,56.029724,8.707699
+DOM,Dominican Republic,Upper middle income,1996,57.828749,17.146796
+DOM,Dominican Republic,Upper middle income,1997,58.607368,19.775247
+DOM,Dominican Republic,Upper middle income,1998,59.455581,11.233948
+DOM,Dominican Republic,Upper middle income,2005,67.575918,9.252282
+DOM,Dominican Republic,Upper middle income,2006,69.333854,8.709569
+DOM,Dominican Republic,Upper middle income,2007,71.019343,16.839095
+DOM,Dominican Republic,Upper middle income,2010,74.164277,12.157950
+DOM,Dominican Republic,Upper middle income,2018,73.758926,9.888134
+DZA,Algeria,Upper middle income,1970,39.602926,4.982254
+DZA,Algeria,Upper middle income,1972,39.816072,4.653034
+DZA,Algeria,Upper middle income,1973,39.928407,6.840894
+DZA,Algeria,Upper middle income,1975,40.234715,5.429358
+DZA,Algeria,Upper middle income,1976,40.456732,8.192625
+DZA,Algeria,Upper middle income,1977,40.773730,17.212027
+DZA,Algeria,Upper middle income,1978,41.262014,8.596882
+DZA,Algeria,Upper middle income,1982,44.754143,13.679820
+DZA,Algeria,Upper middle income,1986,48.871529,19.030777
+DZA,Algeria,Upper middle income,1989,51.348493,13.512995
+DZA,Algeria,Upper middle income,1992,53.705230,9.990561
+DZA,Algeria,Upper middle income,1994,55.246622,13.457736
+DZA,Algeria,Upper middle income,1995,56.013117,9.090090
+DZA,Algeria,Upper middle income,1998,58.314700,4.405569
+DZA,Algeria,Upper middle income,2001,60.617717,4.081527
+DZA,Algeria,Upper middle income,2002,61.381266,7.054492
+DZA,Algeria,Upper middle income,2007,65.169076,8.939327
+DZA,Algeria,Upper middle income,2008,65.901486,13.873094
+DZA,Algeria,Upper middle income,2009,66.509738,4.652940
+DZA,Algeria,Upper middle income,2013,68.946384,11.822659
+DZA,Algeria,Upper middle income,2014,69.546877,11.001495
+DZA,Algeria,Upper middle income,2015,70.143307,9.368442
+ECU,Ecuador,Upper middle income,1973,40.818179,10.453731
+ECU,Ecuador,Upper middle income,1975,42.132442,13.847019
+ECU,Ecuador,Upper middle income,1986,52.178435,13.570917
+ECU,Ecuador,Upper middle income,1987,52.957696,16.928371
+ECU,Ecuador,Upper middle income,1993,56.994580,14.716721
+ECU,Ecuador,Upper middle income,1998,59.839314,9.569231
+ECU,Ecuador,Upper middle income,1999,60.291391,-0.783076
+ECU,Ecuador,Upper middle income,2000,60.686501,3.779490
+ECU,Ecuador,Upper middle income,2002,61.287127,13.084413
+ECU,Ecuador,Upper middle income,2008,62.539552,19.254781
+ECU,Ecuador,Upper middle income,2010,62.740526,16.490515
+ECU,Ecuador,Upper middle income,2011,62.794905,15.397516
+ECU,Ecuador,Upper middle income,2012,62.840873,19.922245
+ECU,Ecuador,Upper middle income,2013,62.883729,15.110503
+ECU,Ecuador,Upper middle income,2017,63.019459,17.732129
+GAB,Gabon,Upper middle income,1971,34.174601,9.299745
+GAB,Gabon,Upper middle income,1972,36.490220,1.659816
+GAB,Gabon,Upper middle income,1973,38.906394,-3.377377
+GAB,Gabon,Upper middle income,1974,41.382657,4.999424
+GAB,Gabon,Upper middle income,1975,43.878546,4.714456
+GAB,Gabon,Upper middle income,1976,46.353596,5.379735
+GAB,Gabon,Upper middle income,1977,48.767342,-4.156551
+GAB,Gabon,Upper middle income,1978,51.079320,-0.860189
+GAB,Gabon,Upper middle income,1979,53.249065,-3.087529
+GAB,Gabon,Upper middle income,1981,57.000000,5.963574
+GAB,Gabon,Upper middle income,1983,59.937489,6.956633
+GAB,Gabon,Upper middle income,1985,62.467667,4.442996
+GAB,Gabon,Upper middle income,1986,63.707972,5.304522
+GAB,Gabon,Upper middle income,1987,65.000000,0.468961
+GAB,Gabon,Upper middle income,1988,66.384828,1.610714
+GAB,Gabon,Upper middle income,1989,67.830394,0.564122
+GAB,Gabon,Upper middle income,1990,69.278172,1.258195
+GAB,Gabon,Upper middle income,1991,70.669635,0.591219
+GAB,Gabon,Upper middle income,1992,71.946259,0.427983
+GAB,Gabon,Upper middle income,1993,73.045619,0.260424
+GAB,Gabon,Upper middle income,1994,74.024364,1.104310
+GAB,Gabon,Upper middle income,1995,74.989355,0.534730
+GAB,Gabon,Upper middle income,1996,75.942104,3.049244
+GAB,Gabon,Upper middle income,1997,76.879379,2.273790
+GAB,Gabon,Upper middle income,1998,77.797949,2.430567
+GAB,Gabon,Upper middle income,1999,78.694580,-0.034982
+GAB,Gabon,Upper middle income,2000,79.566040,0.648252
+GAB,Gabon,Upper middle income,2001,80.409099,0.778627
+GAB,Gabon,Upper middle income,2002,81.220524,3.412026
+GAB,Gabon,Upper middle income,2003,81.997083,-0.577298
+GAB,Gabon,Upper middle income,2004,82.735544,0.446941
+GAB,Gabon,Upper middle income,2005,83.432675,9.272614
+GAB,Gabon,Upper middle income,2006,84.085243,1.965995
+GAB,Gabon,Upper middle income,2007,84.690018,3.638019
+GAB,Gabon,Upper middle income,2008,85.243767,18.868365
+GAB,Gabon,Upper middle income,2009,85.743258,2.502845
+GAB,Gabon,Upper middle income,2010,86.185259,6.383752
+GAB,Gabon,Upper middle income,2013,87.148248,10.541979
+GAB,Gabon,Upper middle income,2014,87.623602,5.979221
+GAB,Gabon,Upper middle income,2017,89.000973,-2.588483
+GAB,Gabon,Upper middle income,2019,89.903185,5.199662
+GEO,Georgia,Upper middle income,1991,54.902937,-1.277254
+GEO,Georgia,Upper middle income,1992,54.630369,2.484001
+GEO,Georgia,Upper middle income,1993,54.331353,7.829933
+GEO,Georgia,Upper middle income,1996,53.394176,-3.248190
+GEO,Georgia,Upper middle income,1998,52.854512,0.211810
+GEO,Georgia,Upper middle income,1999,52.645784,5.248715
+GEO,Georgia,Upper middle income,2001,52.409817,6.013543
+GEO,Georgia,Upper middle income,2003,52.514471,5.695497
+GEO,Georgia,Upper middle income,2004,52.717320,15.624727
+GEO,Georgia,Upper middle income,2005,53.003628,13.366381
+GEO,Georgia,Upper middle income,2007,53.770607,12.051273
+GEO,Georgia,Upper middle income,2008,54.223272,-4.718028
+GEO,Georgia,Upper middle income,2009,54.703382,1.673944
+GEO,Georgia,Upper middle income,2010,55.196934,2.739724
+GEO,Georgia,Upper middle income,2011,55.689926,8.017642
+GEO,Georgia,Upper middle income,2012,56.168353,8.075610
+GEO,Georgia,Upper middle income,2014,57.023761,8.155754
+GEO,Georgia,Upper middle income,2015,57.380380,12.945148
+GEO,Georgia,Upper middle income,2016,57.698403,15.374228
+GNQ,Equatorial Guinea,Upper middle income,2007,45.857455,9.901470
+GNQ,Equatorial Guinea,Upper middle income,2009,50.472282,4.196590
+GNQ,Equatorial Guinea,Upper middle income,2012,59.010694,10.133998
+GNQ,Equatorial Guinea,Upper middle income,2013,62.212007,-2.318656
+GNQ,Equatorial Guinea,Upper middle income,2015,68.951271,1.094104
+GNQ,Equatorial Guinea,Upper middle income,2016,69.253270,3.544514
+GNQ,Equatorial Guinea,Upper middle income,2017,69.551602,10.669253
+GNQ,Equatorial Guinea,Upper middle income,2018,69.839662,13.022854
+GTM,Guatemala,Upper middle income,1963,33.288110,17.558594
+GTM,Guatemala,Upper middle income,1964,33.705323,10.952728
+GTM,Guatemala,Upper middle income,1967,34.967054,16.663012
+GTM,Guatemala,Upper middle income,1971,36.233372,18.996340
+GTM,Guatemala,Upper middle income,1973,36.382141,14.933628
+GTM,Guatemala,Upper middle income,1974,36.150952,12.856552
+GTM,Guatemala,Upper middle income,1976,35.057263,6.434099
+GTM,Guatemala,Upper middle income,1983,32.789552,-1.971046
+GTM,Guatemala,Upper middle income,1985,32.978154,3.931110
+GTM,Guatemala,Upper middle income,1987,33.273367,4.354647
+GTM,Guatemala,Upper middle income,1988,33.458838,10.480742
+GTM,Guatemala,Upper middle income,1989,33.668424,19.458922
+GTM,Guatemala,Upper middle income,1992,34.433417,5.654903
+GTM,Guatemala,Upper middle income,1997,38.319564,12.095283
+GTM,Guatemala,Upper middle income,1998,39.940672,15.577958
+GTM,Guatemala,Upper middle income,1999,41.623155,19.379504
+GTM,Guatemala,Upper middle income,2001,44.678096,8.913969
+GTM,Guatemala,Upper middle income,2002,45.775473,16.630901
+GTM,Guatemala,Upper middle income,2006,48.767636,10.413260
+GTM,Guatemala,Upper middle income,2019,54.188227,13.384494
+IDN,Indonesia,Upper middle income,1968,16.289753,3.242770
+IDN,Indonesia,Upper middle income,1969,16.531565,3.118102
+IDN,Indonesia,Upper middle income,1970,16.800135,8.113452
+IDN,Indonesia,Upper middle income,1971,17.101150,9.859811
+IDN,Indonesia,Upper middle income,1972,17.453167,9.212278
+IDN,Indonesia,Upper middle income,1975,18.914197,12.595139
+IDN,Indonesia,Upper middle income,1983,24.343319,18.751664
+IDN,Indonesia,Upper middle income,1986,26.862490,19.631966
+IDN,Indonesia,Upper middle income,2004,45.447674,18.498739
+IDN,Indonesia,Upper middle income,2009,49.167758,18.386293
+IRQ,Iraq,Upper middle income,1972,59.009018,17.622794
+IRQ,Iraq,Upper middle income,1973,59.977747,17.750717
+IRQ,Iraq,Upper middle income,1975,61.806726,9.153201
+IRQ,Iraq,Upper middle income,1978,64.280639,13.965090
+IRQ,Iraq,Upper middle income,1980,66.006458,12.880256
+IRQ,Iraq,Upper middle income,1981,66.874474,5.510087
+IRQ,Iraq,Upper middle income,1983,68.465629,-2.766129
+IRQ,Iraq,Upper middle income,1984,69.126732,-1.029418
+IRQ,Iraq,Upper middle income,1987,70.196395,-4.711835
+IRQ,Iraq,Upper middle income,1988,70.171678,13.666279
+IRQ,Iraq,Upper middle income,1989,69.999749,6.353313
+IRQ,Iraq,Upper middle income,1990,69.719732,-2.869649
+IRQ,Iraq,Upper middle income,1991,69.364414,1.970552
+IRQ,Iraq,Upper middle income,1993,68.559024,-0.023055
+IRQ,Iraq,Upper middle income,1994,68.174523,5.803364
+IRQ,Iraq,Upper middle income,2000,67.633191,-0.896745
+IRQ,Iraq,Upper middle income,2001,67.751942,3.138665
+IRQ,Iraq,Upper middle income,2002,67.893810,-3.791422
+IRQ,Iraq,Upper middle income,2003,68.052127,11.781057
+IRQ,Iraq,Upper middle income,2004,68.220222,-4.776387
+IRQ,Iraq,Upper middle income,2005,68.391426,5.144867
+IRQ,Iraq,Upper middle income,2006,68.559067,10.296758
+IRQ,Iraq,Upper middle income,2007,68.716476,-0.178298
+IRQ,Iraq,Upper middle income,2008,68.856982,4.196903
+IRQ,Iraq,Upper middle income,2009,68.974233,-3.976248
+IRQ,Iraq,Upper middle income,2010,69.058295,6.081578
+IRQ,Iraq,Upper middle income,2011,69.125223,19.387147
+IRQ,Iraq,Upper middle income,2013,69.444450,8.412796
+IRQ,Iraq,Upper middle income,2015,69.920525,11.237854
+IRQ,Iraq,Upper middle income,2016,69.912378,-2.817461
+IRQ,Iraq,Upper middle income,2019,69.868340,3.438020
+JOR,Jordan,Upper middle income,1977,56.808357,6.501494
+JOR,Jordan,Upper middle income,1979,58.756141,9.924608
+JOR,Jordan,Upper middle income,1980,59.827067,9.664562
+JOR,Jordan,Upper middle income,1981,61.085275,5.175315
+JOR,Jordan,Upper middle income,1983,64.060422,-4.107204
+JOR,Jordan,Upper middle income,1985,67.384307,-2.185272
+JOR,Jordan,Upper middle income,1987,70.741443,15.114998
+JOR,Jordan,Upper middle income,1988,72.333891,12.328715
+JOR,Jordan,Upper middle income,1990,75.149368,13.337649
+JOR,Jordan,Upper middle income,1992,77.209382,4.307706
+JOR,Jordan,Upper middle income,1993,77.857501,8.252413
+JOR,Jordan,Upper middle income,1998,78.275127,-4.548640
+JOR,Jordan,Upper middle income,1999,78.280105,7.532126
+JOR,Jordan,Upper middle income,2003,78.306942,7.745333
+JOR,Jordan,Upper middle income,2004,78.318535,5.027674
+JOR,Jordan,Upper middle income,2005,78.412126,5.566848
+JOR,Jordan,Upper middle income,2007,79.335827,10.449431
+JOR,Jordan,Upper middle income,2008,80.129097,6.256745
+KAZ,Kazakhstan,Upper middle income,1993,56.984057,-1.976865
+KAZ,Kazakhstan,Upper middle income,1994,56.874382,-1.242491
+KAZ,Kazakhstan,Upper middle income,1995,56.752954,1.875378
+KAZ,Kazakhstan,Upper middle income,1996,56.623247,3.024125
+KAZ,Kazakhstan,Upper middle income,1998,56.352876,19.159328
+KAZ,Kazakhstan,Upper middle income,2000,56.023961,-3.884343
+KAZ,Kazakhstan,Upper middle income,2001,55.781372,-0.355441
+KAZ,Kazakhstan,Upper middle income,2002,55.504591,-0.373596
+KAZ,Kazakhstan,Upper middle income,2003,55.211528,0.747828
+KAZ,Kazakhstan,Upper middle income,2004,54.920090,1.414082
+KAZ,Kazakhstan,Upper middle income,2005,54.648187,2.250299
+KAZ,Kazakhstan,Upper middle income,2006,54.413728,3.644458
+KAZ,Kazakhstan,Upper middle income,2007,54.234620,9.254996
+KAZ,Kazakhstan,Upper middle income,2009,54.116714,13.146691
+KAZ,Kazakhstan,Upper middle income,2012,54.692082,6.871611
+KAZ,Kazakhstan,Upper middle income,2015,56.110605,9.866964
+KAZ,Kazakhstan,Upper middle income,2019,59.083247,5.639596
+LBN,Lebanon,Upper middle income,1991,83.773294,4.659097
+LBN,Lebanon,Upper middle income,1992,84.165433,6.732271
+LBN,Lebanon,Upper middle income,1993,84.523350,8.999287
+LBN,Lebanon,Upper middle income,1994,84.846200,5.851174
+LBN,Lebanon,Upper middle income,1999,85.904150,-3.347674
+LBN,Lebanon,Upper middle income,2003,86.447535,19.741192
+LBN,Lebanon,Upper middle income,2004,86.604928,6.397066
+LBN,Lebanon,Upper middle income,2007,87.102486,6.839806
+LBN,Lebanon,Upper middle income,2008,87.276974,7.906195
+LBN,Lebanon,Upper middle income,2009,87.455868,15.322807
+LBN,Lebanon,Upper middle income,2013,88.216548,16.887678
+LBN,Lebanon,Upper middle income,2019,89.498674,-3.227567
+LKA,Sri Lanka,Upper middle income,1962,18.460699,16.428576
+LKA,Sri Lanka,Upper middle income,1966,20.407190,9.085150
+LKA,Sri Lanka,Upper middle income,1967,20.978041,10.991698
+LKA,Sri Lanka,Upper middle income,1969,21.956063,5.176385
+LKA,Sri Lanka,Upper middle income,1975,22.248700,13.573442
+LKA,Sri Lanka,Upper middle income,1978,21.890806,6.452809
+LKA,Sri Lanka,Upper middle income,1979,21.750742,7.660411
+LKA,Sri Lanka,Upper middle income,1980,21.606448,7.468690
+LKA,Sri Lanka,Upper middle income,1982,21.259990,11.241380
+LKA,Sri Lanka,Upper middle income,1990,18.090908,10.444625
+LKA,Sri Lanka,Upper middle income,1991,17.614100,12.152190
+LKA,Sri Lanka,Upper middle income,1992,17.145334,11.471336
+LKA,Sri Lanka,Upper middle income,1993,16.692403,8.768197
+LKA,Sri Lanka,Upper middle income,1994,16.263097,10.589639
+LKA,Sri Lanka,Upper middle income,1997,15.194840,15.312552
+LKA,Sri Lanka,Upper middle income,1998,14.937946,18.926683
+LKA,Sri Lanka,Upper middle income,1999,14.743632,10.040400
+LKA,Sri Lanka,Upper middle income,2000,14.619690,14.622970
+LKA,Sri Lanka,Upper middle income,2001,14.573954,-3.217801
+LKA,Sri Lanka,Upper middle income,2004,14.913006,11.522601
+LKA,Sri Lanka,Upper middle income,2006,15.482928,15.485844
+LKA,Sri Lanka,Upper middle income,2016,18.974768,14.857420
+LKA,Sri Lanka,Upper middle income,2017,19.150769,14.139584
+MDA,Moldova,Upper middle income,1999,40.526909,12.017332
+MDA,Moldova,Upper middle income,2000,40.418598,19.700704
+MDA,Moldova,Upper middle income,2004,39.446095,-3.918511
+MDA,Moldova,Upper middle income,2005,39.370403,-1.531406
+MDA,Moldova,Upper middle income,2006,39.218239,0.545052
+MDA,Moldova,Upper middle income,2007,39.431503,2.350305
+MDA,Moldova,Upper middle income,2008,39.371071,5.927679
+MDA,Moldova,Upper middle income,2009,39.325535,0.626601
+MDA,Moldova,Upper middle income,2010,39.280495,-0.495012
+MDA,Moldova,Upper middle income,2011,39.346916,2.532573
+MDA,Moldova,Upper middle income,2012,39.361420,13.687853
+MDA,Moldova,Upper middle income,2013,39.427551,4.773207
+MDA,Moldova,Upper middle income,2014,39.629848,3.345106
+MDA,Moldova,Upper middle income,2015,39.695404,-4.223756
+MDA,Moldova,Upper middle income,2017,39.973656,7.989126
+MDA,Moldova,Upper middle income,2018,40.325809,8.218786
+MEX,Mexico,Upper middle income,1963,53.259457,16.820119
+MEX,Mexico,Upper middle income,1964,54.107614,18.490634
+MEX,Mexico,Upper middle income,1967,56.628011,17.854076
+MEX,Mexico,Upper middle income,1970,59.031818,19.131478
+MEX,Mexico,Upper middle income,1972,60.594226,15.442930
+MEX,Mexico,Upper middle income,1975,62.894275,16.161617
+MEX,Mexico,Upper middle income,1978,65.034436,12.168185
+MEX,Mexico,Upper middle income,1979,65.691767,10.276675
+MEX,Mexico,Upper middle income,1981,66.910735,14.034226
+MEX,Mexico,Upper middle income,1983,68.055972,-3.015743
+MEX,Mexico,Upper middle income,1985,69.130378,18.462575
+MEX,Mexico,Upper middle income,1988,70.593447,14.257696
+MEX,Mexico,Upper middle income,1990,71.459008,12.031812
+MEX,Mexico,Upper middle income,1991,71.859396,13.853825
+MEX,Mexico,Upper middle income,1992,72.240608,14.217380
+MEX,Mexico,Upper middle income,1994,72.956558,12.536250
+MEX,Mexico,Upper middle income,1995,73.296231,-1.474597
+MEX,Mexico,Upper middle income,1996,73.626992,7.036502
+MEX,Mexico,Upper middle income,1997,73.951308,7.506982
+MEX,Mexico,Upper middle income,1998,74.271646,8.469932
+MEX,Mexico,Upper middle income,2000,74.920311,17.366358
+MEX,Mexico,Upper middle income,2003,76.046170,15.555234
+MEX,Mexico,Upper middle income,2004,76.327440,12.118403
+MEX,Mexico,Upper middle income,2006,76.498246,10.422500
+MEX,Mexico,Upper middle income,2007,76.504733,18.895651
+MEX,Mexico,Upper middle income,2008,76.509043,16.276181
+MEX,Mexico,Upper middle income,2011,76.566780,12.105200
+MEX,Mexico,Upper middle income,2015,77.190385,9.461068
+MEX,Mexico,Upper middle income,2016,77.440509,19.728921
+MKD,North Macedonia,Upper middle income,1993,59.363401,-3.339087
+MKD,North Macedonia,Upper middle income,1995,59.727785,15.020673
+MKD,North Macedonia,Upper middle income,1996,59.658437,19.089896
+MKD,North Macedonia,Upper middle income,2000,58.491838,2.348376
+MKD,North Macedonia,Upper middle income,2001,58.094320,17.045002
+MKD,North Macedonia,Upper middle income,2004,57.852794,9.042472
+MKD,North Macedonia,Upper middle income,2006,57.879657,7.583241
+MKD,North Macedonia,Upper middle income,2007,57.911103,5.814702
+MKD,North Macedonia,Upper middle income,2008,57.959357,7.030878
+MNE,Montenegro,Upper middle income,2001,60.138788,10.440694
+MNE,Montenegro,Upper middle income,2004,62.210498,2.217321
+MNE,Montenegro,Upper middle income,2005,62.676368,8.390795
+MNE,Montenegro,Upper middle income,2006,63.111309,3.881819
+MNE,Montenegro,Upper middle income,2007,63.503579,4.842984
+MNE,Montenegro,Upper middle income,2008,63.841439,8.678039
+MNE,Montenegro,Upper middle income,2009,64.113147,-3.013169
+MNE,Montenegro,Upper middle income,2015,64.818165,15.465354
+MNE,Montenegro,Upper middle income,2016,64.910169,9.531671
+MNE,Montenegro,Upper middle income,2017,64.999244,18.910823
+MNE,Montenegro,Upper middle income,2018,65.085407,17.341660
+MNG,Mongolia,Upper middle income,1985,55.906311,13.282000
+MNG,Mongolia,Upper middle income,1990,57.021752,1.346058
+MNG,Mongolia,Upper middle income,1995,56.791814,0.811663
+MNG,Mongolia,Upper middle income,1998,56.667486,9.764795
+MNG,Mongolia,Upper middle income,2002,58.131012,11.110751
+MNG,Mongolia,Upper middle income,2003,59.354699,4.284585
+MNG,Mongolia,Upper middle income,2004,60.782999,19.756015
+MNG,Mongolia,Upper middle income,2005,62.312263,13.799604
+MNG,Mongolia,Upper middle income,2006,63.838837,7.928474
+MNG,Mongolia,Upper middle income,2007,65.259070,13.244075
+MNG,Mongolia,Upper middle income,2008,66.469310,16.605804
+MNG,Mongolia,Upper middle income,2009,67.365905,-2.457536
+MNG,Mongolia,Upper middle income,2010,67.829802,6.009529
+MNG,Mongolia,Upper middle income,2011,67.919606,5.330410
+MNG,Mongolia,Upper middle income,2014,67.994136,-4.501600
+MNG,Mongolia,Upper middle income,2015,68.000000,-0.509496
+MNG,Mongolia,Upper middle income,2016,67.977675,7.401534
+MNG,Mongolia,Upper middle income,2017,67.926058,6.339979
+MNG,Mongolia,Upper middle income,2018,67.868344,7.444063
+MUS,Mauritius,Upper middle income,1977,43.063411,16.960463
+MUS,Mauritius,Upper middle income,1980,42.139097,-4.111105
+MUS,Mauritius,Upper middle income,1982,41.756495,-3.383628
+MUS,Mauritius,Upper middle income,1984,41.820583,15.207699
+MUS,Mauritius,Upper middle income,1985,42.134358,8.884808
+MUS,Mauritius,Upper middle income,1986,42.564154,7.535869
+MUS,Mauritius,Upper middle income,1987,43.032793,8.467808
+MUS,Mauritius,Upper middle income,1988,43.463098,5.135451
+MUS,Mauritius,Upper middle income,1990,43.900002,6.584493
+MUS,Mauritius,Upper middle income,1994,43.424475,10.961974
+MUS,Mauritius,Upper middle income,1995,43.204280,-4.615792
+MUS,Mauritius,Upper middle income,1996,42.966266,11.995360
+MUS,Mauritius,Upper middle income,1997,42.721784,14.641220
+MUS,Mauritius,Upper middle income,1999,42.258829,8.222066
+MUS,Mauritius,Upper middle income,2003,41.512707,14.664516
+MUS,Mauritius,Upper middle income,2006,40.960769,13.341519
+MUS,Mauritius,Upper middle income,2007,40.784660,17.364190
+MUS,Mauritius,Upper middle income,2009,40.454820,14.846113
+MUS,Mauritius,Upper middle income,2018,39.347491,12.495365
+MUS,Mauritius,Upper middle income,2019,39.250949,16.451180
+MYS,Malaysia,Upper middle income,1961,26.456382,6.604108
+MYS,Malaysia,Upper middle income,1962,26.822829,7.580768
+MYS,Malaysia,Upper middle income,1963,27.170385,5.624453
+MYS,Malaysia,Upper middle income,1968,28.771089,19.375597
+MYS,Malaysia,Upper middle income,1970,29.425427,6.191575
+MYS,Malaysia,Upper middle income,1971,29.772329,9.297555
+MYS,Malaysia,Upper middle income,1972,30.137958,13.608879
+MYS,Malaysia,Upper middle income,1974,30.942119,12.418636
+MYS,Malaysia,Upper middle income,1977,32.393318,18.514567
+MYS,Malaysia,Upper middle income,1978,32.959093,15.394558
+MYS,Malaysia,Upper middle income,1979,33.572855,14.284016
+MYS,Malaysia,Upper middle income,1980,34.241774,9.801051
+MYS,Malaysia,Upper middle income,1981,35.087763,10.333298
+MYS,Malaysia,Upper middle income,1988,45.753776,7.127775
+MYS,Malaysia,Upper middle income,1989,47.437748,7.220012
+MYS,Malaysia,Upper middle income,1990,49.033067,9.427560
+MYS,Malaysia,Upper middle income,1991,50.492346,11.289531
+MYS,Malaysia,Upper middle income,1993,53.228673,13.910481
+MYS,Malaysia,Upper middle income,1994,54.585539,17.749743
+MYS,Malaysia,Upper middle income,1995,55.923292,13.788144
+MYS,Malaysia,Upper middle income,1998,59.720260,-1.356650
+MYS,Malaysia,Upper middle income,2000,61.969456,7.252130
+MYS,Malaysia,Upper middle income,2005,67.015982,14.470249
+MYS,Malaysia,Upper middle income,2010,70.862531,19.676049
+MYS,Malaysia,Upper middle income,2012,71.968013,11.775195
+NAM,Namibia,Upper middle income,1982,25.792434,-3.178438
+NAM,Namibia,Upper middle income,1983,25.883423,-0.796528
+NAM,Namibia,Upper middle income,1984,25.984018,0.145598
+NAM,Namibia,Upper middle income,1985,26.095609,-1.003906
+NAM,Namibia,Upper middle income,1986,26.219586,-0.343418
+NAM,Namibia,Upper middle income,1987,26.357341,1.657946
+NAM,Namibia,Upper middle income,1988,26.510262,4.822117
+NAM,Namibia,Upper middle income,1989,26.679740,4.762366
+NAM,Namibia,Upper middle income,1990,26.867165,3.113035
+NAM,Namibia,Upper middle income,1991,27.071577,-0.773268
+NAM,Namibia,Upper middle income,1992,27.324301,2.408376
+NAM,Namibia,Upper middle income,1995,28.671119,6.326960
+NAM,Namibia,Upper middle income,1996,29.277180,13.493643
+NAM,Namibia,Upper middle income,1998,30.641704,6.131611
+NAM,Namibia,Upper middle income,2000,32.116896,-4.586501
+NAM,Namibia,Upper middle income,2001,32.857506,6.138019
+NAM,Namibia,Upper middle income,2004,35.535648,9.820873
+NAM,Namibia,Upper middle income,2006,37.672215,5.642315
+NAM,Namibia,Upper middle income,2008,39.832812,8.711904
+NAM,Namibia,Upper middle income,2009,40.852490,14.428787
+NAM,Namibia,Upper middle income,2012,43.380408,8.648662
+NAM,Namibia,Upper middle income,2013,44.110677,6.363798
+NAM,Namibia,Upper middle income,2014,44.821425,9.305765
+NAM,Namibia,Upper middle income,2016,46.175173,-2.328390
+NAM,Namibia,Upper middle income,2017,46.813580,-3.345109
+PER,Peru,Upper middle income,1961,47.420259,2.718137
+PER,Peru,Upper middle income,1962,48.259263,3.139966
+PER,Peru,Upper middle income,1965,51.565286,5.592105
+PER,Peru,Upper middle income,1966,52.818510,10.369840
+PER,Peru,Upper middle income,1968,55.350103,-1.969629
+PER,Peru,Upper middle income,1970,57.691130,-2.052580
+PER,Peru,Upper middle income,1971,58.706148,8.674602
+PER,Peru,Upper middle income,1972,59.574618,16.997896
+PER,Peru,Upper middle income,1973,60.341854,3.862148
+PER,Peru,Upper middle income,1974,61.068557,5.786032
+PER,Peru,Upper middle income,1979,64.167587,7.016211
+PER,Peru,Upper middle income,1980,64.699962,5.421678
+PER,Peru,Upper middle income,1981,65.209751,6.402833
+PER,Peru,Upper middle income,1983,66.153003,-0.709611
+PER,Peru,Upper middle income,1984,66.588334,-3.577023
+PER,Peru,Upper middle income,1985,67.004503,-0.444528
+PER,Peru,Upper middle income,1986,67.405308,4.678191
+PER,Peru,Upper middle income,1989,68.553495,-0.684777
+PER,Peru,Upper middle income,1990,68.930801,-1.734664
+PER,Peru,Upper middle income,1991,69.311722,13.622793
+PER,Peru,Upper middle income,1993,70.099791,5.663238
+PER,Peru,Upper middle income,1994,70.500316,5.386576
+PER,Peru,Upper middle income,1995,70.889853,7.447267
+PER,Peru,Upper middle income,1997,71.647095,12.424621
+PER,Peru,Upper middle income,2003,73.955875,19.203320
+PER,Peru,Upper middle income,2005,74.816235,16.549602
+PER,Peru,Upper middle income,2006,75.276667,13.495451
+PER,Peru,Upper middle income,2007,75.761525,8.902208
+PER,Peru,Upper middle income,2008,76.274488,7.805696
+PER,Peru,Upper middle income,2010,77.402094,13.494227
+PER,Peru,Upper middle income,2012,78.648806,15.126167
+PRY,Paraguay,Upper middle income,1964,36.050089,7.376076
+PRY,Paraguay,Upper middle income,1965,36.178447,5.250134
+PRY,Paraguay,Upper middle income,1966,36.312480,15.540661
+PRY,Paraguay,Upper middle income,1967,36.455361,12.562295
+PRY,Paraguay,Upper middle income,1973,37.701905,9.545732
+PRY,Paraguay,Upper middle income,1974,38.067754,10.539971
+PRY,Paraguay,Upper middle income,1975,38.502347,8.256005
+PRY,Paraguay,Upper middle income,1976,38.996909,12.199356
+PRY,Paraguay,Upper middle income,1977,39.542663,13.378610
+PRY,Paraguay,Upper middle income,1978,40.130835,13.192568
+PRY,Paraguay,Upper middle income,1979,40.752648,12.534102
+PRY,Paraguay,Upper middle income,1986,46.148910,11.724045
+PRY,Paraguay,Upper middle income,1993,52.568277,9.854267
+PRY,Paraguay,Upper middle income,1994,53.348808,8.886872
+PRY,Paraguay,Upper middle income,2003,58.552133,4.398100
+PRY,Paraguay,Upper middle income,2004,58.742137,12.033233
+PRY,Paraguay,Upper middle income,2005,58.894079,12.426295
+PRY,Paraguay,Upper middle income,2006,59.020229,15.322808
+PRY,Paraguay,Upper middle income,2008,59.244226,10.774640
+PRY,Paraguay,Upper middle income,2010,59.512279,6.055795
+PRY,Paraguay,Upper middle income,2014,60.710197,15.999987
+PRY,Paraguay,Upper middle income,2018,63.924899,19.750135
+RUS,Russian Federation,Upper middle income,1992,73.382294,-2.747536
+RUS,Russian Federation,Upper middle income,1993,73.059097,2.571916
+RUS,Russian Federation,Upper middle income,1998,73.191208,14.073422
+RUS,Russian Federation,Upper middle income,2003,73.405739,-4.140413
+RUS,Russian Federation,Upper middle income,2004,73.306580,-0.976774
+RUS,Russian Federation,Upper middle income,2005,73.161392,5.856615
+RUS,Russian Federation,Upper middle income,2006,73.243919,4.301634
+RUS,Russian Federation,Upper middle income,2007,73.385605,4.014133
+RUS,Russian Federation,Upper middle income,2008,73.482246,7.907901
+RUS,Russian Federation,Upper middle income,2009,73.528870,-4.454166
+RUS,Russian Federation,Upper middle income,2010,73.669631,19.737332
+RUS,Russian Federation,Upper middle income,2012,73.972656,13.798810
+RUS,Russian Federation,Upper middle income,2013,74.076295,18.387747
+RUS,Russian Federation,Upper middle income,2016,74.370314,5.289749
+RUS,Russian Federation,Upper middle income,2017,74.460037,18.329216
+RUS,Russian Federation,Upper middle income,2019,74.622286,12.527200
+SLV,El Salvador,Upper middle income,1966,38.996290,15.354343
+SLV,El Salvador,Upper middle income,1968,39.170405,-1.721413
+SLV,El Salvador,Upper middle income,1969,39.274412,7.430073
+SLV,El Salvador,Upper middle income,1971,39.541703,7.063157
+SLV,El Salvador,Upper middle income,1972,39.726983,4.838012
+SLV,El Salvador,Upper middle income,1974,40.248901,4.741030
+SLV,El Salvador,Upper middle income,1975,40.579584,4.494546
+SLV,El Salvador,Upper middle income,1977,41.365573,11.949757
+SLV,El Salvador,Upper middle income,1978,41.814951,8.345259
+SLV,El Salvador,Upper middle income,1979,42.297965,-2.567545
+SLV,El Salvador,Upper middle income,1980,42.811651,-0.824123
+SLV,El Salvador,Upper middle income,1981,43.353044,-4.274835
+SLV,El Salvador,Upper middle income,1982,43.919179,-0.757281
+SLV,El Salvador,Upper middle income,1983,44.507093,-0.653277
+SLV,El Salvador,Upper middle income,1985,45.736396,9.911885
+SLV,El Salvador,Upper middle income,1986,46.371857,8.023814
+SLV,El Salvador,Upper middle income,1987,47.017238,13.203278
+SLV,El Salvador,Upper middle income,1989,48.325902,16.862337
+SLV,El Salvador,Upper middle income,1990,48.983256,6.628038
+SLV,El Salvador,Upper middle income,1991,49.638672,6.718111
+SLV,El Salvador,Upper middle income,1992,50.287284,5.391905
+SLV,El Salvador,Upper middle income,1993,50.948393,12.381201
+SLV,El Salvador,Upper middle income,1994,51.651755,14.688268
+SLV,El Salvador,Upper middle income,2000,56.563857,16.992082
+SLV,El Salvador,Upper middle income,2006,61.906868,17.085810
+SLV,El Salvador,Upper middle income,2007,62.767688,13.047311
+SLV,El Salvador,Upper middle income,2009,64.529905,-2.300471
+SLV,El Salvador,Upper middle income,2011,66.334414,8.797454
+SLV,El Salvador,Upper middle income,2013,68.087851,17.453545
+SLV,El Salvador,Upper middle income,2018,71.757721,18.118379
+SRB,Serbia,Upper middle income,1999,55.097865,8.931156
+SRB,Serbia,Upper middle income,2002,56.462902,-0.119885
+SRB,Serbia,Upper middle income,2003,56.878426,3.087401
+SRB,Serbia,Upper middle income,2004,57.314456,3.848758
+SRB,Serbia,Upper middle income,2005,57.750891,15.220553
+SRB,Serbia,Upper middle income,2006,58.170915,7.220172
+SRB,Serbia,Upper middle income,2007,58.557711,6.866428
+SRB,Serbia,Upper middle income,2009,59.164348,-1.651246
+SRB,Serbia,Upper middle income,2012,59.346844,5.363395
+SRB,Serbia,Upper middle income,2013,59.611107,-1.290497
+SRB,Serbia,Upper middle income,2014,59.877937,-2.218967
+SRB,Serbia,Upper middle income,2015,60.138809,7.836475
+SRB,Serbia,Upper middle income,2016,60.385387,8.223533
+SRB,Serbia,Upper middle income,2017,60.621208,6.740056
+SRB,Serbia,Upper middle income,2018,60.843361,5.276374
+SRB,Serbia,Upper middle income,2019,61.049225,7.238299
+THA,Thailand,Upper middle income,1962,12.092886,16.809081
+THA,Thailand,Upper middle income,1963,12.217039,18.234773
+THA,Thailand,Upper middle income,1964,12.340451,18.317956
+THA,Thailand,Upper middle income,1967,12.746208,14.708935
+THA,Thailand,Upper middle income,1977,16.102276,12.982567
+THA,Thailand,Upper middle income,1980,17.084407,16.985714
+THA,Thailand,Upper middle income,1987,18.098450,14.016663
+THA,Thailand,Upper middle income,1988,18.280083,10.868490
+THA,Thailand,Upper middle income,1989,18.505648,11.024519
+THA,Thailand,Upper middle income,1990,18.807148,10.780579
+THA,Thailand,Upper middle income,1998,28.721649,-0.441650
+THA,Thailand,Upper middle income,2000,31.462621,5.740366
+THA,Thailand,Upper middle income,2001,32.742805,9.001908
+THA,Thailand,Upper middle income,2003,35.427035,9.518886
+THA,Thailand,Upper middle income,2004,36.785516,10.389655
+THA,Thailand,Upper middle income,2005,38.130159,10.960430
+THA,Thailand,Upper middle income,2010,44.001874,11.841654
+THA,Thailand,Upper middle income,2011,44.804872,15.825560
+THA,Thailand,Upper middle income,2012,45.373566,12.684232
+TKM,Turkmenistan,Upper middle income,1998,45.392831,9.812454
+TKM,Turkmenistan,Upper middle income,2005,46.772868,12.477713
+TKM,Turkmenistan,Upper middle income,2008,46.865811,5.754566
+TKM,Turkmenistan,Upper middle income,2009,46.892534,9.055699
+TKM,Turkmenistan,Upper middle income,2010,46.917173,18.538806
+TUR,Turkiye,Upper middle income,1970,30.246808,17.343933
+TUR,Turkiye,Upper middle income,1972,32.322532,6.829201
+TUR,Turkiye,Upper middle income,1975,35.406825,17.583789
+TUR,Turkiye,Upper middle income,1976,36.347323,14.254211
+TUR,Turkiye,Upper middle income,1977,37.224489,15.969047
+TUR,Turkiye,Upper middle income,1985,45.582834,15.027381
+TUR,Turkiye,Upper middle income,1986,46.710164,8.181633
+TUR,Turkiye,Upper middle income,1987,47.840272,4.289558
+TUR,Turkiye,Upper middle income,1988,48.956007,18.588371
+TUR,Turkiye,Upper middle income,1990,51.031396,19.536330
+TUR,Turkiye,Upper middle income,1993,53.582784,11.271930
+TUR,Turkiye,Upper middle income,1996,55.790444,18.421039
+TUR,Turkiye,Upper middle income,2000,58.970612,9.832031
+TUR,Turkiye,Upper middle income,2001,59.872246,-3.041736
+TUR,Turkiye,Upper middle income,2002,60.738534,9.619090
+TUR,Turkiye,Upper middle income,2003,61.584506,15.021215
+TUR,Turkiye,Upper middle income,2004,62.438848,7.734090
+TUR,Turkiye,Upper middle income,2005,63.330247,16.831045
+TUR,Turkiye,Upper middle income,2006,64.287389,15.644032
+TUR,Turkiye,Upper middle income,2010,69.347125,12.233498
+TUR,Turkiye,Upper middle income,2011,71.002872,10.320301
+TUR,Turkiye,Upper middle income,2013,78.521837,17.094346
+ZAF,South Africa,Upper middle income,1963,47.140244,8.455583
+ZAF,South Africa,Upper middle income,1964,47.255880,10.884983
+ZAF,South Africa,Upper middle income,1965,47.359288,10.064606
+ZAF,South Africa,Upper middle income,1970,47.777342,12.278021
+ZAF,South Africa,Upper middle income,1971,47.849251,18.524232
+ZAF,South Africa,Upper middle income,1975,48.067272,9.302500
+ZAF,South Africa,Upper middle income,1980,48.400002,16.205957
+ZAF,South Africa,Upper middle income,1981,48.504956,16.333853
+ZAF,South Africa,Upper middle income,1986,49.559511,-2.139951
+ZAF,South Africa,Upper middle income,1987,50.098609,-1.488391
+ZAF,South Africa,Upper middle income,1988,50.734751,4.753450
+ZAF,South Africa,Upper middle income,1989,51.385393,6.615646
+ZAF,South Africa,Upper middle income,1991,52.400002,-3.110377
+ZAF,South Africa,Upper middle income,1992,52.680509,-1.835607
+ZAF,South Africa,Upper middle income,1993,52.893505,-2.377740
+ZAF,South Africa,Upper middle income,1994,53.083803,10.234222
+ZAF,South Africa,Upper middle income,1995,53.296217,9.765917
+ZAF,South Africa,Upper middle income,1996,53.574919,19.119429
+ZAF,South Africa,Upper middle income,2003,58.372434,12.488762
+ZAF,South Africa,Upper middle income,2004,59.097739,14.429529
+ZAF,South Africa,Upper middle income,2005,59.824176,13.205780
+ZAF,South Africa,Upper middle income,2006,60.527647,9.752729
+ZAF,South Africa,Upper middle income,2007,61.184053,10.573514
+ZAF,South Africa,Upper middle income,2008,61.769298,9.740454

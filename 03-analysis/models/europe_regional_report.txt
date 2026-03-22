@@ -1,0 +1,265 @@
+========================================================================
+n24_europe_regional_data.py
+欧洲 NUTS-2 区域面板数据获取与 MUQ 构建
+========================================================================
+
+运行时间: 2026-03-22 08:51:18
+
+PART A: 数据下载
+------------------------------------------------------------------------
+
+--- A1: NUTS-2 GDP (nama_10r_2gdp) ---
+  尝试: https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/nama_10r_2gdp/?format=TSV...
+  => 成功, 大小 = 647,696 bytes
+  GDP 原始记录数: 78,225
+  列: ['freq', 'unit', 'geo', 'year', 'gdp_meur']
+  年份范围: 2000 - 2024
+  freq: ['A']
+  unit: ['EUR_HAB', 'EUR_HAB_EU27_2020', 'MIO_EUR', 'MIO_NAC', 'MIO_PPS_EU27_2020', 'PPS_EU27_2020_HAB', 'PPS_HAB_EU27_2020']
+
+--- A2: NUTS-2 人口 (demo_r_pjangroup) ---
+
+  尝试数据集: demo_r_pjangroup
+  尝试: https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/demo_r_pjangroup/?format=TSV...
+  => 成功, 大小 = 8,682,012 bytes
+  人口原始记录数: 1,233,360
+  列: ['freq', 'unit', 'sex', 'age', 'geo', 'year', 'population']
+  年份范围: 1990 - 2025
+  freq: ['A']
+  unit: ['NR']
+  sex: ['F', 'M', 'T']
+
+PART B: 数据筛选与合并
+------------------------------------------------------------------------
+
+  GDP 数据筛选:
+  NUTS-2 GDP 记录: 7,725
+  NUTS-0 GDP 记录: 850
+  排除海外领地后: 7,525
+  可映射国家后: 6,625
+
+  各年份有效 NUTS-2 区域数:
+    2024: 250 区域
+    2023: 250 区域
+    2022: 257 区域
+    2021: 265 区域
+    2020: 265 区域
+    2019: 265 区域
+    2018: 265 区域
+    2017: 265 区域
+    2016: 265 区域
+    2015: 265 区域
+
+  覆盖国家 (29):
+    Austria: 10 个 NUTS-2 区域
+    Belgium: 12 个 NUTS-2 区域
+    Bulgaria: 6 个 NUTS-2 区域
+    Croatia: 4 个 NUTS-2 区域
+    Cyprus: 1 个 NUTS-2 区域
+    Czechia: 8 个 NUTS-2 区域
+    Denmark: 6 个 NUTS-2 区域
+    Estonia: 1 个 NUTS-2 区域
+    Finland: 6 个 NUTS-2 区域
+    France: 23 个 NUTS-2 区域
+    Germany: 38 个 NUTS-2 区域
+    Greece: 13 个 NUTS-2 区域
+    Hungary: 9 个 NUTS-2 区域
+    Ireland: 3 个 NUTS-2 区域
+    Italy: 22 个 NUTS-2 区域
+    Latvia: 2 个 NUTS-2 区域
+    Lithuania: 2 个 NUTS-2 区域
+    Luxembourg: 1 个 NUTS-2 区域
+    Malta: 2 个 NUTS-2 区域
+    Netherlands: 13 个 NUTS-2 区域
+    Norway: 8 个 NUTS-2 区域
+    Poland: 17 个 NUTS-2 区域
+    Portugal: 8 个 NUTS-2 区域
+    Romania: 9 个 NUTS-2 区域
+    Slovakia: 4 个 NUTS-2 区域
+    Slovenia: 2 个 NUTS-2 区域
+    Spain: 19 个 NUTS-2 区域
+    Sweden: 9 个 NUTS-2 区域
+    Switzerland: 7 个 NUTS-2 区域
+
+  人口数据筛选:
+  NUTS-2 人口记录: 10,908
+  有效记录: 9,451
+
+  合并 GDP + 人口...
+  合并后: 11,283 行, 318 区域
+
+PART C: 加载国家级 GFCF
+------------------------------------------------------------------------
+  World Bank 数据: 13888 行, 217 个国家
+  欧洲国家 GFCF 记录: 1416
+  国家: ['AUT', 'BEL', 'BGR', 'CHE', 'CYP', 'CZE', 'DEU', 'DNK', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'HUN', 'IRL', 'ITA', 'LTU', 'LUX', 'LVA', 'MLT', 'NLD', 'NOR', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'SWE']
+  年份范围: 1960 - 2023
+
+PART D: 区域 GFCF 估计与 MUQ 构建
+------------------------------------------------------------------------
+  有效 GDP 面板: 6431 行
+  有 GFCF 估计的记录: 6181 / 6431
+
+  面板统计:
+  总行数: 6431
+  区域数: 265
+  国家数: 29
+  年份范围: 2000 - 2024
+
+  MUQ 分布 (winsorized 1%/99%):
+    N = 5893
+    Mean = 0.1555
+    Median = 0.1656
+    SD = 0.2798
+    [Q25, Q75] = [0.0529, 0.2842]
+    Range = [-1.0151, 0.8876]
+
+  面板已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/raw/europe_regional_panel.csv
+  列: ['geo', 'year', 'gdp_meur', 'nuts_prefix', 'iso2', 'iso3', 'country_name', 'population', 'country_gdp_meur', 'gdp_share', 'gfcf_pct_gdp', 'gfcf_est_meur', 'delta_gdp', 'muq', 'muq_ma3', 'gdp_per_capita', 'ln_gdp', 'ln_pop', 'ln_gdp_pc', 'gdp_growth', 'invest_intensity', 'pop_growth']
+
+PART E: 标度律分析 — ln(GDP) ~ ln(Pop)
+------------------------------------------------------------------------
+
+--- E1: 全欧洲截面标度律 (year = 2024) ---
+  样本: 236 区域 (人口>10000, GDP>10M EUR)
+
+  [EU-wide 2024]
+  ln_gdp = a + b * ln_pop
+  N = 236
+  b (scaling exponent) = 1.0753 (SE = 0.0364)
+  95% CI = [1.0040, 1.1466]
+  t = 29.554, p = 5.77e-192
+  R-squared = 0.7752
+  => 超线性 (b > 1): 大区域 GDP per capita 更高 (集聚效应)
+
+--- E2: 分国家截面标度律 (year = 2024) ---
+
+  国家标度指数排名 (N >= 5 区域):
+  Country                 N    beta      SE             95% CI     R2
+  --------------------  ---   -----   -----   ----------------   ----
+  Hungary                 8  2.2111  0.7643 [ 0.7131,  3.7092] 0.6940
+  Czechia                 8  1.6962  0.4960 [ 0.7239,  2.6684] 0.3705
+  Bulgaria                6  1.6810  0.2439 [ 1.2029,  2.1591] 0.9244
+  Denmark                 5  1.4510  0.2391 [ 0.9823,  1.9197] 0.9426
+  Poland                 17  1.3179  0.1177 [ 1.0871,  1.5486] 0.9054
+  Netherlands            12  1.1613  0.0519 [ 1.0596,  1.2631] 0.9780
+  Belgium                11  1.1608  0.1718 [ 0.8241,  1.4975] 0.8362
+  France                 22  1.1332  0.0727 [ 0.9906,  1.2757] 0.9779
+  Greece                 13  1.1272  0.0747 [ 0.9807,  1.2736] 0.9666
+  Germany                38  1.1185  0.0560 [ 1.0087,  1.2284] 0.9052
+  Sweden                  8  1.1129  0.1037 [ 0.9096,  1.3161] 0.9570
+  Spain                  18  1.0659  0.0376 [ 0.9922,  1.1397] 0.9826
+  Portugal                7  1.0596  0.1363 [ 0.7924,  1.3268] 0.9042
+  Austria                 9  1.0566  0.1033 [ 0.8541,  1.2591] 0.9524
+  Finland                 5  0.9762  0.0328 [ 0.9118,  1.0405] 0.9912
+  Italy                  21  0.9695  0.0614 [ 0.8492,  1.0898] 0.9380
+  Romania                 8  0.4151  0.4043 [-0.3773,  1.2075] 0.0455
+
+--- E3: 面板固定效应标度律 ---
+  Pooled OLS + Year FE + Clustered SE (by region):
+  N = 5647, Regions = 250
+  beta = 0.7848 (SE = 0.1371)
+  95% CI = [0.5160, 1.0535]
+  R-squared = 0.5843
+
+PART F: MUQ 区域分析
+------------------------------------------------------------------------
+  有效 MUQ 观测: 5893
+
+--- F1: 分国家 MUQ 中位数 ---
+  Country                  N   Median     Mean       SD
+  --------------------   ---   ------   ------   ------
+  Lithuania               46   0.4001   0.3328   0.3368
+  Poland                 391   0.3368   0.2771   0.3860
+  Bulgaria               138   0.3353   0.3231   0.2577
+  Romania                207   0.3153   0.2876   0.3696
+  Estonia                 23   0.3021   0.2478   0.2646
+  Cyprus                  23   0.3002   0.2070   0.2869
+  Malta                   46   0.2846   0.2740   0.3353
+  Czechia                184   0.2809   0.2216   0.2285
+  Slovakia                92   0.2751   0.2882   0.2274
+  Latvia                  46   0.2737   0.1639   0.5210
+  Croatia                 92   0.2635   0.2083   0.2813
+  Hungary                184   0.2524   0.2159   0.2993
+  Luxembourg              23   0.2509   0.2889   0.1631
+  Ireland                 69   0.2312   0.2072   0.3132
+  Slovenia                46   0.2239   0.1933   0.1899
+  Spain                  437   0.1914   0.1359   0.2276
+  Netherlands            299   0.1724   0.1488   0.2764
+  Portugal               184   0.1638   0.0923   0.3578
+  Germany                874   0.1527   0.1417   0.1422
+  Belgium                240   0.1506   0.1394   0.1915
+  Greece                 299   0.1462   0.0449   0.4248
+  Austria                230   0.1414   0.1384   0.1313
+  Switzerland             98   0.1346   0.1953   0.2080
+  Denmark                138   0.1328   0.1057   0.3337
+  Finland                138   0.1317   0.1040   0.2673
+  France                 529   0.1202   0.1117   0.1436
+  Italy                  506   0.1201   0.0937   0.2403
+  Sweden                 207   0.1000   0.0920   0.2827
+  Norway                 104   0.0576   0.0491   0.4859
+
+--- F2: 时期对比 ---
+  2001-2007: N=1707, MUQ median=0.2101, mean=0.2248
+  2010-2019: N=2640, MUQ median=0.1340, mean=0.1209
+  2020-2022: N=784, MUQ median=0.2792, mean=0.2015
+
+--- F3: MUQ vs 投资强度 (核心负相关检验) ---
+  [注意] 区域 GFCF 按国家 GFCF/GDP 比率分配,
+  故 MUQ vs invest_intensity 的变异主要反映跨国差异
+  (同一国家内各区域的 invest_intensity 相同)
+
+  跨国 MUQ ~ invest_intensity:
+  N = 645, b = 1.0461, 95% CI = [0.5062, 1.5860]
+  p = 1.4603e-04, R2 = 0.0288
+  => 正相关或不显著: 与预期不一致, 需进一步检查
+
+--- F4: MUQ vs GDP per capita ---
+  MUQ ~ ln(GDP_pc):
+  N = 5189, b = -0.0368, 95% CI = [-0.0484, -0.0253]
+  p = 4.0771e-10, R2 = 0.0107
+
+PART G: 跨国对比摘要
+------------------------------------------------------------------------
+
+  主要欧洲国家 (最近5年 2020-2024):
+  Country               Regions  Tot GDP(BEUR)  Avg MUQ  Avg GFCF/GDP
+  --------------------  ------- --------------  ------- -------------
+  Germany                    38         3934.1   0.2537        0.2133
+  France                     23         2594.4   0.2380        0.2306
+  Italy                      22         1970.6   0.3199        0.2085
+  Spain                      19         1318.5   0.3635        0.2044
+  Netherlands                13          974.9   0.3460        0.2069
+  Poland                     17          675.4   0.5547        0.1742
+  Sweden                      9          530.6   0.0648        0.2516
+  Austria                    10          441.6   0.2385        0.2522
+  Belgium                    12          550.8   0.2824        0.2401
+
+PART H: 数据质量与限制
+------------------------------------------------------------------------
+
+数据来源:
+  - GDP: Eurostat nama_10r_2gdp (NUTS-2, 百万 EUR, current prices)
+  - Population: Eurostat demo_r_pjangroup (NUTS-2)
+  - GFCF: World Bank NE.GDI.FTOT.CD (国家级, current USD)
+
+关键假设:
+  1. 区域 GFCF 按 GDP 份额从国家 GFCF 分配 (与日本都道府県处理一致)
+     - 假设各区域 GFCF/GDP 比率相同 (实际上工业区可能更高)
+     - 这意味着跨区域 MUQ 变异完全来自 GDP 增长差异
+  2. 使用名义值 (未做通胀调整)
+     - 欧洲区域 CPI 数据可得性有限
+     - 名义 MUQ 在跨区域比较中仍有信息量
+  3. NUTS-2 而非 NUTS-3
+     - NUTS-2 GDP 数据更完整 (NUTS-3 有更多缺失)
+     - NUTS-2 平均人口 ~100-300 万, 与中国地级市可比
+
+局限:
+  1. 区域 GFCF 为估计值, 非直接观测
+  2. 不含英国 (UK 于 2020 脱欧, Eurostat 数据截止 ~2019)
+  3. 房价数据仅有国家级 (BIS), 无法构建区域 housing-based MUQ
+  4. 少数东欧国家 2000 年代初数据缺失
+
+========================================================================
+脚本执行完成
+========================================================================

@@ -1,0 +1,19 @@
+Panel,Item,Value,Details
+A_BIC_Selection,N_breaks=1,BIC=-287.31,Breakpoint: 1990
+A_BIC_Selection,N_breaks=2,BIC=-303.12,"Breakpoints: 1980, 1990 (OPTIMAL)"
+A_BIC_Selection,N_breaks=3,BIC=-300.70,"Breakpoints: 1970, 1980, 1990"
+A_BIC_Selection,N_breaks=4,BIC=-299.00,"Breakpoints: 1980, 1990, 2000, 2010"
+A_BIC_Selection,N_breaks=5,BIC=-296.70,"Breakpoints: 1970, 1980, 1990, 2000, 2010"
+B_Segments,Segment 1 (1956-1980),MUQ mean=0.4027,"SD=0.1072, min=0.1738, max=0.6620, N=25, GFCF/GDP=0.3092"
+B_Segments,Segment 2 (1981-1990),MUQ mean=0.2259,"SD=0.0335, min=0.1737, max=0.2644, N=10, GFCF/GDP=0.2714"
+B_Segments,Segment 3 (1991-2022),MUQ mean=0.0338,"SD=0.1070, min=-0.2169, max=0.2172, N=32, GFCF/GDP=0.2362"
+C_Break_Tests,Break ~1981,Welch t=7.389,"p=2.07e-08, mean_before=0.4027, mean_after=0.2259, diff=-0.1767"
+C_Break_Tests,Break ~1991,Welch t=8.863,"p=5.61e-11, mean_before=0.2259, mean_after=0.0338, diff=-0.1921"
+D_SNA_Correspondence,SNA revision 1974,Nearest break=1980,Distance=6 years
+D_SNA_Correspondence,SNA revision 1995,Nearest break=1990,Distance=5 years
+D_SNA_Correspondence,SNA revision 2010,Nearest break=1990,Distance=20 years
+E_Period_OLS,High growth (1960-1973),beta=0.1268,"SE=0.0324, p=8.89e-05, R2=0.0248, N=658"
+E_Period_OLS,Stable growth (1974-1985),beta=0.1726,"SE=0.0290, p=2.56e-09, R2=0.0564, N=564"
+E_Period_OLS,Bubble (1986-1991),beta=-0.0342,"SE=0.0313, p=0.2745, R2=0.0036, N=282"
+E_Period_OLS,Lost Decade (1992-2002),beta=0.2479,"SE=0.0271, p=6.14e-20, R2=0.1311, N=517"
+E_Period_OLS,Recovery (2003-2022),beta=0.0734,"SE=0.0233, p=1.66e-03, R2=0.0103, N=940"

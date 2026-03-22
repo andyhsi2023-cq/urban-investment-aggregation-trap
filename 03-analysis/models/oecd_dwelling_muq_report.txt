@@ -1,0 +1,89 @@
+======================================================================
+任务 A: OECD Dwelling-Specific MUQ
+======================================================================
+
+[A1] 加载 OECD GFCF by Asset 数据
+----------------------------------------
+  原始行数: 6600
+  资产类型: ['Dwellings', 'Other buildings and structures', 'Total fixed assets']
+  清洗后: 6380 行, 64 国 (排除聚合区域)
+  年份范围: 1970-2023
+
+[A2] 构建 Dwellings GFCF 面板
+----------------------------------------
+  OECD 面板: 2651 行, 64 国
+  有 Dwellings 数据的国家: 51
+
+  住宅 GFCF / 总 GFCF 占比统计 (N=1880):
+    均值:   0.225
+    中位数: 0.209
+    P25:    0.163
+    P75:    0.269
+
+[A3] 合并 BIS 房价数据
+----------------------------------------
+  同时有 Dwellings GFCF + BIS RHP 的国家: 25
+  重叠观测数: 629
+
+[A4] 构建 Dwelling-Specific MUQ
+----------------------------------------
+  正在计算 dwelling-specific MUQ...
+  MUQ_dwell 有效观测: 1493, 46 国
+  MUQ_dwell 中位数: 0.7448
+  MUQ_dwell 均值:   0.5620
+
+[A5] 收入组分类与 Simpson's Paradox 检验
+----------------------------------------
+
+  --- Simpson's Paradox: Dwelling-Specific MUQ ---
+  有效观测: 1493, 46 国
+
+  全样本 (pooled): rho = -0.0979, p = 0.000151, N = 1493
+
+  收入组                            N    国家      rho      p-value     方向
+  -----------------------------------------------------------------
+  Low income                     0    --       --           --     --
+  Lower middle income           13     1  -0.9945     0.000000***   DOWN
+  Upper middle income          323    13  -0.1634     0.003234**   DOWN
+  High income                 1157    32  +0.0330     0.261638     UP
+
+  Pooled 方向: DOWN
+  Within-group 全部 DOWN: False
+  Simpson's Paradox 成立: False
+
+[A6] 对比: Dwelling MUQ vs 全口径 MUQ vs GDP-based MUQ
+----------------------------------------
+  Dwelling vs Full: rho = -0.0310, p = 0.320866, N = 1029
+  Dwelling vs GDP: rho = +0.3373, p = 0.000000, N = 1493
+  Full vs GDP: rho = +0.0323, p = 0.169111, N = 1812
+
+  描述性统计 (2000-2019, OECD 国家子集):
+    MUQ_dwell   : N=  816, median=  0.7210, mean=  0.5043, sd=  0.8807
+    MUQ_full    : N=  914, median= 18.5352, mean= 19.5360, sd= 12.3761
+    MUQ_GDP     : N= 1199, median=  0.1306, mean=  0.1253, sd=  0.1302
+
+[A7] 三种 MUQ 的 Simpson's Paradox 对比
+----------------------------------------
+
+  MUQ_dwell pooled: rho=-0.0979, p=0.000151, N=1493
+    Lower middle income       rho=-0.9945, p=0.000000, N=13 -> DOWN
+    Upper middle income       rho=-0.1634, p=0.003234, N=323 -> DOWN
+    High income               rho=+0.0330, p=0.261638, N=1157 -> UP
+    Weighted within: -0.0184
+    Between-group:   -0.0795
+
+  MUQ_full pooled: rho=-0.1620, p=0.000000, N=1838
+    Low income                rho=+0.1853, p=0.202405, N=49 -> UP
+    Lower middle income       rho=-0.1180, p=0.409515, N=51 -> DOWN
+    Upper middle income       rho=+0.0992, p=0.054096, N=378 -> UP
+    High income               rho=-0.1353, p=0.000001, N=1360 -> DOWN
+    Weighted within: -0.0780
+    Between-group:   -0.0840
+
+  MUQ_GDP pooled: rho=-0.1331, p=0.000000, N=2550
+    Low income                rho=+0.1977, p=0.100912, N=70 -> UP
+    Lower middle income       rho=-0.3361, p=0.000671, N=99 -> DOWN
+    Upper middle income       rho=-0.1456, p=0.000504, N=567 -> DOWN
+    High income               rho=-0.0056, p=0.813150, N=1814 -> DOWN
+    Weighted within: -0.0440
+    Between-group:   -0.0891

@@ -1,0 +1,9 @@
+Model,Dependent_Variable,Independent_Variable,beta,SE,t,p_value,CI_lower,CI_upper,R2,Adj_R2,N,FE_Country,FE_Year
+4a,MUQ,ln(GDP_pc),-0.0432,0.0126,-3.429,0.000625,-0.0679,-0.0184,0.4567,0.4552,28492,Yes,Yes
+4b,MUQ,urbanization,0.001051,0.000404,2.601,0.009292,0.000259,0.001843,0.9870,,559,Yes,Yes
+5_Global,ln(GDP),ln(Pop),0.9725,0.0054,180.09,,0.9620,0.9830,0.5149,,30225,No,No
+5_Africa,ln(GDP),ln(Pop),1.0856,0.0330,32.90,,1.0210,1.1503,0.7545,,279,No,No
+5_Asia,ln(GDP),ln(Pop),0.4565,0.0302,15.12,,0.3974,0.5157,0.0203,,12346,No,No
+5_Europe,ln(GDP),ln(Pop),0.7825,0.0431,18.16,,0.6980,0.8669,0.5356,,5647,No,No
+5_NorthAmerica,ln(GDP),ln(Pop),1.0655,0.0028,380.54,,1.0600,1.0709,0.9303,,11681,No,No
+5_Oceania,ln(GDP),ln(Pop),0.9751,0.0256,38.09,,0.9249,1.0252,0.8233,,272,No,No

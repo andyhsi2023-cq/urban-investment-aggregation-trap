@@ -1,0 +1,13 @@
+## Box 1 | The Scaling Gap: why urban investment efficiency declines with city size
+
+**Urban outputs scale superlinearly with population, but asset values and physical capital scale at different rates.** In the Bettencourt framework [Bettencourt et al., 2007], city output Y relates to population N as Y ~ N^beta (beta > 1 denotes superlinear scaling). We decompose the urban balance sheet into market value V and capital stock K, each with its own scaling exponent. Across 248 Chinese cities: V ~ N^1.34, K ~ N^0.86, GDP ~ N^1.04. Asset values scale superlinearly, reflecting capitalised agglomeration benefits. Physical capital scales sublinearly, consistent with infrastructure sharing. The same ordering holds across 921 US metropolitan areas (beta_V = 1.15, beta_GDP = 1.06, beta_HU = 0.97).
+
+**We define the Scaling Gap, Delta-beta = beta_V - beta_K.** Because Tobin's Q = V/K, the gap governs how Q varies with city size: Q ~ N^(Delta-beta). A positive Delta-beta means larger cities systematically exhibit higher Q. This gradient is large in China (Delta-beta = 0.48) and smaller but significant in the US (Delta-beta = 0.086, p = 5 x 10^-11). The magnitude difference reflects development stage: rapidly urbanising economies exhibit wider gaps than mature systems.
+
+**The Scaling Gap generates predictable dynamics.** When investment flows disproportionately toward smaller cities -- as under supply-driven regimes where land-revenue incentives override market signals -- it flows against the scaling gradient, producing below-cost returns. We model the resulting trajectory with a mean-field framework. Within income group k, marginal Urban Q declines with urbanisation u:
+
+MUQ_k = mu_k - gamma . u_k + epsilon
+
+where mu_k is a group-specific baseline (higher for richer groups) and gamma > 0 is a diminishing-returns parameter. As countries cross income thresholds, they graduate into higher-baseline groups. The aggregate MUQ is a weighted average: MUQ_agg = Sum_k [w_k . MUQ_k]. A Simpson's paradox arises when compositional uplift from graduation offsets within-group erosion. This balance is temporary: graduation potential is bounded, while erosion continues as long as cities grow.
+
+**Three testable predictions follow.** (1) Delta-beta is larger in rapidly urbanising economies than in mature ones (confirmed: China 0.48 versus US 0.09--0.17). (2) Within-group erosion rate gamma correlates positively with institutional investment intensity -- systems channelling more capital through non-market mechanisms erode returns faster. (3) Recently graduated countries exhibit above-average MUQ within their new income group, because the selection mechanism driving graduation selects for higher returns.

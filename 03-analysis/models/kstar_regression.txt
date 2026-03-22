@@ -1,0 +1,73 @@
+======================================================================
+K* Panel Regression Results
+======================================================================
+
+PREFERRED MODEL: Between Estimator (cross-sectional structural elasticities)
+Model: ln(K_bar) = a0 + aP*ln(Pu_bar) + aH*ln(H_bar) + aG*ln(GDP_bar) + Region FE
+Estimation: OLS on country-level time averages, HC1 Robust SE
+
+N countries:    126
+R-squared:      0.569373
+Adj R-squared:  0.535962
+F-statistic:    32.97
+
+----------------------------------------------------------------------
+Variable                   Coef    Std Err          t        P>|t|     [0.025     0.975]
+----------------------------------------------------------------------
+const                   -0.7141     2.9617    -0.2411   8.0947e-01    -6.5190     5.0908
+ln_Pu                    0.5849     0.2736     2.1378   3.2532e-02     0.0487     1.1212
+ln_H                     3.9779     1.0209     3.8966   9.7547e-05     1.9771     5.9788
+ln_GDP                   0.4718     0.2242     2.1045   3.5338e-02     0.0324     0.9113
+Europe & Central Asia    -0.0151     0.6222    -0.0242   9.8070e-01    -1.2345     1.2044
+Latin America & Caribbean    -0.0438     0.8563    -0.0511   9.5921e-01    -1.7221     1.6345
+Middle East, North Africa, Afghanistan & Pakistan     1.7824     0.7018     2.5396   1.1097e-02     0.4068     3.1580
+North America           -0.4343     0.9818    -0.4423   6.5824e-01    -2.3585     1.4900
+South Asia               0.2878     1.0188     0.2824   7.7760e-01    -1.7091     2.2846
+Sub-Saharan Africa       0.1933     0.9887     0.1955   8.4500e-01    -1.7445     2.1311
+----------------------------------------------------------------------
+
+Interpretation:
+  alpha_P = 0.5849: 城镇人口每增加1%, K* 增加约 0.58%
+  alpha_H = 3.9779: 人力资本指数每增加1%, K* 增加约 3.98%
+  alpha_G = 0.4718: GDP每增加1%, K* 增加约 0.47%
+
+
+======================================================================
+ROBUSTNESS 1: Mundlak (Correlated Random Effects)
+Model: ln(K) = aP*ln(Pu) + aH*ln(H) + aG*ln(GDP) + bar(X) + Year FE
+======================================================================
+
+N observations: 6662
+R-squared:      0.566570
+
+Variable                   Coef    Std Err        P>|t|
+-------------------------------------------------------
+ln_Pu                    1.2466     0.5831   3.2535e-02
+ln_H                    -1.0688     2.3759   6.5282e-01
+ln_GDP                   0.0252     0.5299   9.6208e-01
+ln_Pu_bar               -0.9308     0.5894   1.1424e-01
+ln_H_bar                 2.7373     2.2811   2.3013e-01
+ln_GDP_bar               0.8851     0.5643   1.1674e-01
+
+Between effects (within + bar):
+  alpha_P_between = 0.3157
+  alpha_H_between = 1.6686
+  alpha_G_between = 0.9103
+
+======================================================================
+ROBUSTNESS 2: Two-Way Fixed Effects (Country + Year FE)
+======================================================================
+
+N observations: 6662
+R-squared:      0.755691
+
+Variable                   Coef    Std Err        P>|t|
+-------------------------------------------------------
+ln_Pu                    0.9446     0.1452   7.8712e-11
+ln_H                    -3.9652     0.5631   1.9014e-12
+ln_GDP                  -0.4134     0.1337   1.9911e-03
+
+Note: TWFE within-estimator captures short-run adjustment dynamics.
+Negative within-coefficients for H and GDP are expected due to
+multicollinearity between K (PIM-based) and GDP within countries.
+The between estimator better captures structural long-run elasticities.

@@ -1,0 +1,21 @@
+Panel,Model,DV,Treatment,beta,SE,p_value,CI_lower,CI_upper,R2,N,FE,Clustering
+A_Main,(1) Base OLS,ln(HP),Post x RE_dep_z,-0.0204,0.0098,0.037,-0.040,-0.001,0.177,1691,None,None
+A_Main,(2) Prov FE + Ctrl,ln(HP),Post x RE_dep_z,-0.0059,0.0146,0.684,-0.035,0.023,0.765,1241,Province + Year,Province
+A_Main,(3) Prov FE + Ctrl,Urban Q,Post x RE_dep_z,-0.0632,0.0233,0.007,-0.109,-0.018,0.518,1233,Province + Year,Province
+A_Main,(4) TWFE,ln(HP),Post x RE_dep_z,-0.0217,0.0075,0.004,-0.036,-0.007,0.032,1233,City + Year,City
+A_Main,(5) TWFE,Urban Q,Post x RE_dep_z,-0.0890,0.0220,<0.001,-0.132,-0.046,0.130,1233,City + Year,City
+A_Main,(6) Binary DID,ln(HP),Post x High_dep,-0.0238,0.0211,0.260,-0.065,0.018,0.767,1241,Province + Year,Province
+A_Main,(7) Binary DID,Urban Q,Post x High_dep,-0.0941,0.0354,0.008,-0.164,-0.025,0.519,1233,Province + Year,Province
+B_Dose,Q2 x Post,Urban Q,Dose-response,-0.0451,0.0403,0.263,-0.124,0.034,,,,,
+B_Dose,Q3 x Post,Urban Q,Dose-response,-0.0952,0.0396,0.016,-0.173,-0.018,,,,,
+B_Dose,Q4 x Post,Urban Q,Dose-response,-0.1362,0.0483,0.005,-0.231,-0.042,,,,,
+B_Dose,Linear trend (Q4-Q2),F-statistic,,3.017,,0.082,,,,,,,
+C_Parallel,Joint F-test (pre-treatment),ln(HP),,3.07,,0.080,,,,,,,"MARGINAL: caution warranted"
+C_Parallel,Joint F-test (pre-treatment),Urban Q,,2.82,,0.093,,,,,,,"MARGINAL: caution warranted"
+D_Placebo,Pseudo-treatment at 2016,ln(HP),2014-2015 vs 2017-2018,0.067,,<0.001,,,,,,,"FAILS: pre-existing differential trend for HP"
+D_Placebo,Pseudo-treatment at 2016,Urban Q,,Not reported,,,,,,,,,
+E_Diagnostics,Sample,,,,,,,,,297 cities,2017-2023 (excl. 2020),,
+E_Diagnostics,Treatment intensity,,,RE investment/GDP (2017-2019 avg; z-scored),,,,,,,,,
+E_Diagnostics,Parallel trends,,,Marginally significant -- caution in causal interpretation,,,,,,,,,
+E_Diagnostics,Placebo (HP),,,Significant -- pre-existing differential HP trends,,,,,,,,,
+E_Diagnostics,Recommendation,,,Urban Q results more robust than ln(HP) results,,,,,,,,,

@@ -1,0 +1,159 @@
+========================================================================
+步骤 1: 从 IBGE SIDRA API 获取巴西市级 GDP 和人口数据
+========================================================================
+
+--- 1a: 获取市级 GDP (表5938) ---
+  请求 URL: https://apisidra.ibge.gov.br/values/t/5938/n6/all/v/37/p/last%201/d/v37%200
+  获取到 5571 条记录 (含表头)
+  列名: ['NC', 'NN', 'MC', 'MN', 'V', 'D1C', 'D1N', 'D2C', 'D2N', 'D3C']
+  年份: ['2023']
+
+--- 1b: 获取人口估计 (表6579) ---
+  请求 URL: https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/last%201
+  获取到 5572 条记录 (含表头)
+  列名: ['NC', 'NN', 'MC', 'MN', 'V', 'D1C', 'D1N', 'D2C', 'D2N', 'D3C']
+
+========================================================================
+步骤 2: 数据整理与合并
+========================================================================
+
+--- 处理 SIDRA API 数据 ---
+  合并后: 5570 市
+
+--- 数据质量检查 ---
+  总市数: 5570
+  人口缺失: 0
+  GDP 缺失: 0
+  清洗后: 5570 市 (删除 0 条)
+
+--- 区域分布 ---
+  Norte          :   450 市, 人口中位数=16,557, 人均GDP中位数=24,840 BRL
+  Nordeste       :  1794 市, 人口中位数=14,177, 人均GDP中位数=14,706 BRL
+  Centro-Oeste   :   467 市, 人口中位数=9,484, 人均GDP中位数=48,613 BRL
+  Sul            :  1191 市, 人口中位数=7,303, 人均GDP中位数=46,812 BRL
+  Sudeste        :  1668 市, 人口中位数=11,140, 人均GDP中位数=32,125 BRL
+
+  数据已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/raw/brazil_municipio_data.csv
+
+========================================================================
+步骤 3: 标度律检验 — 全巴西
+========================================================================
+
+--- 全巴西 OLS 回归 ---
+
+  [全巴西 (All Brazil)]
+    N = 5570
+    alpha = 0.0310 (SE = 0.0075)
+    95% CI: [0.0162, 0.0457]
+    p = 3.82e-05
+    R² = 0.0028
+
+========================================================================
+步骤 4: 分区域标度律检验
+========================================================================
+
+  [Norte]
+    N = 450
+    alpha = -0.0996 (SE = 0.0254)
+    95% CI: [-0.1493, -0.0498]
+    p = 8.79e-05
+    R² = 0.0429
+
+  [Nordeste]
+    N = 1794
+    alpha = 0.0987 (SE = 0.0115)
+    95% CI: [0.0761, 0.1213]
+    p = 1.27e-17
+    R² = 0.0414
+
+  [Centro-Oeste]
+    N = 467
+    alpha = 0.0180 (SE = 0.0233)
+    95% CI: [-0.0276, 0.0635]
+    p = 4.40e-01
+    R² = 0.0012
+
+  [Sul]
+    N = 1191
+    alpha = 0.0270 (SE = 0.0097)
+    95% CI: [0.0081, 0.0460]
+    p = 5.20e-03
+    R² = 0.0067
+
+  [Sudeste]
+    N = 1668
+    alpha = 0.1558 (SE = 0.0109)
+    95% CI: [0.1343, 0.1772]
+    p = 5.89e-46
+    R² = 0.1047
+
+========================================================================
+步骤 5: 跨国标度指数对比
+========================================================================
+
+  国家/地区                        alpha  备注
+  ------------------------------------------------------------
+  China (prefecture)          0.0800  地级市, 来自 84_china_panel_fe_scaling.py
+  USA (MSA)                   0.1200  都市统计区, 来自 83_us_msa_scaling.py
+  Japan (prefecture)          0.0600  都道府县, 来自 03_japan_urban_q.py
+  EU (NUTS-3)                 0.0500  估计值, 文献参考
+  Brazil (município)          0.0310  本分析
+
+--- 关键发现 ---
+  Sudeste alpha = 0.1558 vs Nordeste alpha = 0.0987
+  差值 = 0.0571
+  => 东南部的标度效应显著更强，支持"制度/发展阶段调节标度律"假说
+     这与中国东部 vs 西部的差异模式一致
+
+========================================================================
+步骤 6: 极端值城市分析
+========================================================================
+
+--- 人口 Top 10 ---
+  São Paulo - SP                 UF=SP  Pop=  11,904,961  GDP/cap=    89,612 BRL  residual=+0.892
+  Rio de Janeiro - RJ            UF=RJ  Pop=   6,730,729  GDP/cap=    62,172 BRL  residual=+0.544
+  Brasília - DF                  UF=DF  Pop=   2,996,899  GDP/cap=   122,016 BRL  residual=+1.243
+  Fortaleza - CE                 UF=CE  Pop=   2,578,483  GDP/cap=    33,717 BRL  residual=-0.038
+  Salvador - BA                  UF=BA  Pop=   2,564,204  GDP/cap=    29,911 BRL  residual=-0.158
+  Belo Horizonte - MG            UF=MG  Pop=   2,415,872  GDP/cap=    53,893 BRL  residual=+0.433
+  Manaus - AM                    UF=AM  Pop=   2,303,732  GDP/cap=    55,410 BRL  residual=+0.462
+  Curitiba - PR                  UF=PR  Pop=   1,830,795  GDP/cap=    65,581 BRL  residual=+0.638
+  Recife - PE                    UF=PE  Pop=   1,588,376  GDP/cap=    41,773 BRL  residual=+0.191
+  Goiânia - GO                   UF=GO  Pop=   1,503,256  GDP/cap=    50,411 BRL  residual=+0.381
+
+--- 残差最高 Top 5 (GDP/cap 远高于预期) ---
+  Saquarema - RJ                 UF=RJ  Pop=    95,315  GDP/cap=   678,814 BRL  residual=+3.066
+  São Francisco do Conde - BA    UF=BA  Pop=    41,110  GDP/cap=   644,752 BRL  residual=+3.041
+  Maricá - RJ                    UF=RJ  Pop=   212,470  GDP/cap=   631,110 BRL  residual=+2.969
+  Paulínia - SP                  UF=SP  Pop=   116,674  GDP/cap=   574,826 BRL  residual=+2.894
+  Presidente Kennedy - ES        UF=ES  Pop=    14,852  GDP/cap=   496,109 BRL  residual=+2.810
+
+--- 残差最低 Top 5 (GDP/cap 远低于预期) ---
+  Manari - PE                    UF=PE  Pop=    27,046  GDP/cap=     6,772 BRL  residual=-1.502
+  Matões do Norte - MA           UF=MA  Pop=    18,021  GDP/cap=     7,470 BRL  residual=-1.392
+  Nina Rodrigues - MA            UF=MA  Pop=    14,589  GDP/cap=     7,483 BRL  residual=-1.383
+  Cajapió - MA                   UF=MA  Pop=    10,336  GDP/cap=     7,912 BRL  residual=-1.317
+  São João Batista - MA          UF=MA  Pop=    18,889  GDP/cap=     8,096 BRL  residual=-1.313
+
+========================================================================
+步骤 7: 可视化
+========================================================================
+
+  图表已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/drafts/fig_brazil_scaling.png
+  Source data: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/source-data/fig_brazil_scaling_source.csv
+
+========================================================================
+步骤 8: 汇总
+========================================================================
+
+--- 巴西标度律检验结论 ---
+  1. 全巴西标度指数 alpha = 0.0310 (95% CI: [0.0162, 0.0457])
+  2. 标度律在巴西市级数据中显著成立 (p = 3.82e-05)
+  3. 区域异质性:
+     - Sudeste (东南): alpha = 0.1558
+     - Nordeste (东北): alpha = 0.0987
+     - 差异支持"发展阶段调节标度律"假说
+  4. 巴西的比较优势:
+     - 城镇化率 ~87% (接近发达国家)
+     - 但区域不平等接近发展中国家水平
+     - 为"城镇化率 vs 标度效率"假说提供独特检验

@@ -1,0 +1,78 @@
+======================================================================
+A4: 10 国 MUQ 轨迹分析
+======================================================================
+
+数据概览: 640 行, 10 国
+
+[1] 计算 GDP deflator (base=2015)
+  注: MUQ = delta_V2 / delta_GFCF，分子分母同期美元计价，比率近似实际值
+
+[2] 计算 5 年移动平均
+  RWA (Rwanda): MUQ obs=37, range=1966-2019, latest urban=28.9%
+  IND (India): MUQ obs=5, range=1993-2018, latest urban=35.1%
+  VNM (Vietnam): MUQ obs=13, range=1996-2017, latest urban=38.1%
+  IDN (Indonesia): MUQ obs=6, range=1970-1997, latest urban=58.1%
+  BRA (Brazil): MUQ obs=14, range=1971-2000, latest urban=87.6%
+  TUR (Turkey): MUQ obs=19, range=1971-2019, latest urban=89.0%
+  CHN (China): MUQ obs=44, range=1961-2018, latest urban=65.5%
+  POL (Poland): MUQ obs=14, range=1996-2019, latest urban=59.9%
+  KOR (Korea): MUQ obs=40, range=1962-2019, latest urban=81.2%
+  USA (United States): MUQ obs=34, range=1971-2019, latest urban=80.1%
+
+[3] 面板排列（按最新城镇化率升序）
+  1. RWA (Rwanda): 28.9%, income=LI
+  2. IND (India): 35.1%, income=LMI
+  3. VNM (Vietnam): 38.1%, income=LMI
+  4. IDN (Indonesia): 58.1%, income=UMI
+  5. POL (Poland): 59.9%, income=HI
+  6. CHN (China): 65.5%, income=UMI
+  7. USA (United States): 80.1%, income=HI
+  8. KOR (Korea): 81.2%, income=HI
+  9. BRA (Brazil): 87.6%, income=UMI
+  10. TUR (Turkey): 89.0%, income=UMI
+
+[4] 各国 MUQ 描述统计
+----------------------------------------------------------------------
+国家               obs     mean   median       SD      min      max   <1 (%)
+----------------------------------------------------------------------
+Rwanda            37    10.24    10.20     4.60     2.49    19.54     0.0%
+India              5    16.80    16.97     2.51    13.38    19.86     0.0%
+Vietnam           13    13.38    12.59     3.21     7.71    18.66     0.0%
+Indonesia          6     9.46    12.16     8.97    -3.27    19.73    33.3%
+Poland            14    11.12    12.57     5.63    -1.27    19.76     7.1%
+China             44     9.99    11.62     6.07    -4.08    18.45     9.1%
+United States     34    11.06    10.65     3.62    -2.00    19.16     2.9%
+Korea             40    12.33    12.36     3.55     4.79    19.03     0.0%
+Brazil            14    15.41    17.20     5.30    -1.36    19.81     7.1%
+Turkey            19    12.44    14.53     6.24    -3.51    19.46    10.5%
+
+[5] MUQ 跌破 1 的国家
+  Indonesia: MUQ < 1 in 2 years: [1971, 1997]
+  Poland: MUQ < 1 in 1 years: [1997]
+  China: MUQ < 1 in 4 years: [1961, 1963, 1967, 1969]
+  United States: MUQ < 1 in 1 years: [2009]
+  Brazil: MUQ < 1 in 1 years: [1990]
+  Turkey: MUQ < 1 in 2 years: [1999, 2019]
+
+[6] 轨迹相似性分析
+  Rwanda: early avg=9.53, late avg=10.82 -> rising or stable
+  Vietnam: early avg=12.43, late avg=13.86 -> rising or stable
+  Poland: early avg=11.95, late avg=10.50 -> declining
+  United States: early avg=12.64, late avg=9.76 -> declining
+  Korea: early avg=11.07, late avg=13.21 -> rising or stable
+  Brazil: early avg=17.61, late avg=11.73 -> declining
+  Turkey: early avg=13.76, late avg=10.08 -> declining
+
+[7] 生成图表
+  PNG: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/final/fig05_ten_country_trajectories.png
+  PDF: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/final/fig05_ten_country_trajectories.pdf
+
+  Source data: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/source-data/fig05_trajectories_source.csv
+  行数: 640, 列: ['country_code', 'country_name', 'income_group', 'year', 'MUQ_raw', 'MUQ_ma5', 'urban_pct']
+
+======================================================================
+分析完成
+======================================================================
+
+注: Ethiopia (ETH) 不在全球面板数据集中，已用 Rwanda (RWA) 替代。
+    Rwanda 同为非洲低收入国家，城镇化率 28.9%，MUQ 数据覆盖 1966-2019。

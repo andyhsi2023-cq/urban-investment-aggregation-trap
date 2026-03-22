@@ -1,0 +1,307 @@
+========================================================================
+步骤 1: 下载 Census ACS 5-Year 2022 数据
+========================================================================
+正在请求 Census ACS API...
+  Census 主表: 939 条记录
+  合并建筑年份后: 939 条记录
+  Metro Areas: 392, Micro Areas: 547
+
+========================================================================
+步骤 2: 下载 BEA CAGDP1 (GDP by MSA) 数据
+========================================================================
+正在下载 BEA CAGDP1.zip (县级 GDP)...
+  下载完成: 1.9 MB
+  读取: CAGDP1__ALL_AREAS_2001_2024.csv
+  成功以 latin-1 编码读取
+  BEA 原始表: 9565 行 x 32 列
+  使用 LineCode=3: Current-dollar GDP (thousands of current dollars)
+  县级 GDP 行数: 3127
+  有效县级 GDP: 3114 县 (年份=2022)
+
+下载 Census CBSA Delineation (县->MSA 交叉表)...
+  CBSA 交叉表: 1916 县->MSA 映射, 939 个 CBSA
+
+========================================================================
+步骤 3: 县级 GDP 聚合为 MSA 级
+========================================================================
+  县-CBSA 匹配: 1798 条 (覆盖 921 个 CBSA)
+  MSA 级 GDP: 921 个 CBSA
+  GDP 范围: 494 - 2182492 百万美元
+
+========================================================================
+步骤 4: 合并 Census 与 BEA 数据
+========================================================================
+  合并后 (inner join): 921 MSAs
+  有效记录 (非缺失): 921
+
+========================================================================
+步骤 5: 构造分析变量
+========================================================================
+  有 GDP 数据的 MSA: 921
+  区域分布:
+    Northeast: 92
+    Midwest: 280
+    South: 374
+    West: 175
+    Other: 0
+  排除领地后: 921 MSAs
+  数据已保存: us_msa_data.csv
+
+========================================================================
+步骤 6: 描述性统计
+========================================================================
+
+--- All MSAs (N=921) ---
+  population               : mean=   339,263.1  median=    75,299.0  sd= 1,124,661.5  min=    12,342.0  max=19,908,595.0
+  housing_units            : mean=   142,699.1  median=    35,328.0  sd=   448,397.5  min=     4,892.0  max= 7,981,356.0
+  median_home_value        : mean=   218,044.4  median=   176,800.0  sd=   130,059.9  min=    66,900.0  max= 1,282,400.0
+  hu_per_capita            : mean=         0.5  median=         0.4  sd=         0.1  min=         0.3  max=         1.0
+  gdp_millions             : mean=    26,715.2  median=     4,093.4  sd=   110,162.3  min=       493.9  max= 2,182,492.0
+  V_GDP_ratio              : mean=         1.8  median=         1.4  sd=         1.6  min=         0.0  max=        37.1
+  gdp_per_capita           : mean=    63,568.5  median=    56,007.9  sd=    77,094.6  min=     3,444.6  max= 2,223,510.9
+
+--- Metro only (N=381) ---
+  population               : mean=   748,792.3  median=   256,143.0  sd= 1,665,651.7  min=    58,249.0  max=19,908,595.0
+  housing_units            : mean=   311,759.7  median=   113,577.0  sd=   661,543.5  min=    24,633.0  max= 7,981,356.0
+  median_home_value        : mean=   264,443.3  median=   223,600.0  sd=   144,661.5  min=    91,000.0  max= 1,282,400.0
+  hu_per_capita            : mean=         0.4  median=         0.4  sd=         0.1  min=         0.3  max=         1.0
+  gdp_millions             : mean=    60,514.3  median=    15,060.6  sd=   165,592.0  min=       493.9  max= 2,182,492.0
+  V_GDP_ratio              : mean=         1.9  median=         1.5  sd=         2.1  min=         0.3  max=        37.1
+  gdp_per_capita           : mean=    65,212.7  median=    62,023.7  sd=    22,773.0  min=     3,444.6  max=   321,500.8
+
+--- Micro only (N=540) ---
+  population               : mean=    50,317.4  median=    43,991.0  sd=    27,934.5  min=    12,342.0  max=   221,463.0
+  housing_units            : mean=    23,417.4  median=    20,082.5  sd=    13,592.7  min=     4,892.0  max=   122,732.0
+  median_home_value        : mean=   185,307.4  median=   154,000.0  sd=   107,347.3  min=    66,900.0  max=   998,100.0
+  hu_per_capita            : mean=         0.5  median=         0.5  sd=         0.1  min=         0.3  max=         1.0
+  gdp_millions             : mean=     2,868.0  median=     2,328.4  sd=     2,226.2  min=       652.8  max=    31,391.5
+  V_GDP_ratio              : mean=         1.6  median=         1.4  sd=         1.0  min=         0.0  max=         9.5
+  gdp_per_capita           : mean=    62,408.4  median=    51,737.2  sd=    98,873.6  min=    23,747.8  max= 2,223,510.9
+
+========================================================================
+步骤 7: 核心标度律回归
+========================================================================
+
+--- A. 房价-人口标度律 ---
+
+  [All MSAs: ln(MedianHomeValue) ~ ln(Pop)]
+  ln_median_hv = a + b * ln_pop
+  N = 921
+  b = 0.1704 (SE = 0.0108)
+  95% CI = [0.1493, 0.1916]
+  t = 15.800, p = 3.10e-56
+  R-squared = 0.2280
+
+  [Metro only: ln(MedianHomeValue) ~ ln(Pop)]
+  ln_median_hv = a + b * ln_pop
+  N = 381
+  b = 0.1573 (SE = 0.0189)
+  95% CI = [0.1203, 0.1943]
+  t = 8.340, p = 7.42e-17
+  R-squared = 0.1618
+
+--- B. 人均住房-人口标度律 (类似 OCR) ---
+
+  [All MSAs: ln(HU_per_capita) ~ ln(Pop)]
+  ln_hu_pc = a + b * ln_pop
+  N = 921
+  b = -0.0254 (SE = 0.0030)
+  95% CI = [-0.0312, -0.0196]
+  t = -8.595, p = 8.29e-18
+  R-squared = 0.0634
+
+  [Metro only: ln(HU_per_capita) ~ ln(Pop)]
+  ln_hu_pc = a + b * ln_pop
+  N = 381
+  b = -0.0266 (SE = 0.0044)
+  95% CI = [-0.0352, -0.0180]
+  t = -6.042, p = 1.52e-09
+  R-squared = 0.0606
+
+--- C. V/GDP (Q近似) - 人口标度律 ---
+
+  [All MSAs: ln(V/GDP) ~ ln(Pop)]
+  ln_V_GDP = a + b * ln_pop
+  N = 921
+  b = 0.0861 (SE = 0.0131)
+  95% CI = [0.0605, 0.1118]
+  t = 6.577, p = 4.79e-11
+  R-squared = 0.0459
+
+  [Metro only: ln(V/GDP) ~ ln(Pop)]
+  ln_V_GDP = a + b * ln_pop
+  N = 381
+  b = 0.0174 (SE = 0.0176)
+  95% CI = [-0.0170, 0.0518]
+  t = 0.990, p = 3.22e-01
+  R-squared = 0.0019
+
+--- D. 人均住房价值-人口标度律 ---
+
+  [All MSAs: ln(V_per_capita) ~ ln(Pop)]
+  ln_V_pc = a + b * ln_pop
+  N = 921
+  b = 0.1450 (SE = 0.0111)
+  95% CI = [0.1233, 0.1667]
+  t = 13.072, p = 4.74e-39
+  R-squared = 0.1547
+
+========================================================================
+步骤 8: 分区域稳健性检验
+========================================================================
+
+--- 区域: Northeast (N=92) ---
+
+  [Northeast: ln(MedianHV) ~ ln(Pop)]
+  ln_median_hv = a + b * ln_pop
+  N = 92
+  b = 0.1648 (SE = 0.0362)
+  95% CI = [0.0939, 0.2358]
+  t = 4.553, p = 5.29e-06
+  R-squared = 0.2386
+
+  [Northeast: ln(HU_pc) ~ ln(Pop)]
+  ln_hu_pc = a + b * ln_pop
+  N = 92
+  b = -0.0522 (SE = 0.0103)
+  95% CI = [-0.0725, -0.0320]
+  t = -5.058, p = 4.24e-07
+  R-squared = 0.1896
+
+  [Northeast: ln(V/GDP) ~ ln(Pop)]
+  ln_V_GDP = a + b * ln_pop
+  N = 92
+  b = -0.0096 (SE = 0.0326)
+  95% CI = [-0.0736, 0.0544]
+  t = -0.295, p = 7.68e-01
+  R-squared = 0.0012
+
+--- 区域: Midwest (N=280) ---
+
+  [Midwest: ln(MedianHV) ~ ln(Pop)]
+  ln_median_hv = a + b * ln_pop
+  N = 280
+  b = 0.1054 (SE = 0.0107)
+  95% CI = [0.0843, 0.1265]
+  t = 9.806, p = 1.06e-22
+  R-squared = 0.2133
+
+  [Midwest: ln(HU_pc) ~ ln(Pop)]
+  ln_hu_pc = a + b * ln_pop
+  N = 280
+  b = -0.0132 (SE = 0.0039)
+  95% CI = [-0.0209, -0.0054]
+  t = -3.343, p = 8.30e-04
+  R-squared = 0.0262
+
+  [Midwest: ln(V/GDP) ~ ln(Pop)]
+  ln_V_GDP = a + b * ln_pop
+  N = 280
+  b = 0.0295 (SE = 0.0118)
+  95% CI = [0.0064, 0.0527]
+  t = 2.502, p = 1.23e-02
+  R-squared = 0.0132
+
+--- 区域: South (N=374) ---
+
+  [South: ln(MedianHV) ~ ln(Pop)]
+  ln_median_hv = a + b * ln_pop
+  N = 374
+  b = 0.1777 (SE = 0.0106)
+  95% CI = [0.1570, 0.1984]
+  t = 16.797, p = 2.58e-63
+  R-squared = 0.3925
+
+  [South: ln(HU_pc) ~ ln(Pop)]
+  ln_hu_pc = a + b * ln_pop
+  N = 374
+  b = -0.0130 (SE = 0.0042)
+  95% CI = [-0.0212, -0.0049]
+  t = -3.134, p = 1.72e-03
+  R-squared = 0.0216
+
+  [South: ln(V/GDP) ~ ln(Pop)]
+  ln_V_GDP = a + b * ln_pop
+  N = 374
+  b = 0.1251 (SE = 0.0243)
+  95% CI = [0.0774, 0.1728]
+  t = 5.141, p = 2.73e-07
+  R-squared = 0.0779
+
+--- 区域: West (N=175) ---
+
+  [West: ln(MedianHV) ~ ln(Pop)]
+  ln_median_hv = a + b * ln_pop
+  N = 175
+  b = 0.1589 (SE = 0.0226)
+  95% CI = [0.1146, 0.2032]
+  t = 7.029, p = 2.08e-12
+  R-squared = 0.2147
+
+  [West: ln(HU_pc) ~ ln(Pop)]
+  ln_hu_pc = a + b * ln_pop
+  N = 175
+  b = -0.0570 (SE = 0.0087)
+  95% CI = [-0.0740, -0.0401]
+  t = -6.591, p = 4.36e-11
+  R-squared = 0.1991
+
+  [West: ln(V/GDP) ~ ln(Pop)]
+  ln_V_GDP = a + b * ln_pop
+  N = 175
+  b = 0.0341 (SE = 0.0206)
+  95% CI = [-0.0063, 0.0744]
+  t = 1.654, p = 9.82e-02
+  R-squared = 0.0102
+
+========================================================================
+步骤 9: Metro Areas Rank-Size 分析
+========================================================================
+  Metro Areas 数量: 381
+  Top 10 MSAs:
+    New York-Newark-Jersey City, NY-NJ-PA Metro Area   Pop=19,908,595  MedianHV=$ 553,500  GDP=2,182,492M
+    Los Angeles-Long Beach-Anaheim, CA Metro Area      Pop=13,111,917  MedianHV=$ 772,000  GDP=1,224,694M
+    Chicago-Naperville-Elgin, IL-IN-WI Metro Area      Pop= 9,566,955  MedianHV=$ 288,400  GDP=841,042M
+    Dallas-Fort Worth-Arlington, TX Metro Area         Pop= 7,673,379  MedianHV=$ 299,000  GDP=697,285M
+    Houston-The Woodlands-Sugar Land, TX Metro Area    Pop= 7,142,603  MedianHV=$ 253,600  GDP=662,444M
+    Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Pop= 6,346,083  MedianHV=$ 513,300  GDP=473,534M
+    Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro  Pop= 6,232,894  MedianHV=$ 304,900  GDP=526,066M
+    Miami-Fort Lauderdale-Pompano Beach, FL Metro Area Pop= 6,123,949  MedianHV=$ 369,500  GDP=494,123M
+    Atlanta-Sandy Springs-Alpharetta, GA Metro Area    Pop= 6,094,752  MedianHV=$ 299,800  GDP=538,948M
+    Boston-Cambridge-Newton, MA-NH Metro Area          Pop= 4,912,449  MedianHV=$ 570,000  GDP=576,631M
+
+  [Zipf: ln(Rank) ~ ln(Pop)]
+  ln_rank = a + b * ln_pop
+  N = 381
+  b = -0.8795 (SE = 0.0196)
+  95% CI = [-0.9180, -0.8410]
+  t = -44.786, p = 0.00e+00
+  R-squared = 0.9717
+
+========================================================================
+步骤 10: 生成图表
+========================================================================
+  图表已保存: fig_us_msa_scaling.png
+
+========================================================================
+步骤 11: 与中国标度律对比
+========================================================================
+
+  中国 (275城市, 2015-2016):
+    OCR ~ Pop^(-0.319)   [alpha = 0.319]
+    (来源: 80_scaling_law_ocr.py)
+
+  美国 (MSA/Micro, 2022):
+    ln(MedianHV) ~ 0.170 * ln(Pop)
+    ln(HU_pc) ~ -0.025 * ln(Pop)
+    ln(V/GDP) ~ 0.086 * ln(Pop)
+
+  解读:
+    V/GDP (Q 近似) 的标度指数为正 (0.086), 说明大城市 Q 更高
+    这与中国的模式一致: 大城市资产相对于经济基本面被"高估"
+    HU_per_capita 的标度指数为负 (-0.025), 说明大城市人均住房更少
+    类似于中国 OCR < 1 的"建设不足"模式
+
+========================================================================
+分析完成
+========================================================================

@@ -1,0 +1,131 @@
+======================================================================
+全球 Urban Q 面板构建
+======================================================================
+
+[步骤 1] 读取与合并数据源
+----------------------------------------
+  World Bank: 158 国, 1960-2023
+  PWT: 183 国, 1950-2019
+  BIS RHP: 47 国 (排除聚合区域后), 1960-2025
+
+  合并后面板: 10112 行, 158 国
+  有 PWT 数据的国家: 145
+  有 BIS 房价数据的国家: 28
+
+  关键变量缺失率:
+    gdp_current_usd: 13.0%
+    gfcf_current_usd: 26.8%
+    rnna: 23.2%
+    hc: 31.6%
+    delta: 23.2%
+    real_property_price_index: 92.6%
+    urban_pct: 0.0%
+
+[步骤 2] 构建建设资本存量 K(t)
+----------------------------------------
+  正在计算 PIM 资本存量...
+  K_PIM 可用国家: 156
+  K_rnna (PWT) 可用国家: 145
+  K_best 可用: 7418 行, 156 国
+
+[步骤 3] 构建城市资产价值 V(t)
+----------------------------------------
+  [V1] 基于房价指数 (约 47 国)
+  V1 可用国家: 28
+  [V2] 基于 PWT 资本存量 + GDP 平减指数 (所有有数据国家)
+  V2 可用国家: 145
+  [V3] 基于 GDP * 财富-收入比 (所有国家)
+  标定 wealth_income_ratio (中位数): 6.84
+
+[步骤 4] 计算 Urban Q 指标
+----------------------------------------
+  剔除极端值 (Q<0 或 Q>20): 90 行
+  Urban Q (V2/K_PIM) 可用国家: 143
+  Urban Q 中位数 (2010-2019): 3.148
+
+[步骤 5] 识别 Q = 1 临界年份
+----------------------------------------
+  经历 Q=1 交叉的国家: 17
+  始终 Q>1 的国家: 119
+  始终 Q<1 的国家: 0
+  交叉年份中位数: 1992
+  交叉时城镇化率中位数: 43.8%
+  交叉时服务业占比中位数: 43.1%
+
+[构建国家摘要表]
+----------------------------------------
+  摘要表: 158 国
+  收入分组分布:
+    High income: 56
+    Upper middle income: 47
+    Lower middle income: 37
+    Low income: 17
+    Unknown: 1
+
+[步骤 6] 生成可视化
+----------------------------------------
+  图表已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/drafts/fig10_global_urban_q.png
+
+[步骤 7] 保存输出文件
+----------------------------------------
+  面板数据: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/processed/global_urban_q_panel.csv
+    10112 行, 158 国
+  国家摘要: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/processed/global_urban_q_summary.csv
+
+======================================================================
+关键发现汇总
+======================================================================
+
+1. Urban Q 分布 (2010-2019 均值, n=143):
+   均值: 3.459
+   中位数: 3.065
+   标准差: 1.985
+   Q > 1 国家: 142
+   Q < 1 国家: 1
+
+2. 各收入组 Urban Q 中位数 (2010-2019):
+   Low income: 2.487 (n=16)
+   Lower middle income: 3.791 (n=32)
+   Upper middle income: 3.755 (n=43)
+   High income: 2.380 (n=51)
+
+3. 关键国家 Urban Q:
+   China (CHN): Q=2.492 (CI/GDP=42.7%)
+   Japan (JPN): Q=1.183 (CI/GDP=24.5%, Q=1 year: 2015)
+   United States (USA): Q=1.315 (CI/GDP=20.2%)
+   United Kingdom (GBR): Q=1.761 (CI/GDP=17.6%)
+   Germany (DEU): Q=1.789 (CI/GDP=20.0%)
+   Korea, Rep. (KOR): Q=1.974 (CI/GDP=30.1%)
+   India (IND): Q=4.891 (CI/GDP=30.5%)
+   Brazil (BRA): Q=3.756 (CI/GDP=18.1%)
+   Russian Federation (RUS): Q=4.346 (CI/GDP=21.4%)
+   France (FRA): Q=1.941 (CI/GDP=21.4%)
+   Australia (AUS): Q=1.380 (CI/GDP=25.8%)
+   Canada (CAN): Q=1.785 (CI/GDP=23.5%)
+   Singapore (SGP): Q=2.380 (CI/GDP=25.7%)
+   South Africa (ZAF): Q=3.653 (CI/GDP=17.3%)
+   Mexico (MEX): Q=2.882 (CI/GDP=22.8%)
+   Turkiye (TUR): Q=3.568 (CI/GDP=28.5%)
+   Saudi Arabia (SAU): Q=4.464 (CI/GDP=24.0%)
+   Indonesia (IDN): Q=7.172 (CI/GDP=32.2%)
+
+4. Q=1 交叉分析:
+   经历 Q=1 交叉的国家: 17
+   交叉年份范围: 1978-2017
+   Egypt, Arab Rep. (EGY): 1978, 城镇化率=43.8%
+   Costa Rica (CRI): 1981, 城镇化率=43.2%
+   Mali (MLI): 1981, 城镇化率=14.3%
+   Togo (TGO): 1984, 城镇化率=26.2%
+   New Zealand (NZL): 1984, 城镇化率=83.7%
+   Namibia (NAM): 1984, 城镇化率=26.0%
+   Iraq (IRQ): 1991, 城镇化率=69.4%
+   Mongolia (MNG): 1992, 城镇化率=56.9%
+   Sudan (SDN): 1992, 城镇化率=31.7%
+   Zimbabwe (ZWE): 1992, 城镇化率=30.6%
+   Azerbaijan (AZE): 1992, 城镇化率=52.9%
+   Guinea-Bissau (GNB): 2000, 城镇化率=36.8%
+   Uzbekistan (UZB): 2000, 城镇化率=47.7%
+   Argentina (ARG): 2002, 城镇化率=89.6%
+   Venezuela, RB (VEN): 2011, 城镇化率=88.8%
+   Japan (JPN): 2015, 城镇化率=91.4%
+   Sierra Leone (SLE): 2017, 城镇化率=41.7%

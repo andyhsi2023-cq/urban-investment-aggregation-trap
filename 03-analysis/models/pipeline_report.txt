@@ -1,0 +1,62 @@
+======================================================================
+Urban Q Phase Transition — Pipeline Report
+生成时间: 2026-03-21 08:59:45
+总耗时: 0.0s
+======================================================================
+
+--- Stage 0: 数据获取 ---
+
+  [DRY RUN OK]   20_world_bank_data.py                           -
+               下载 World Bank 全球面板数据 (217国, 1960-2023)
+  [DRY RUN OK]   21_penn_world_table.py                          -
+               下载 Penn World Table 10.01 (183国, 1950-2019)
+  [DRY RUN OK]   22_bis_un_data.py                               -
+               下载 BIS 房价指数 + UN 人口数据
+  [DRY RUN OK]   40b_china_data_from_sources.py                  -
+               整合中国国家级数据（从 six-curves 原始 CSV）
+  [DRY RUN OK]   15_extract_country_data.py                      -
+               提取四国面板（中/日/美/英）合并 WB+PWT+BIS+UN
+
+--- Stage 1: 全球分析 ---
+
+  [DRY RUN OK]   30b_global_q_revised.py                         -
+               全球 Urban Q 修正模型（158国面板 + BIS 房价校正）
+  [DRY RUN OK]   31b_kstar_m2_revised.py                         -
+               全球 K*/M2 修正模型（VIF + 聚类分析）
+  [SKIP]         35_cointegration_ty.py                          -
+               Toda-Yamamoto 协整检验（全球面板）
+
+--- Stage 2: 中国深度分析 ---
+
+  [DRY RUN OK]   50b_china_q_adjusted.py                         -
+               中国 Urban Q 调整模型（NBS 价格+竣工数据校正）
+  [DRY RUN OK]   52_city_ocr_uci.py                              -
+               中国城市级 OCR/UCI 分析（300城面板）
+
+--- Stage 3: 稳健性检验 ---
+
+  [DRY RUN OK]   60_robustness_vt_breakpoint.py                  -
+               稳健性：V(t) 断点检验 + Monte Carlo 置信区间
+  [DRY RUN OK]   61_kstar_bounded_muq.py                         -
+               稳健性：K* 有界 mu_Q 模型
+  [DRY RUN OK]   62_iv_gmm_pvar.py                               -
+               稳健性：IV-GMM + 面板 VAR
+  [DRY RUN OK]   63_fai_validation_robust_uci.py                 -
+               稳健性：FAI 验证 + 稳健 UCI
+  [DRY RUN OK]   64_city_real_fai_only.py                        -
+               稳健性：城市级 FAI-only 分析
+
+--- Stage 4: 可视化汇总 ---
+
+  [DRY RUN OK]   70_nature_main_figures.py                       -
+               Nature 投稿主图（四国 Q 对比 + CI）
+
+======================================================================
+汇总
+  总步骤数:     16
+  成功:         0
+  失败:         0
+  输入缺失:     0
+  跳过:         16
+  成功率:       0/0 (0%)
+======================================================================

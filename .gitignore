@@ -1,0 +1,10 @@
+# Large binary files
+*.dta
+*.xlsx
+*.xls
+.DS_Store
+__pycache__/
+*.pyc
+
+# Keep PDFs and PNGs (figures)
+# Keep CSVs (data)

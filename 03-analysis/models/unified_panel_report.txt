@@ -1,0 +1,492 @@
+==============================================================================
+UNIFIED REGIONAL PANEL: 8-Country GDP-based MUQ
+Date: 2026-03-22
+Random seed: 20260322
+==============================================================================
+
+==============================================================================
+PART 1: DATA HARMONIZATION
+==============================================================================
+
+--- 1a. China (275 cities) ---
+  Loaded: 10200 obs, 300 cities, years 1990-2023
+
+--- 1b. Japan (47 prefectures) ---
+  Loaded: 3196 obs, 47 prefectures, years 1955-2022
+
+--- 1c. Korea (17 regions) ---
+  Loaded: 609 obs, 17 regions, years 1985-2022
+
+--- 1d. United States (921 MSAs) ---
+  Loaded: 11681 obs, 921 MSAs, years 2010-2022
+  Note: GFCF estimated as 21% of GDP (US national average)
+
+--- 1e. Europe (265 NUTS-2 regions) ---
+  Loaded: 6431 obs, 265 regions, 29 countries, years 2000-2024
+
+--- 1f. Australia (8 states/territories) ---
+  Loaded: 272 obs, 8 regions, years 1990-2023
+
+--- 1g. South Africa (9 provinces) ---
+  Loaded: 279 obs, 9 regions, years 1993-2023
+
+==============================================================================
+PART 2: MERGE AND CLEAN
+==============================================================================
+
+Raw merged panel: 32668 obs
+Unique regions: 1567
+Countries: 35
+
+Winsorising MUQ at 1%/99% tails...
+  Before winsorise: min=-11.2862, max=35.9492
+  Thresholds: q01=-0.6986, q99=2.5720
+  After winsorise: min=-0.6986, max=2.5720
+
+--- Panel Summary by Country ---
+               n_regions  n_obs  year_min  year_max  muq_mean  muq_median    muq_sd
+country                                                                            
+United States        921  10760      2010      2022  0.180365    0.172200  0.274294
+China                300   9170      1990      2023  0.411186    0.234768  0.580339
+Japan                 47   3149      1955      2022  0.174661    0.152575  0.195701
+Germany               38    874      2000      2024  0.141702    0.152725  0.142229
+France                23    529      2000      2024  0.115492    0.120157  0.172577
+Italy                 22    506      2000      2024  0.102390    0.120131  0.245585
+Spain                 19    437      2000      2024  0.138156    0.191378  0.224552
+Poland                17    391      2000      2024  0.281374    0.336809  0.377709
+Korea                 17    592      1985      2022  0.235088    0.187675  0.177843
+Netherlands           13    299      2000      2024  0.167057    0.172412  0.317858
+Greece                13    299      2000      2024  0.059319    0.146165  0.394326
+Belgium               12    240      2003      2024  0.142651    0.150570  0.173871
+Austria               10    230      2000      2024  0.138438    0.141384  0.131307
+Sweden                 9    207      2000      2024  0.095732    0.100032  0.277621
+South Africa           9    270      1993      2023  0.163883   -0.042242  0.741347
+Romania                9    207      2000      2024  0.300569    0.315322  0.373904
+Hungary                9    184      2000      2024  0.219768    0.252356  0.285742
+Australia              8    264      1990      2023  0.159101    0.163694  0.371983
+Portugal               8    184      2000      2024  0.118953    0.163765  0.368888
+Czechia                8    184      2000      2024  0.221621    0.280880  0.228548
+Norway                 8    104      2008      2021  0.105462    0.057556  0.503474
+Switzerland            7     98      2008      2022  0.195257    0.134557  0.208049
+Bulgaria               6    138      2000      2024  0.336308    0.335298  0.298591
+Finland                6    138      2000      2024  0.113125    0.131695  0.268408
+Denmark                6    138      2000      2024  0.136503    0.132773  0.352239
+Slovakia               4     92      2000      2024  0.288197    0.275095  0.227419
+Croatia                4     92      2000      2024  0.208886    0.263486  0.279359
+Ireland                3     69      2000      2024  0.228636    0.231246  0.361999
+Malta                  2     46      2000      2024  0.309561    0.284646  0.383698
+Lithuania              2     46      2000      2024  0.346595    0.400071  0.282417
+Slovenia               2     46      2000      2024  0.193305    0.223921  0.189872
+Latvia                 2     46      2000      2024  0.252429    0.273747  0.572972
+Luxembourg             1     23      2000      2024  0.288892    0.250859  0.163148
+Estonia                1     23      2000      2024  0.251134    0.302058  0.251179
+Cyprus                 1     23      2000      2024  0.207029    0.300235  0.286891
+
+Total unique regions: 1567
+Total obs with valid MUQ: 30098
+
+Panel saved to: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/processed/unified_regional_panel.csv
+
+==============================================================================
+PART 3: SIMPSON'S PARADOX -- CROSS-NATIONAL REGIONAL
+==============================================================================
+
+--- 3a. By Income Group ---
+  Upper-Middle: n=9,440, Spearman(year, MUQ) rho=-0.7448, p=0.0000
+  High: n=20,658, Spearman(year, MUQ) rho=0.0697, p=0.0000
+  POOLED: n=30,098, Spearman(year, MUQ) rho=-0.2404, p=0.0000
+
+--- 3b. By GDP per capita Quartile ---
+  Q1_Low: n=7,108, Spearman(year, MUQ) rho=-0.5290, p=0.0000
+  Q2: n=6,932, Spearman(year, MUQ) rho=-0.1421, p=0.0000
+  Q3: n=7,080, Spearman(year, MUQ) rho=0.0749, p=0.0000
+  Q4_High: n=7,372, Spearman(year, MUQ) rho=0.1218, p=0.0000
+  POOLED: rho=-0.2404, p=0.0000 (same as above)
+
+--- 3c. By Country ---
+  Australia           : n=   264, rho=+0.0065, p=0.9159 
+  Austria             : n=   230, rho=+0.1365, p=0.0385 *
+  Belgium             : n=   240, rho=+0.0718, p=0.2679 
+  Bulgaria            : n=   138, rho=+0.0223, p=0.7950 
+  China               : n= 9,170, rho=-0.7716, p=0.0000 ***
+  Croatia             : n=    92, rho=-0.0217, p=0.8372 
+  Cyprus              : n=    23, rho=+0.2233, p=0.3057 
+  Czechia             : n=   184, rho=-0.0487, p=0.5119 
+  Denmark             : n=   138, rho=-0.0272, p=0.7519 
+  Estonia             : n=    23, rho=-0.2292, p=0.2927 
+  Finland             : n=   138, rho=+0.0177, p=0.8371 
+  France              : n=   529, rho=-0.0318, p=0.4661 
+  Germany             : n=   874, rho=+0.3139, p=0.0000 ***
+  Greece              : n=   299, rho=-0.0363, p=0.5318 
+  Hungary             : n=   184, rho=-0.1133, p=0.1258 
+  Ireland             : n=    69, rho=+0.0185, p=0.8798 
+  Italy               : n=   506, rho=+0.0162, p=0.7163 
+  Japan               : n= 3,149, rho=-0.7568, p=0.0000 ***
+  Korea               : n=   592, rho=-0.6175, p=0.0000 ***
+  Latvia              : n=    46, rho=-0.0248, p=0.8699 
+  Lithuania           : n=    46, rho=-0.1471, p=0.3292 
+  Luxembourg          : n=    23, rho=+0.0000, p=1.0000 
+  Malta               : n=    46, rho=+0.2446, p=0.1013 
+  Netherlands         : n=   299, rho=+0.0888, p=0.1255 
+  Norway              : n=   104, rho=-0.0290, p=0.7705 
+  Poland              : n=   391, rho=+0.0705, p=0.1640 
+  Portugal            : n=   184, rho=+0.3540, p=0.0000 ***
+  Romania             : n=   207, rho=-0.1481, p=0.0332 *
+  Slovakia            : n=    92, rho=-0.2827, p=0.0063 **
+  Slovenia            : n=    46, rho=+0.2760, p=0.0634 
+  South Africa        : n=   270, rho=-0.1350, p=0.0266 *
+  Spain               : n=   437, rho=-0.0215, p=0.6540 
+  Sweden              : n=   207, rho=-0.1423, p=0.0408 *
+  Switzerland         : n=    98, rho=-0.0904, p=0.3759 
+  United States       : n=10,760, rho=+0.2693, p=0.0000 ***
+
+  Simpson Check: 19 countries negative, 15 positive
+  Pooled direction: negative (rho=-0.2404)
+  ==> No clear Simpson's Paradox at regional level
+
+--- 3d. MUQ ~ Urbanization (where available) ---
+  Upper-Middle: n=559, Spearman(urb, MUQ) rho=0.0184, p=0.6636
+  POOLED: n=559, rho=0.0184, p=0.6636
+
+==============================================================================
+PART 4: PANEL REGRESSIONS
+==============================================================================
+
+--- 4a. MUQ ~ ln(GDP_pc) + Country FE + Year FE ---
+  N = 28492, R2 = 0.4567, Adj-R2 = 0.4552
+  ln(GDP_pc): beta = -0.0432, SE = 0.0126
+    95% CI: [-0.0679, -0.0184], p = 0.000625
+
+--- 4b. MUQ ~ urbanization + Country FE + Year FE ---
+  N = 559, R2 = 0.9870
+  urbanization: beta = 0.001051, SE = 0.000404
+    95% CI: [0.000259, 0.001843], p = 0.009292
+
+==============================================================================
+PART 5: GLOBAL SCALING LAW  ln(GDP) ~ ln(Pop)
+==============================================================================
+
+Global: ln(GDP) = 11.049 + 0.9725 * ln(Pop)
+  beta = 0.9725, SE = 0.0054, 95% CI: [0.9620, 0.9830]
+  R2 = 0.5149, N = 30225
+
+  By Continent:
+    Africa         : beta=1.0856 [1.0210, 1.1503], R2=0.7545, n=279
+    Asia           : beta=0.4565 [0.3974, 0.5157], R2=0.0203, n=12346
+    Europe         : beta=0.7825 [0.6980, 0.8669], R2=0.5356, n=5647
+    North America  : beta=1.0655 [1.0600, 1.0709], R2=0.9303, n=11681
+    Oceania        : beta=0.9751 [0.9249, 1.0252], R2=0.8233, n=272
+
+  By Country:
+    Australia           : beta=0.9751 [0.9249, 1.0252], R2=0.8233, n=272
+    Austria             : beta=1.1120 [1.0539, 1.1702], R2=0.8742, n=225
+    Belgium             : beta=1.1930 [1.1264, 1.2596], R2=0.8031, n=242
+    Bulgaria            : beta=1.2450 [0.9180, 1.5719], R2=0.3190, n=150
+    China               : beta=1.1613 [1.1291, 1.1935], R2=0.3687, n=9481
+    Croatia             : beta=0.0505 [-0.3314, 0.4325], R2=0.0011, n=60
+    Czechia             : beta=1.3080 [0.8511, 1.7648], R2=0.1004, n=200
+    Denmark             : beta=1.4239 [1.3092, 1.5387], R2=0.8983, n=90
+    Finland             : beta=0.9574 [0.9381, 0.9768], R2=0.9748, n=125
+    France              : beta=1.1373 [1.1071, 1.1676], R2=0.9567, n=550
+    Germany             : beta=1.0870 [1.0527, 1.1213], R2=0.7887, n=928
+    Greece              : beta=1.0840 [1.0475, 1.1204], R2=0.9405, n=325
+    Hungary             : beta=1.6874 [1.2633, 2.1114], R2=0.3167, n=198
+    Ireland             : beta=1.9797 [1.8049, 2.1544], R2=0.9095, n=33
+    Italy               : beta=0.9637 [0.9387, 0.9887], R2=0.9253, n=523
+    Japan               : beta=1.1188 [1.0972, 1.1404], R2=0.8382, n=2256
+    Korea               : beta=0.9424 [0.8534, 1.0315], R2=0.4103, n=609
+    Lithuania           : beta=0.3190 [0.0260, 0.6120], R2=0.0837, n=50
+    Netherlands         : beta=1.1713 [1.1285, 1.2141], R2=0.9198, n=252
+    Norway              : beta=0.4082 [0.3927, 0.4236], R2=0.9351, n=85
+    Poland              : beta=1.2015 [1.0957, 1.3073], R2=0.6084, n=327
+    Portugal            : beta=0.9029 [0.8403, 0.9655], R2=0.9137, n=60
+    Romania             : beta=-0.5924 [-0.9685, -0.2164], R2=0.0317, n=200
+    Slovakia            : beta=-0.0315 [-0.2850, 0.2219], R2=0.0006, n=100
+    Slovenia            : beta=-0.7550 [-1.7786, 0.2686], R2=0.0393, n=44
+    South Africa        : beta=1.0856 [1.0210, 1.1503], R2=0.7545, n=279
+    Spain               : beta=1.0470 [1.0313, 1.0626], R2=0.9693, n=450
+    Sweden              : beta=1.1449 [1.0910, 1.1989], R2=0.9087, n=200
+    Switzerland         : beta=0.9992 [0.9309, 1.0676], R2=0.8816, n=105
+    United States       : beta=1.0655 [1.0600, 1.0709], R2=0.9303, n=11681
+
+==============================================================================
+PART 6: CROSS-COUNTRY MUQ TIME SERIES
+==============================================================================
+
+  Country-level GDP-weighted mean MUQ by year:
+
+  Sample years per country:
+    Australia           : 1991-2023, mean MUQ=0.1770
+    Austria             : 2001-2023, mean MUQ=0.1438
+    Belgium             : 2004-2023, mean MUQ=0.1595
+    Bulgaria            : 2001-2023, mean MUQ=0.3697
+    China               : 1991-2023, mean MUQ=0.4607
+    Croatia             : 2001-2023, mean MUQ=0.2137
+    Cyprus              : 2001-2023, mean MUQ=0.2070
+    Czechia             : 2001-2023, mean MUQ=0.2288
+    Denmark             : 2001-2023, mean MUQ=0.1537
+    Estonia             : 2001-2023, mean MUQ=0.2511
+    Finland             : 2001-2023, mean MUQ=0.1257
+    France              : 2001-2023, mean MUQ=0.1255
+    Germany             : 2001-2023, mean MUQ=0.1426
+    Greece              : 2001-2023, mean MUQ=0.0704
+    Hungary             : 2001-2023, mean MUQ=0.2277
+    Ireland             : 2001-2023, mean MUQ=0.2480
+    Italy               : 2001-2023, mean MUQ=0.1067
+    Japan               : 1956-2022, mean MUQ=0.2001
+    Korea               : 1986-2022, mean MUQ=0.2529
+    Latvia              : 2001-2023, mean MUQ=0.2294
+    Lithuania           : 2001-2023, mean MUQ=0.3377
+    Luxembourg          : 2001-2023, mean MUQ=0.2889
+    Malta               : 2001-2023, mean MUQ=0.3211
+    Netherlands         : 2001-2023, mean MUQ=0.1739
+    Norway              : 2009-2021, mean MUQ=0.1364
+    Poland              : 2001-2023, mean MUQ=0.2916
+    Portugal            : 2001-2023, mean MUQ=0.1486
+    Romania             : 2001-2023, mean MUQ=0.3277
+    Slovakia            : 2001-2023, mean MUQ=0.2890
+    Slovenia            : 2001-2023, mean MUQ=0.1955
+    South Africa        : 1994-2023, mean MUQ=0.1820
+    Spain               : 2001-2023, mean MUQ=0.1445
+    Sweden              : 2001-2023, mean MUQ=0.1129
+    Switzerland         : 2009-2022, mean MUQ=0.1921
+    United States       : 2011-2022, mean MUQ=0.2153
+
+  Trend data saved: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/source_data/unified_muq_trends.csv
+
+==============================================================================
+PART 7: AGGREGATION TRAP -- CROSS-NATIONAL VERIFICATION
+==============================================================================
+
+Theorem conditions:
+  A1: Within-group MUQ is declining over time
+  A2: Systematic compositional shift (high-MUQ regions gain weight)
+  A3: Between-group gap exceeds within-group decline
+
+We test for countries with sufficient regional units:
+  China (275 cities), Europe (265 regions), US (921 MSAs)
+  Japan (47 prefs), Korea (17 regions), Australia (8), South Africa (9)
+
+
+--- China ---
+  N obs = 9161, N regions = 292
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n= 2307, Spearman rho=-0.7477, p=0.0000 *** [DECLINE]
+    Group 1: n= 2283, Spearman rho=-0.7832, p=0.0000 *** [DECLINE]
+    Group 2: n= 2279, Spearman rho=-0.8045, p=0.0000 *** [DECLINE]
+    Group 3: n= 2292, Spearman rho=-0.7528, p=0.0000 *** [DECLINE]
+  A1 RESULT: 4/4 groups declining. PASS
+
+  A2: Compositional shift
+    Group 0: weight trend rho=-0.5819, p=0.0004 [DECREASING]
+    Group 1: weight trend rho=-0.8469, p=0.0000 [DECREASING]
+    Group 2: weight trend rho=-0.4138, p=0.0167 [DECREASING]
+    Group 3: weight trend rho=+0.6511, p=0.0000 [INCREASING]
+  A2 RESULT: 3/4 groups shift as expected. PASS
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     -0.7712
+    Weighted within: -0.7719
+    Between component: +0.0008
+    |Between| (0.0008) <= |Within| (0.7719)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for China:
+    A1 (within decline):      PASS
+    A2 (compositional shift):  PASS
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+--- Japan ---
+  N obs = 2256, N regions = 47
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n=  576, Spearman rho=-0.6244, p=0.0000 *** [DECLINE]
+    Group 1: n=  576, Spearman rho=-0.6214, p=0.0000 *** [DECLINE]
+    Group 2: n=  528, Spearman rho=-0.5615, p=0.0000 *** [DECLINE]
+    Group 3: n=  576, Spearman rho=-0.5587, p=0.0000 *** [DECLINE]
+  A1 RESULT: 4/4 groups declining. PASS
+
+  A2: Compositional shift
+    Group 0: weight trend rho=+0.6714, p=0.0000 [INCREASING]
+    Group 1: weight trend rho=+0.6128, p=0.0000 [INCREASING]
+    Group 2: weight trend rho=-0.4370, p=0.0019 [DECREASING]
+    Group 3: weight trend rho=-0.5925, p=0.0000 [DECREASING]
+  A2 RESULT: 0/4 groups shift as expected. FAIL
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     -0.5846
+    Weighted within: -0.5921
+    Between component: +0.0075
+    |Between| (0.0075) <= |Within| (0.5921)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for Japan:
+    A1 (within decline):      PASS
+    A2 (compositional shift):  FAIL
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+--- Korea ---
+  N obs = 592, N regions = 17
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n=  211, Spearman rho=-0.6386, p=0.0000 *** [DECLINE]
+    Group 1: n=  177, Spearman rho=-0.7011, p=0.0000 *** [DECLINE]
+    Group 2: n=  204, Spearman rho=-0.5390, p=0.0000 *** [DECLINE]
+  A1 RESULT: 3/3 groups declining. PASS
+
+  A2: Compositional shift
+    Group 0: weight trend rho=-0.4791, p=0.0027 [DECREASING]
+    Group 1: weight trend rho=+0.7357, p=0.0000 [INCREASING]
+    Group 2: weight trend rho=-0.7077, p=0.0000 [DECREASING]
+  A2 RESULT: 1/3 groups shift as expected. FAIL
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     -0.6175
+    Weighted within: -0.6230
+    Between component: +0.0055
+    |Between| (0.0055) <= |Within| (0.6230)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for Korea:
+    A1 (within decline):      PASS
+    A2 (compositional shift):  FAIL
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+--- United States ---
+  N obs = 10760, N regions = 921
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n= 2696, Spearman rho=+0.3026, p=0.0000 *** [INCREASE]
+    Group 1: n= 2686, Spearman rho=+0.3061, p=0.0000 *** [INCREASE]
+    Group 2: n= 2685, Spearman rho=+0.2716, p=0.0000 *** [INCREASE]
+    Group 3: n= 2693, Spearman rho=+0.2098, p=0.0000 *** [INCREASE]
+  A1 RESULT: 0/4 groups declining. FAIL
+
+  A2: Compositional shift
+    Group 0: weight trend rho=-0.7902, p=0.0022 [DECREASING]
+    Group 1: weight trend rho=-0.1469, p=0.6488 [DECREASING]
+    Group 2: weight trend rho=-0.8881, p=0.0001 [DECREASING]
+    Group 3: weight trend rho=+0.8531, p=0.0004 [INCREASING]
+  A2 RESULT: 3/4 groups shift as expected. PASS
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     +0.2693
+    Weighted within: +0.2725
+    Between component: -0.0032
+    |Between| (0.0032) <= |Within| (0.2725)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for United States:
+    A1 (within decline):      FAIL
+    A2 (compositional shift):  PASS
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+--- Australia ---
+  N obs = 264, N regions = 8
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n=  132, Spearman rho=+0.0309, p=0.7254  [INCREASE]
+    Group 1: n=  132, Spearman rho=-0.0187, p=0.8316  [DECLINE]
+  A1 RESULT: 1/2 groups declining. FAIL
+
+  A2: Compositional shift
+    Group 0: weight trend rho=-0.5965, p=0.0002 [DECREASING]
+    Group 1: weight trend rho=+0.5946, p=0.0003 [INCREASING]
+  A2 RESULT: 2/2 groups shift as expected. PASS
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     +0.0065
+    Weighted within: +0.0061
+    Between component: +0.0004
+    |Between| (0.0004) <= |Within| (0.0061)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for Australia:
+    A1 (within decline):      FAIL
+    A2 (compositional shift):  PASS
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+--- South Africa ---
+  N obs = 270, N regions = 9
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n=  150, Spearman rho=-0.1340, p=0.1022  [DECLINE]
+    Group 1: n=  120, Spearman rho=-0.1353, p=0.1405  [DECLINE]
+  A1 RESULT: 2/2 groups declining. PASS
+
+  A2: Compositional shift
+    Group 0: weight trend rho=-1.0000, p=0.0000 [DECREASING]
+    Group 1: weight trend rho=+1.0000, p=0.0000 [INCREASING]
+  A2 RESULT: 2/2 groups shift as expected. PASS
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     -0.1350
+    Weighted within: -0.1346
+    Between component: -0.0004
+    |Between| (0.0004) <= |Within| (0.1346)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for South Africa:
+    A1 (within decline):      PASS
+    A2 (compositional shift):  PASS
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+--- Europe (265 NUTS-2) ---
+  N obs = 5189, N regions = 247
+
+  A1: Within-group decline (MUQ ~ year within each group)
+    Group 0: n= 1307, Spearman rho=-0.0015, p=0.9569  [DECLINE]
+    Group 1: n= 1290, Spearman rho=+0.0850, p=0.0022 ** [INCREASE]
+    Group 2: n= 1290, Spearman rho=+0.1054, p=0.0001 *** [INCREASE]
+    Group 3: n= 1302, Spearman rho=+0.1061, p=0.0001 *** [INCREASE]
+  A1 RESULT: 1/4 groups declining. FAIL
+
+  A2: Compositional shift
+    Group 0: weight trend rho=+0.7619, p=0.0000 [INCREASING]
+    Group 1: weight trend rho=+0.3992, p=0.0591 [INCREASING]
+    Group 2: weight trend rho=+0.4042, p=0.0558 [INCREASING]
+    Group 3: weight trend rho=-0.6522, p=0.0007 [DECREASING]
+  A2 RESULT: 1/4 groups shift as expected. FAIL
+
+  A3: Between-group gap dominates within-group decline
+    Pooled rho:     +0.0730
+    Weighted within: +0.0736
+    Between component: -0.0005
+    |Between| (0.0005) <= |Within| (0.0736)
+  A3 RESULT: FAIL
+  ==> No sign reversal between within and pooled
+
+  VERDICT for Europe (265 NUTS-2):
+    A1 (within decline):      FAIL
+    A2 (compositional shift):  FAIL
+    A3 (between > within):    FAIL
+    ALL CONDITIONS:           NOT ALL SATISFIED
+
+==============================================================================
+AGGREGATION TRAP SUMMARY
+==============================================================================
+
+  Country                       A1     A2     A3      All
+  ------------------------- ------ ------ ------ --------
+  China                       PASS   PASS   FAIL       NO
+  Japan                       PASS   FAIL   FAIL       NO
+  Korea                       PASS   FAIL   FAIL       NO
+  United States               FAIL   PASS   FAIL       NO
+  Australia                   FAIL   PASS   FAIL       NO
+  South Africa                PASS   PASS   FAIL       NO
+  Europe                      FAIL   FAIL   FAIL       NO
+
+  0/7 countries/regions satisfy all 3 conditions.

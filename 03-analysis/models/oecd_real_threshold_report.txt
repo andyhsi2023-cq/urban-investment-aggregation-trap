@@ -1,0 +1,192 @@
+========================================================================
+OECD 真实建设投资/GDP 阈值分析
+Hansen Threshold Panel Model -- Real Construction Investment Data
+运行时间: 2026-03-21 14:20:59
+========================================================================
+
+STEP 1: 从 OECD 下载 GFCF by asset type 数据
+------------------------------------------------------------------------
+  下载 Dwellings (N111G)...
+  URL: https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE1_EXPENDITURE_GFCF_ASSET,2.0/A..S1.S1.P51G.N111...
+  状态码: 200, 大小: 918864 bytes
+  行数: 1950, 列: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'FREQ', 'Frequency of observation', 'REF_AREA', 'Reference area']...
+  下载 Other buildings and structures (N112G)...
+  URL: https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE1_EXPENDITURE_GFCF_ASSET,2.0/A..S1.S1.P51G.N112...
+  状态码: 200, 大小: 944736 bytes
+  行数: 1919, 列: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'FREQ', 'Frequency of observation', 'REF_AREA', 'Reference area']...
+  下载 Total fixed assets (N11G)...
+  URL: https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE1_EXPENDITURE_GFCF_ASSET,2.0/A..S1.S1.P51G.N11G...
+  状态码: 200, 大小: 1298997 bytes
+  行数: 2731, 列: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'FREQ', 'Frequency of observation', 'REF_AREA', 'Reference area']...
+
+STEP 2: 解析和清洗数据
+------------------------------------------------------------------------
+合并后原始数据: 6600 行
+列名: ['STRUCTURE', 'STRUCTURE_ID', 'STRUCTURE_NAME', 'ACTION', 'FREQ', 'Frequency of observation', 'REF_AREA', 'Reference area', 'SECTOR', 'Institutional sector', 'COUNTERPART_SECTOR', 'Counterpart institutional sector', 'TRANSACTION', 'Transaction', 'INSTR_ASSET', 'Financial instruments and non-financial assets', 'ACTIVITY', 'Economic activity', 'EXPENDITURE', 'Expenditure', 'UNIT_MEASURE', 'Unit of measure', 'PRICE_BASE', 'Price base', 'TRANSFORMATION', 'Transformation', 'TABLE_IDENTIFIER', 'Table identifier', 'TIME_PERIOD', 'Time period', 'OBS_VALUE', 'Observation value', 'REF_YEAR_PRICE', 'Price reference year', 'CONF_STATUS', 'Confidentiality status', 'DECIMALS', 'Decimals', 'OBS_STATUS', 'Observation status', 'UNIT_MULT', 'Unit multiplier', 'CURRENCY', 'Currency', 'asset_query', 'asset_label']
+
+原始数据已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/raw/oecd_gfcf_by_asset_real.csv
+列映射: {'country': 'REF_AREA', 'asset': 'INSTR_ASSET', 'year': 'TIME_PERIOD', 'value': 'OBS_VALUE'}
+清洗后: 6600 行, 67 国
+资产类型分布:
+asset_code
+N11G     2731
+N111G    1950
+N112G    1919
+年份范围: 1970 - 2023
+
+STEP 3: 计算建设投资/GDP
+------------------------------------------------------------------------
+透视后: 2731 行, 67 国
+  Dwellings (N111G) 非空: 1950
+  Other buildings (N112G) 非空: 1919
+  Construction 非空: 1978
+  Total FA (N11G) 非空: 2731
+  Construction/GFCF 比例非空: 1978
+
+建设占 GFCF 比例统计:
+  均值: 0.524 (52.4%)
+  中位数: 0.521 (52.1%)
+  P25-P75: [0.469, 0.578]
+  最小值: 0.129, 最大值: 0.972
+
+STEP 4: 合并到已有面板
+------------------------------------------------------------------------
+合并结果:
+  总行数: 10112
+  有建设/GDP 数据的观测: 1908
+  覆盖国家: 52
+
+有建设投资数据的国家 (52):
+  ALB, ARG, AUS, AUT, BEL, BGR, BRA, CAN, CHE, CHL
+  COL, CRI, CYP, CZE, DEU, DNK, ESP, EST, FIN, FRA
+  GBR, GEO, GRC, HRV, HUN, IDN, IRL, ISL, ISR, ITA
+  JPN, KOR, LTU, LUX, LVA, MEX, MKD, MLT, NLD, NOR
+  NZL, POL, PRT, ROU, SGP, SRB, SVK, SVN, SWE, TUR
+  USA, ZAF
+
+处理后面板已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/processed/oecd_construction_gdp_panel.csv
+
+Construction/GDP (%) 描述统计:
+  观测数: 1908
+  均值: 12.31%
+  中位数: 11.76%
+  标准差: 3.80%
+  P5: 7.18%, P95: 18.83%
+  最小: 1.80%, 最大: 36.17%
+
+========================================================================
+STEP 5: Hansen 阈值面板模型 -- Construction/GDP
+========================================================================
+
+工作样本: 1674 观测, 52 国
+Construction/GDP 范围: 1.80% - 36.17%
+dCPR 范围: -1.2302 - 0.8368
+
+PART A: 非参数探索
+------------------------------------------------------------------------
+Construction/GDP 10分位 bin 统计:
+Bin                                N   Med dCPR  Mean dCPR  Med C/GDP
+------------------------------------------------------------------------
+(1.802, 8.411]                   168    -0.0203    -0.0531       7.39
+(8.411, 9.508]                   167    -0.0178    -0.0426       9.00
+(9.508, 10.323]                  167    -0.0276    -0.0456       9.89
+(10.323, 11.138]                 168    -0.0352    -0.0665      10.77
+(11.138, 11.818]                 167    -0.0177    -0.0122      11.52
+(11.818, 12.756]                 167    -0.0122    -0.0299      12.23
+(12.756, 13.777]                 168    -0.0284    -0.0561      13.29
+(13.777, 14.892]                 167     0.0070    -0.0321      14.38
+(14.892, 16.727]                 167    -0.0553    -0.0711      15.70
+(16.727, 36.168]                 168    -0.0768    -0.0615      19.14
+
+LOESS 零线交叉点: []
+
+PART B: Hansen 阈值面板模型
+------------------------------------------------------------------------
+Hansen 模型样本: 1674 观测, 52 国
+Grid search: [8.4%, 16.7%], 步长 0.2pp, 43 点
+
+Grid search 完成 (0.1s)
+
+SSR Profile (关键点):
+  gamma          SSR   beta_low  beta_high     regime  n_low n_high
+------------------------------------------------------------------------
+    9.0        62.44  -0.004418  -0.002682    -0.0104    252   1422
+   10.0        62.36  -0.007722  -0.003759    -0.0129    435   1239
+   10.2        62.26  -0.009516  -0.004481    -0.0119    480   1194 <<<
+   11.0        62.36  -0.003188  -0.004559     0.0359    637   1037
+   12.0        62.32   0.004071  -0.002300     0.0489    878    796
+   13.0        62.37   0.001007  -0.001596     0.0102   1039    635
+   14.0        62.41  -0.001201  -0.001513    -0.0110   1209    465
+   15.0        62.36  -0.001099   0.000145    -0.0470   1352    322
+   16.0        62.40  -0.002197   0.000553    -0.0655   1444    230
+
+最优阈值 gamma_hat = 10.2%
+  SSR = 62.26
+  beta (low regime, C/GDP < 10.2%): -0.009516 (SE = 0.007576)
+  beta (high regime, C/GDP >= 10.2%): -0.004481 (SE = 0.002364)
+  regime intercept diff: -0.0119 (SE = 0.0754)
+  n_low = 480, n_high = 1194
+
+经济含义:
+  Construction/GDP < 10.2%: 每增加1pp建设投资, dCPR = -0.0095
+  Construction/GDP >= 10.2%: 每增加1pp建设投资, dCPR = -0.0045
+  两体制斜率差: 0.0050
+
+阈值效应 F 检验:
+  SSR_linear = 62.4424
+  SSR_threshold = 62.2596
+  F(2, 1669) = 2.4501
+  p = 0.086599
+  显著性: n.s.
+
+Bootstrap 95% CI (500 replications, cluster by country)...
+
+Bootstrap 结果:
+  gamma_hat = 10.2%
+  95% CI = [8.4%, 17.4%]
+  CI 宽度 = 9.0pp
+  Bootstrap 均值 = 11.6%
+  Bootstrap 中位数 = 11.8%
+
+
+========================================================================
+STEP 6: 分收入组稳定性检验
+========================================================================
+
+Low income: 样本量不足 (0), 跳过
+Lower middle income: 样本量不足 (0), 跳过
+Income Group                   N    gamma             95% CI   CI Width
+------------------------------------------------------------------------
+Low income                     0      N/A                N/A        N/A
+Lower middle income            0      N/A                N/A        N/A
+Upper middle income          241      9.4        [7.4, 16.4]        9.0
+High income                 1433     15.7        [9.2, 16.2]        7.0
+
+========================================================================
+STEP 7: 与代理变量结果对比
+========================================================================
+
+代理变量结果 (来自 82_oecd_construction_threshold.py):
+  阈值变量: GFCF/GDP (总固定资本形成/GDP)
+  gamma_hat = 9.1%
+  95% CI = [8.1%, 17.6%]
+  CI 宽度 = 9.5pp
+
+真实建设投资数据结果:
+  阈值变量: Construction/GDP (建设投资/GDP)
+  gamma_hat = 10.2%
+  95% CI = [8.4%, 17.4%]
+  CI 宽度 = 9.0pp
+
+理论一致性:
+  建设占GFCF中位数比例: 52.1%
+  代理变量阈值(GFCF/GDP) x 建设占比 = 4.7%
+  真实建设投资阈值: 10.2%
+
+STEP 8: 生成图表
+------------------------------------------------------------------------
+图表已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/drafts/fig_oecd_real_threshold.png
+
+========================================================================
+分析完成
+========================================================================

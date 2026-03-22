@@ -1,0 +1,81 @@
+================================================================================
+全球 OCR 排名（2015-2019 均值）
+================================================================================
+纳入国家数: 126（要求至少 3 年数据）
+
+--------------------------------------------------------------------------------
+【过度建设 Top 20】—— OCR_norm 最高
+--------------------------------------------------------------------------------
+  排名 国家代码   国家                        地区                          OCR_norm          OCR
+--------------------------------------------------------------------------------
+   1 NER    Niger                     Sub-Saharan Africa         22.619881    71.699510
+   2 BFA    Burkina Faso              Sub-Saharan Africa         11.955744    37.896794
+   3 MLI    Mali                      Sub-Saharan Africa          9.182313    29.105693
+   4 PRT    Portugal                  Europe & Central Asia       6.793422    21.533492
+   5 MRT    Mauritania                Sub-Saharan Africa          6.674506    21.156556
+   6 SEN    Senegal                   Sub-Saharan Africa          5.897456    18.693499
+   7 BRN    Brunei Darussalam         East Asia & Pacific         5.706334    18.087688
+   8 SDN    Sudan                     Sub-Saharan Africa          5.659125    17.938046
+   9 COG    Congo, Rep.               Sub-Saharan Africa          5.634918    17.861316
+  10 TZA    Tanzania                  Sub-Saharan Africa          4.868220    15.431070
+  11 HTI    Haiti                     Latin America & Caribbean   4.375342    13.868768
+  12 CIV    Cote d'Ivoire             Sub-Saharan Africa          4.100754    12.998391
+  13 NAM    Namibia                   Sub-Saharan Africa          3.987554    12.639576
+  14 KHM    Cambodia                  East Asia & Pacific         3.610803    11.445366
+  15 MDG    Madagascar                Sub-Saharan Africa          3.567948    11.309527
+  16 SLE    Sierra Leone              Sub-Saharan Africa          3.535382    11.206299
+  17 GTM    Guatemala                 Latin America & Caribbean   3.524149    11.170693
+  18 IRL    Ireland                   Europe & Central Asia       3.482643    11.039129
+  19 CAF    Central African Republic  Sub-Saharan Africa          3.385768    10.732060
+  20 LAO    Lao PDR                   East Asia & Pacific         3.301388    10.464596
+
+--------------------------------------------------------------------------------
+【建设不足 Top 20】—— OCR_norm 最低
+--------------------------------------------------------------------------------
+  排名 国家代码   国家                        地区                          OCR_norm          OCR
+--------------------------------------------------------------------------------
+ 126 COD    Congo, Dem. Rep.          Sub-Saharan Africa          0.000006     0.000020
+ 125 AGO    Angola                    Sub-Saharan Africa          0.000051     0.000163
+ 124 EGY    Egypt, Arab Rep.          Middle East, North Africa, Afghanistan & Pakistan   0.116419     0.369019
+ 123 JOR    Jordan                    Middle East, North Africa, Afghanistan & Pakistan   0.126593     0.401268
+ 122 ISR    Israel                    Middle East, North Africa, Afghanistan & Pakistan   0.153252     0.485773
+ 121 SYR    Syrian Arab Republic      Middle East, North Africa, Afghanistan & Pakistan   0.228304     0.723669
+ 120 MLT    Malta                     Middle East, North Africa, Afghanistan & Pakistan   0.233029     0.738646
+ 119 TUN    Tunisia                   Middle East, North Africa, Afghanistan & Pakistan   0.280953     0.890553
+ 118 IRQ    Iraq                      Middle East, North Africa, Afghanistan & Pakistan   0.283266     0.897883
+ 117 PAK    Pakistan                  Middle East, North Africa, Afghanistan & Pakistan   0.342525     1.085722
+ 116 SAU    Saudi Arabia              Middle East, North Africa, Afghanistan & Pakistan   0.421196     1.335090
+ 115 IRN    Iran, Islamic Rep.        Middle East, North Africa, Afghanistan & Pakistan   0.461763     1.463677
+ 114 YEM    Yemen, Rep.               Middle East, North Africa, Afghanistan & Pakistan   0.465464     1.475407
+ 113 KGZ    Kyrgyz Republic           Europe & Central Asia       0.489571     1.551821
+ 112 BOL    Bolivia                   Latin America & Caribbean   0.550530     1.745047
+ 111 ZWE    Zimbabwe                  Sub-Saharan Africa          0.568971     1.803499
+ 110 BLZ    Belize                    Latin America & Caribbean   0.608713     1.929473
+ 109 TJK    Tajikistan                Europe & Central Asia       0.618730     1.961222
+ 108 MDA    Moldova                   Europe & Central Asia       0.640587     2.030505
+ 107 DZA    Algeria                   Middle East, North Africa, Afghanistan & Pakistan   0.650499     2.061924
+
+--------------------------------------------------------------------------------
+按区域 OCR 分布
+--------------------------------------------------------------------------------
+区域                                N         均值        中位数        标准差        最小值        最大值
+--------------------------------------------------------------------------------
+Sub-Saharan Africa               28   4.102402   3.148857   4.545900   0.000006  22.619881
+East Asia & Pacific              17   2.096273   1.861932   1.226088   0.856248   5.706334
+North America                     2   1.990235   1.990235   0.209215   1.842298   2.138173
+Europe & Central Asia            40   1.926094   1.946166   1.156796   0.489571   6.793422
+Latin America & Caribbean        21   1.808961   1.726198   0.903917   0.550530   4.375342
+South Asia                        4   1.714665   2.047776   0.688207   0.682655   2.080452
+Middle East, North Africa, Afghanistan & Pakistan   14   0.424348   0.312896   0.319329   0.116419   1.156666
+
+--------------------------------------------------------------------------------
+按收入组 OCR 分布
+--------------------------------------------------------------------------------
+收入组                          N         均值        中位数        标准差
+Low                         16   4.846992   3.318081   5.705271
+High                        48   2.087689   2.030950   1.184224
+Lower-middle                37   1.950185   1.274670   1.749800
+Upper-middle                25   1.295922   1.191258   0.516143
+
+中国排名: 第 64 / 126 名
+  OCR_norm = 1.833121

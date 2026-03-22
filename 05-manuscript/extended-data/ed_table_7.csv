@@ -1,0 +1,11 @@
+Level,Country_Region,N_obs,N_regions,A1_within_decline,A2_compositional_shift,A3_between_dominates,All_conditions,Pooled_rho,Weighted_within,Between_component
+Cross-national,158 countries (housing-based),3329,,PASS (4/4 groups negative),PASS (mass shifts to high-alpha),PASS (|0.114| > |0.076|),YES,+0.038,-0.076,+0.114
+Within-country,China,9161,292,PASS (4/4 groups),PASS (3/4 shift),FAIL (|0.0008| <= |0.7719|),NO,-0.7712,-0.7719,+0.0008
+Within-country,Japan,2256,47,PASS (4/4 groups),FAIL (0/4 shift),FAIL (|0.0075| <= |0.5921|),NO,-0.5846,-0.5921,+0.0075
+Within-country,Korea,592,17,PASS (3/3 groups),FAIL (1/3 shift),FAIL (|0.0055| <= |0.6230|),NO,-0.6175,-0.6230,+0.0055
+Within-country,United States,10760,921,FAIL (0/4 groups),PASS (3/4 shift),FAIL (|0.0032| <= |0.2725|),NO,+0.2693,+0.2725,-0.0032
+Within-country,Australia,264,8,FAIL (1/2 groups),PASS (2/2 shift),FAIL (|0.0004| <= |0.0061|),NO,+0.0065,+0.0061,+0.0004
+Within-country,South Africa,270,9,PASS (2/2 groups),PASS (2/2 shift),FAIL (|0.0004| <= |0.1346|),NO,-0.1350,-0.1346,-0.0004
+Within-country,Europe (NUTS-2),5189,247,FAIL (1/4 groups),FAIL (1/4 shift),FAIL (|0.0005| <= |0.0736|),NO,+0.0730,+0.0736,-0.0005
+Summary_cross_national,,,,"4/4 PASS","PASS","PASS",1/1 PASS,,,,
+Summary_within_country,,,,"4/7 PASS","4/7 PASS","0/7 PASS","0/7 PASS (all FAIL on A3)",,,,

@@ -1,0 +1,177 @@
+============================================================================
+AGGREGATION TRAP THEOREM: Numerical Verification
+============================================================================
+
+面板数据: 10112 行, 158 国
+有效观测: 3329, 覆盖 144 国
+
+============================================================================
+PART 1: Parameter Calibration from Data
+============================================================================
+
+Group             N     mu_k    beta_k  mean_u     rho          p   SE_beta
+----------------------------------------------------------------------------
+Low             443   7.0950   -8.0125    0.27 -0.1499   0.001557    4.0842
+Lower-Mid       636   9.9782   -6.0408    0.44 -0.1223   0.002006    5.3553
+Upper-Mid       919  10.0340   -3.7715    0.55 -0.0991   0.002626    2.1308
+High           1331   7.3292   +0.8513    0.74 -0.0131   0.633466    2.1517
+
+============================================================================
+PART 2: Verification of Theorem Conditions
+============================================================================
+
+--- Condition (A1): Within-group decline ---
+  Low         : beta = -8.0125 (p = 0.0498*) [PASS]
+  Lower-Mid   : beta = -6.0408 (p = 0.2593) [PASS]
+  Upper-Mid   : beta = -3.7715 (p = 0.0767) [PASS]
+  High        : beta = +0.8513 (p = 0.6924) [FAIL]
+  A1 overall: FAIL
+
+--- Condition (A2): Between-group dominance ---
+  Low -> Lower-Mid:
+    Level gap: +2.8832
+    Within decline (|beta|*Delta_u): 2.6899
+    Ratio (gap / decline): 1.07x [PASS]
+  Lower-Mid -> Upper-Mid:
+    Level gap: +0.0558
+    Within decline (|beta|*Delta_u): 4.0331
+    Ratio (gap / decline): 0.01x [FAIL]
+  Upper-Mid -> High:
+    Level gap: -2.7048
+    Within decline (|beta|*Delta_u): 2.5108
+    Ratio (gap / decline): -1.08x [FAIL]
+
+--- Condition (A3): Compositional shift ---
+  Group weight by urbanization quintile:
+  Quintile           Low   Lower-Mid   Upper-Mid        High
+  Q1               0.488       0.312       0.188       0.012
+  Q2               0.159       0.363       0.336       0.141
+  Q3               0.018       0.161       0.432       0.389
+  Q4               0.000       0.053       0.317       0.631
+  Q5               0.000       0.066       0.108       0.826
+
+  Correlation between u-quintile and group weight:
+    Low         : rho(u, w_k) = -0.9747, p = 0.0048
+    Lower-Mid   : rho(u, w_k) = -0.8000, p = 0.1041
+    Upper-Mid   : rho(u, w_k) = -0.3000, p = 0.6238
+    High        : rho(u, w_k) = +1.0000, p = 0.0000
+
+  Pooled rho:           +0.0377
+  Weighted within rho:  -0.0759
+  Between component:    +0.1136
+  |Between| > |Within|: True (0.1136 vs 0.0759)
+  A3 overall: PASS
+
+============================================================================
+PART 3: Two-Group Simplified Model
+============================================================================
+
+Calibrated parameters:
+  mu_L = 7.0950 (Low income intercept)
+  mu_H = 7.3292 (High income intercept)
+  gamma = 4.4319 (average within-group decline)
+  Gap = mu_H - mu_L = 0.2342
+  Condition: Gap >= gamma? False (0.2342 vs 4.4319)
+
+Two-group trajectory:
+      u      E_L      E_H    w_H    E_agg
+   0.05   6.8734   7.1076  0.095   6.8957
+   0.27   5.8913   6.1254  0.242   5.9479
+   0.50   4.8891   5.1232  0.497   5.0055
+   0.72   3.8869   4.1210  0.754   4.0634
+   0.95   2.8847   3.1188  0.905   3.0965
+
+  dE_agg/du >= 0 at 0/199 points (0.0%)
+  E_agg range: [3.0965, 6.8957]
+  E_L range:   [2.8847, 6.8734] (declining)
+  E_H range:   [3.1188, 7.1076] (declining)
+
+Box 1 数据已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/drafts/aggregation_trap_schematic_data.csv
+
+============================================================================
+PART 4: Four-Group General Model
+============================================================================
+
+Calibrated parameters (from OLS with clustered SE):
+  Group Low         : mu = +7.095007, beta = -8.012539, mean_u = 0.266
+  Group Lower-Mid   : mu = +9.978224, beta = -6.040840, mean_u = 0.439
+  Group Upper-Mid   : mu = +10.033994, beta = -3.771486, mean_u = 0.552
+  Group High        : mu = +7.329163, beta = +0.851334, mean_u = 0.740
+
+Weight functions (multinomial logit fitted to data):
+      u          Low   Lower-Mid   Upper-Mid        High
+   0.10        0.691       0.213       0.090       0.005
+   0.30        0.338       0.343       0.269       0.049
+   0.50        0.081       0.275       0.402       0.241
+   0.70        0.010       0.109       0.298       0.583
+   0.90        0.001       0.026       0.132       0.842
+
+Four-group aggregate:
+  dE_agg/du >= 0 at 256/299 points (85.6%)
+  E_agg range: [7.1282, 7.8062]
+  E_Low range: [-0.1163, 6.2938]
+  E_Lower-Mid range: [4.5415, 9.3741]
+  E_Upper-Mid range: [6.6397, 9.6568]
+  E_High range: [7.4143, 8.0954]
+
+  Simulated aggregate Spearman: rho = +0.9666, p = 0.000000
+  Empirical pooled Spearman:    rho = +0.0377, p = 0.029710
+
+四组数据已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/drafts/aggregation_trap_4group_data.csv
+
+============================================================================
+PART 5: Monte Carlo Simulation
+============================================================================
+
+Monte Carlo: 10000 simulations, K=4 groups, 100 obs/group
+
+All within-group rho < 0: 8585/10000 (85.8%)
+Simpson's Paradox (all neg within + non-neg pooled): 3070/10000 (30.7%)
+
+When A2 (between-group dominance) is met:
+  N = 21, Paradox occurs: 6 (28.6%)
+When A2 is NOT met:
+  N = 9979, Paradox occurs: 3064 (30.7%)
+
+  Weak shift      (N=2010): all_neg= 86.8%, paradox= 31.6%
+  Medium shift    (N=4036): all_neg= 85.3%, paradox= 30.2%
+  Strong shift    (N=3954): all_neg= 86.0%, paradox= 30.8%
+
+When all conditions approximately met (A2 + strong shift):
+  N = 10
+  All within negative: 5 (50.0%)
+  Paradox: 5 (50.0%)
+  Paradox | all within negative: 5/5 (100.0%)
+
+MC 结果已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/03-analysis/models/aggregation_trap_monte_carlo.csv
+
+============================================================================
+PART 6: Critical Threshold Analysis
+============================================================================
+
+Question: How large must the between-group gap be (relative to within-
+group decline) for the paradox to be guaranteed?
+
+   Gap/Gamma   P(Paradox|all neg)
+-----------------------------------
+        0.00                0.000
+        0.25                0.002
+        0.50                0.196
+        0.75                0.974
+        1.00                1.000
+        1.25                1.000
+        1.50                1.000
+        1.75                1.000
+        2.00                1.000
+        2.25                1.000
+        2.50                1.000
+        2.75                1.000
+        3.00                1.000
+
+临界点数据已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/04-figures/drafts/aggregation_trap_critical_threshold.csv
+
+本文数据中的 gap/gamma 比率: 0.05
+  (mu_High - mu_Low) = 0.2342
+  mean |beta_k| = 4.6690
+
+校准参数已保存: /Users/andy/Desktop/Claude/urban-q-phase-transition/03-analysis/models/aggregation_trap_verification.csv

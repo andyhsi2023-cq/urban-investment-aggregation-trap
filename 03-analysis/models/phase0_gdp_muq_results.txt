@@ -1,0 +1,20 @@
+PHASE 0 KILL TEST: GDP-based MUQ Simpson's Paradox
+============================================================
+
+Verdict: PASS
+
+WDI Method (constant 2015 USD):
+  Pooled rho: -0.2104, p=0.0000
+  Low income: rho=-0.1160, p=0.0000, N=1284, countries=29
+  Lower middle income: rho=-0.1306, p=0.0000, N=1681, countries=37
+  Upper middle income: rho=-0.2475, p=0.0000, N=1834, countries=40
+  High income: rho=-0.0351, p=0.0795, N=2494, countries=51
+
+PWT Method (rgdpna):
+  Pooled rho: -0.2358, p=0.0000
+  Low income: rho=-0.1248, p=0.0000, N=1168, countries=28
+  Lower middle income: rho=-0.2038, p=0.0000, N=1425, countries=33
+  Upper middle income: rho=-0.2228, p=0.0000, N=1566, countries=36
+  High income: rho=-0.0148, p=0.4876, N=2198, countries=48
+
+LOO (UMI, GDP-based): 40/40 negative, 40/40 significant
