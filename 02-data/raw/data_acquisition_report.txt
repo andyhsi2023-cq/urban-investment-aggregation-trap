@@ -1,0 +1,206 @@
+数据获取报告 — 2026-03-20 07:17:23
+============================================================
+
+============================================================
+部分 1：OECD 住宅房地产价格指数
+============================================================
+
+尝试下载: OECD SDMX-JSON API (HOUSE_PRICES, 季度数据)
+  URL: https://stats.oecd.org/sdmx-json/data/HOUSE_PRICES/..Q..?startTime=1970&endTime=2024&dimensionAtObservation=allDimension...
+  状态: 成功 (HTTP 200, 1,808,765 bytes)
+  维度顺序: ['REF_AREA', 'FREQ', 'MEASURE', 'UNIT_MEASURE']
+  国家数: 52
+  时间点数: 351
+  解析完成: 40,257 条观测, 51 个国家
+  指标类型: ['RPI', 'RHP', 'HPI_RPI', 'HPI', 'HPI_YDH', 'HPI_RPI_AVG', 'HPI_YDH_AVG']
+  时间范围: 1956 ~ 2026-Q1
+  国家列表: ['AUS', 'AUT', 'BEL', 'BGR', 'BRA', 'CAN', 'CHE', 'CHL', 'CHN', 'COL', 'CRI', 'CZE', 'DEU', 'DNK', 'EA', 'EA17', 'ESP', 'EST', 'FIN', 'FRA', 'GBR', 'GRC', 'HRV', 'HUN', 'IDN', 'IND', 'IRL', 'ISL', 'ISR', 'ITA', 'JPN', 'KOR', 'LTU', 'LUX', 'LVA', 'MEX', 'NLD', 'NOR', 'NZL', 'OECD', 'POL', 'PRT', 'ROU', 'RUS', 'SAU', 'SVK', 'SVN', 'SWE', 'TUR', 'USA', 'ZAF']
+
+已保存房价数据: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/raw/bis_property_prices.csv
+  总行数: 40,257
+  国家数: 51
+
+  各国数据覆盖摘要 (前20行):
+   country_code      measure  n_obs min_period max_period
+0           AUS          HPI     24    1992-Q1       2021
+1           AUS      HPI_RPI    214    1972-Q3    2025-Q3
+2           AUS  HPI_RPI_AVG    265    1972-Q3    2025-Q3
+3           AUS      HPI_YDH    225    1970-Q1    2025-Q4
+4           AUS  HPI_YDH_AVG    280       1970    2025-Q4
+5           AUS          RHP    225    1970-Q1    2025-Q4
+6           AUS          RPI     67       1973       2024
+7           AUT          HPI      2    2000-Q1       2015
+8           AUT      HPI_RPI    104    2000-Q1    2025-Q3
+9           AUT  HPI_RPI_AVG    128       2000    2025-Q3
+10          AUT      HPI_YDH    128       2000    2025-Q3
+11          AUT  HPI_YDH_AVG    128       2000    2025-Q3
+12          AUT          RHP    104    2000-Q1    2025-Q3
+13          AUT          RPI    184       1966       2025
+14          BEL          HPI     83    1970-Q1       2015
+15          BEL      HPI_RPI    199    1976-Q2    2025-Q3
+16          BEL  HPI_RPI_AVG    246    1976-Q2    2025-Q3
+17          BEL      HPI_YDH    278       1970    2025-Q3
+18          BEL  HPI_YDH_AVG    278       1970    2025-Q3
+19          BEL          RHP      3       2015    2025-Q3
+
+============================================================
+部分 2：人口年龄结构数据
+============================================================
+
+使用 World Bank API 获取人口数据...
+
+获取国家列表...
+
+尝试下载: World Bank 国家列表
+  URL: https://api.worldbank.org/v2/country?format=json&per_page=400
+  状态: 成功 (HTTP 200, 113,832 bytes)
+  获取到 296 个国家/地区
+
+获取指标: total_population (SP.POP.TOTL)
+
+尝试下载: World Bank total_population
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 3,473,966 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,195 条, 262 个国家, 1960 ~ 2024
+
+获取指标: pop_0_14_pct (SP.POP.0014.TO.ZS)
+
+尝试下载: World Bank pop_0_14_pct
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.0014.TO.ZS?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,192,179 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,225 条, 262 个国家, 1960 ~ 2024
+
+获取指标: pop_15_64_pct (SP.POP.1564.TO.ZS)
+
+尝试下载: World Bank pop_15_64_pct
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.1564.TO.ZS?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,209,374 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,225 条, 262 个国家, 1960 ~ 2024
+
+获取指标: pop_65plus_pct (SP.POP.65UP.TO.ZS)
+
+尝试下载: World Bank pop_65plus_pct
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,330,450 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,225 条, 262 个国家, 1960 ~ 2024
+
+获取指标: tfr (SP.DYN.TFRT.IN)
+
+尝试下载: World Bank tfr
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.DYN.TFRT.IN?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 3,912,399 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 16,928 条, 262 个国家, 1960 ~ 2023
+
+获取指标: pop_growth_rate (SP.POP.GROW)
+
+尝试下载: World Bank pop_growth_rate
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.GROW?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 3,815,280 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 16,928 条, 262 个国家, 1961 ~ 2024
+
+获取指标: life_expectancy (SP.DYN.LE00.IN)
+
+尝试下载: World Bank life_expectancy
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 3,945,729 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 16,926 条, 262 个国家, 1960 ~ 2023
+
+获取指标: crude_death_rate (SP.DYN.CDRT.IN)
+
+尝试下载: World Bank crude_death_rate
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.DYN.CDRT.IN?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 3,844,519 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 16,930 条, 262 个国家, 1960 ~ 2023
+
+获取指标: crude_birth_rate (SP.DYN.CBRT.IN)
+
+尝试下载: World Bank crude_birth_rate
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.DYN.CBRT.IN?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 3,852,096 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 16,930 条, 262 个国家, 1960 ~ 2023
+
+获取指标: dependency_ratio (SP.POP.DPND)
+
+尝试下载: World Bank dependency_ratio
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.DPND?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,191,721 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,195 条, 262 个国家, 1960 ~ 2024
+
+获取指标: old_dependency_ratio (SP.POP.DPND.OL)
+
+尝试下载: World Bank old_dependency_ratio
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.DPND.OL?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,329,990 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,195 条, 262 个国家, 1960 ~ 2024
+
+获取指标: young_dependency_ratio (SP.POP.DPND.YG)
+
+尝试下载: World Bank young_dependency_ratio
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.POP.DPND.YG?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,364,613 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,195 条, 262 个国家, 1960 ~ 2024
+
+获取指标: urban_pop_pct (SP.URB.TOTL.IN.ZS)
+
+尝试下载: World Bank urban_pop_pct
+  URL: https://api.worldbank.org/v2/country/all/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=20000&date=1960:2024
+  状态: 成功 (HTTP 200, 4,114,807 bytes)
+  总记录数: 17290, 页数: 1
+  有效数据: 17,225 条, 262 个国家, 1960 ~ 2024
+
+--- 合并人口指标 ---
+  长格式合并: 222,322 行
+  宽格式: 17,225 行, 16 列
+排除聚合区域: 262 -> 219 个国家/地区
+
+最终人口数据集:
+  国家/地区数: 219
+  年份范围: 1960 ~ 2024
+  年份数: 65
+  总行数: 14,430
+  列: ['iso3', 'country_code', 'name', 'region', 'income_level', 'year', 'crude_birth_rate', 'crude_death_rate', 'dependency_ratio', 'life_expectancy', 'old_dependency_ratio', 'pop_0_14_pct', 'pop_15_64_pct', 'pop_65plus_pct', 'pop_growth_rate', 'tfr', 'total_population', 'urban_pop_pct', 'young_dependency_ratio', 'working_age_pct', 'aging_rate']
+
+  各指标非空率:
+    crude_birth_rate: 98.3%
+    crude_death_rate: 98.3%
+    dependency_ratio: 99.8%
+    life_expectancy: 98.2%
+    old_dependency_ratio: 99.8%
+    pop_0_14_pct: 100.0%
+    pop_15_64_pct: 100.0%
+    pop_65plus_pct: 100.0%
+    pop_growth_rate: 98.2%
+    tfr: 98.2%
+    total_population: 99.8%
+    urban_pop_pct: 100.0%
+    young_dependency_ratio: 99.8%
+    working_age_pct: 100.0%
+    aging_rate: 100.0%
+
+已保存人口数据: /Users/andy/Desktop/Claude/urban-q-phase-transition/02-data/raw/un_population.csv
+
+--- 补充: UN Data Portal 中位年龄数据 ---
+注意: UN Data Portal 数据接口需要认证 (HTTP 401)
+中位年龄 (MedianAgePop, indicator #67) 需手动从以下来源获取:
+  1. https://population.un.org/dataportal/ -> Median age
+  2. 或手动下载 WPP2024 Excel/CSV 文件
+  3. 下载页面: https://population.un.org/wpp/Download/
+
+============================================================
+数据获取总结
+============================================================
+[成功] 房价数据: 40,257 条, 51 国家
+[成功] 人口数据: 14,430 条, 219 国家
+       指标数: 13

@@ -1,0 +1,23 @@
+# Urban Q Phase Transition Project
+# Python dependencies for reproducible analysis
+# Generated: 2026-03-21
+#
+# Install: pip install -r requirements.txt
+# Tested on: macOS (Apple Silicon M4 Pro), Python 3.x
+
+# --- Core scientific stack ---
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+
+# --- Statistical modeling ---
+statsmodels==0.14.6
+
+# --- Machine learning (clustering only) ---
+scikit-learn==1.6.1
+
+# --- Visualization ---
+matplotlib==3.9.4
+
+# --- Data acquisition (API access) ---
+requests==2.32.5

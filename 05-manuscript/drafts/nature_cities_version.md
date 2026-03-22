@@ -247,19 +247,23 @@ All analyses were performed in Python 3.9. Random seeds were fixed for all stoch
 
 ## Data availability
 
-All data used in this study are publicly available. China national statistics: National Bureau of Statistics (www.stats.gov.cn). China provincial statistics: NBS provincial yearbooks. Global panel: World Bank WDI (data.worldbank.org), Penn World Table 10.01 (www.rug.nl/ggdc/productivity/pwt). Japan: Cabinet Office SNA prefectural accounts (www.esri.cao.go.jp). Korea: Bank of Korea ECOS (ecos.bok.or.kr). Europe: Eurostat (ec.europa.eu/eurostat). Australia: ABS (www.abs.gov.au). South Africa: Statistics South Africa (www.statssa.gov.za). United States: Census Bureau ACS (data.census.gov), BEA Regional Accounts (www.bea.gov). The unified regional panel (1,567 regions, 30,098 observations) and all processed datasets are available at [repository URL upon acceptance].
+All data used in this study are publicly available. China national statistics: National Bureau of Statistics (www.stats.gov.cn). China provincial statistics: NBS provincial yearbooks. Global panel: World Bank WDI (data.worldbank.org), Penn World Table 10.01 (www.rug.nl/ggdc/productivity/pwt). Japan: Cabinet Office SNA prefectural accounts (www.esri.cao.go.jp). Korea: Bank of Korea ECOS (ecos.bok.or.kr). Europe: Eurostat (ec.europa.eu/eurostat). Australia: ABS (www.abs.gov.au). South Africa: Statistics South Africa (www.statssa.gov.za). United States: Census Bureau ACS (data.census.gov), BEA Regional Accounts (www.bea.gov). The unified regional panel (1,567 regions, 30,098 observations) and all processed datasets are available at https://github.com/andyhsi2023-cq/urban-investment-aggregation-trap.
 
 ## Code availability
 
-All analysis code (Python 3.9) is available at [repository URL upon acceptance].
+All analysis code (Python 3.9) is available at https://github.com/andyhsi2023-cq/urban-investment-aggregation-trap.
 
 ## Acknowledgements
 
-[placeholder]
+The author thanks the open data providers whose publicly available datasets made this research possible: the World Bank, Penn World Table, Japan Cabinet Office, Bank of Korea, Eurostat, Australian Bureau of Statistics, Statistics South Africa, US Census Bureau, US Bureau of Economic Analysis, and China National Bureau of Statistics.
 
 ## Author contributions
 
-[placeholder]
+H.X. conceived the study, collected and processed all data, developed the methodology, performed all analyses, proved the Aggregation Trap theorem, created all figures, and wrote the manuscript.
+
+## Competing interests
+
+The author declares no competing interests.
 
 ---
 
